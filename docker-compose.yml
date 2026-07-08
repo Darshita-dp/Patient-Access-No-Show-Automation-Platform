@@ -1,0 +1,39 @@
+version: "3.9"
+
+# Optional local stack. The platform also runs fully in CSV mode without Docker:
+#   python etl/load_raw_data.py && python etl/clean_appointments.py && ...
+#   uvicorn api.main:app --reload
+#   cd frontend && npm install && npm run dev
+
+services:
+  db:
+    image: postgres:16
+    container_name: patient_access_db
+    environment:
+      POSTGRES_USER: access_admin
+      POSTGRES_PASSWORD: access_admin
+      POSTGRES_DB: patient_access
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    container_name: patient_access_api
+    environment:
+      DATABASE_URL: postgresql+psycopg2://access_admin:access_admin@db:5432/patient_access
+      DATA_MODE: csv
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+
+volumes:
+  pgdata:
