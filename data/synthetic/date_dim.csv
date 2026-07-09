@@ -1,5 +1,4 @@
 date_key,full_date,year,month,month_name,week_of_year,day_of_week,is_weekend
-20250821,2025-08-21,2025,8,August,34,Thursday,False
 20250822,2025-08-22,2025,8,August,34,Friday,False
 20250823,2025-08-23,2025,8,August,34,Saturday,True
 20250824,2025-08-24,2025,8,August,34,Sunday,True
@@ -350,3 +349,4 @@ date_key,full_date,year,month,month_name,week_of_year,day_of_week,is_weekend
 20260804,2026-08-04,2026,8,August,32,Tuesday,False
 20260805,2026-08-05,2026,8,August,32,Wednesday,False
 20260806,2026-08-06,2026,8,August,32,Thursday,False
+20260807,2026-08-07,2026,8,August,32,Friday,False

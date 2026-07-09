@@ -1,171 +1,171 @@
 waitlist_id,patient_id,patient_name,requested_specialty,preferred_clinic_id,preferred_provider_id,requested_date,urgency_level,availability_window,waitlist_status
-1,42208900150,Synthetic Patient 07455,Behavioral Health,6,33,2026-06-15,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
-2,41975974759,Synthetic Patient 07412,Pediatrics,4,21,2026-06-17,Routine,Weekday afternoons,Scheduled Elsewhere
-3,17549722290,Synthetic Patient 01742,Endocrinology,3,,2026-06-13,Routine,Weekday afternoons,Active
-4,25287387803,Synthetic Patient 03536,Family Medicine,4,,2026-06-19,Routine,Mon/Wed/Fri only,Contacted
-5,31037261896,Synthetic Patient 04861,Family Medicine,1,,2026-06-03,Routine,Mon/Wed/Fri only,Active
-6,22731167885,Synthetic Patient 02927,Family Medicine,1,5,2026-06-24,Routine,After 3pm only,Scheduled Elsewhere
-7,38505524785,Synthetic Patient 06578,Dermatology,6,34,2026-06-30,Urgent,After 3pm only,Active
-8,36578215660,Synthetic Patient 06122,Family Medicine,2,,2026-06-27,Soon,Mornings before 10am,Active
-9,27535465405,Synthetic Patient 04045,Endocrinology,3,,2026-07-02,Soon,Weekday mornings,Active
-10,52707303531,Synthetic Patient 09817,Internal Medicine,1,,2026-06-12,Routine,Any time,Active
-11,37551096519,Synthetic Patient 06365,Internal Medicine,1,2,2026-06-22,Routine,Any time,Active
-12,33428517008,Synthetic Patient 05407,Family Medicine,1,,2026-06-21,Routine,Mon/Wed/Fri only,Active
-13,49219995452,Synthetic Patient 09078,Internal Medicine,1,,2026-05-31,Routine,Mornings before 10am,Active
-14,30190905877,Synthetic Patient 04670,Behavioral Health,6,31,2026-06-01,Routine,Weekday afternoons,Active
-15,49061711674,Synthetic Patient 09038,Pediatrics,4,23,2026-06-15,Routine,After 3pm only,Active
-16,18564217606,Synthetic Patient 01947,Behavioral Health,6,,2026-07-02,Urgent,Any time,Active
-17,14203438592,Synthetic Patient 00994,Behavioral Health,6,,2026-07-01,Routine,Any weekday,Active
-18,23947209383,Synthetic Patient 03202,Dermatology,6,,2026-06-16,Soon,Tue/Thu only,Active
-19,34870529919,Synthetic Patient 05755,Family Medicine,1,1,2026-05-27,Soon,Any time,Active
-20,46798955711,Synthetic Patient 08488,Internal Medicine,1,2,2026-06-14,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
-21,54841413111,Synthetic Patient 10300,Family Medicine,1,,2026-06-18,Routine,After 3pm only,Active
-22,15224621657,Synthetic Patient 01232,Family Medicine,2,,2026-05-30,Routine,Mornings before 10am,Active
-23,40541212620,Synthetic Patient 07084,Dermatology,6,,2026-06-20,Routine,After 3pm only,Active
-24,12052348392,Synthetic Patient 00481,Family Medicine,5,,2026-06-26,Routine,After 3pm only,Active
-25,54813485175,Synthetic Patient 10294,Internal Medicine,3,,2026-05-29,Routine,After 3pm only,Active
-26,32883713537,Synthetic Patient 05290,Family Medicine,1,,2026-06-03,Routine,Tue/Thu only,Active
-27,14559996635,Synthetic Patient 01068,Behavioral Health,6,33,2026-05-13,Routine,Any time,Active
-28,45281192558,Synthetic Patient 08127,Internal Medicine,1,6,2026-06-10,Routine,Mornings before 10am,Active
-29,27395034748,Synthetic Patient 04009,Obstetrics & Gynecology,5,27,2026-07-01,Routine,Any time,Active
-30,35280674736,Synthetic Patient 05846,Behavioral Health,6,31,2026-06-21,Soon,Tue/Thu only,Contacted
-31,32321361920,Synthetic Patient 05171,Pediatrics,4,,2026-06-18,Routine,Weekday mornings,Contacted
-32,36232518525,Synthetic Patient 06043,Pediatrics,4,,2026-06-23,Soon,Mornings before 10am,Active
-33,47294221308,Synthetic Patient 08606,Internal Medicine,1,6,2026-07-03,Soon,Weekday mornings,Active
-34,32206311282,Synthetic Patient 05146,Family Medicine,5,28,2026-04-24,Soon,After 3pm only,Scheduled Elsewhere
-35,17637259919,Synthetic Patient 01759,Family Medicine,4,,2026-06-10,Soon,Weekday mornings,Active
-36,46060380086,Synthetic Patient 08314,Obstetrics & Gynecology,5,,2026-06-25,Urgent,Weekday afternoons,Active
-37,18053161918,Synthetic Patient 01850,Obstetrics & Gynecology,5,25,2026-04-21,Routine,After 3pm only,Active
-38,54788293212,Synthetic Patient 10289,Internal Medicine,1,4,2026-06-15,Routine,Any weekday,Active
-39,32259094618,Synthetic Patient 05160,Family Medicine,4,22,2026-06-27,Routine,Mornings before 10am,Active
-40,22091157496,Synthetic Patient 02777,Cardiology,3,,2026-06-13,Urgent,Any time,Active
-41,20659494140,Synthetic Patient 02460,Family Medicine,5,,2026-06-14,Soon,Weekday mornings,Active
-42,40827790344,Synthetic Patient 07141,Pediatrics,4,19,2026-06-13,Routine,Weekday afternoons,Active
-43,21889255357,Synthetic Patient 02733,Obstetrics & Gynecology,5,25,2026-06-07,Soon,Weekday mornings,Contacted
-44,48830164204,Synthetic Patient 08989,Pediatrics,4,,2026-07-03,Routine,Mon/Wed/Fri only,Active
-45,28753939599,Synthetic Patient 04342,Family Medicine,5,30,2026-05-14,Routine,Tue/Thu only,Active
-46,18074163161,Synthetic Patient 01858,Internal Medicine,1,6,2026-06-22,Routine,Mon/Wed/Fri only,Active
-47,38927932746,Synthetic Patient 06697,Pediatrics,4,,2026-06-27,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
-48,13260009794,Synthetic Patient 00776,Obstetrics & Gynecology,5,,2026-05-27,Routine,Tue/Thu only,Active
-49,14546772673,Synthetic Patient 01061,Dermatology,6,32,2026-05-20,Routine,Any time,Active
-50,45458814670,Synthetic Patient 08183,Family Medicine,4,,2026-06-19,Routine,Mornings before 10am,Active
-51,30760528688,Synthetic Patient 04803,Internal Medicine,2,12,2026-06-16,Routine,Weekday mornings,Active
-52,26799589332,Synthetic Patient 03882,Family Medicine,2,,2026-04-10,Routine,After 3pm only,Contacted
-53,42663445103,Synthetic Patient 07568,Family Medicine,5,,2026-06-10,Routine,Mon/Wed/Fri only,Active
-54,40332389710,Synthetic Patient 07034,Family Medicine,2,,2026-06-23,Routine,Any weekday,Active
-55,54999882544,Synthetic Patient 10335,Obstetrics & Gynecology,5,,2026-07-04,Urgent,After 3pm only,Active
-56,54144143462,Synthetic Patient 10134,Obstetrics & Gynecology,5,27,2026-06-03,Soon,Weekday afternoons,Scheduled Elsewhere
-57,33873909790,Synthetic Patient 05520,Behavioral Health,6,33,2026-05-27,Soon,Weekday afternoons,Active
-58,11968743995,Synthetic Patient 00461,Family Medicine,2,7,2026-06-17,Soon,Any weekday,Active
-59,36178019132,Synthetic Patient 06034,Family Medicine,2,9,2026-06-24,Soon,Tue/Thu only,Active
-60,38625773239,Synthetic Patient 06617,Obstetrics & Gynecology,5,29,2026-06-25,Soon,Weekday afternoons,Active
-61,16045000196,Synthetic Patient 01422,Family Medicine,4,24,2026-06-10,Soon,Any weekday,Active
-62,28292801161,Synthetic Patient 04235,Internal Medicine,1,,2026-06-22,Urgent,Mornings before 10am,Contacted
-63,10629634762,Synthetic Patient 00171,Pediatrics,4,,2026-06-21,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
-64,36979022955,Synthetic Patient 06211,Behavioral Health,6,31,2026-05-15,Routine,Any time,Active
-65,14897172245,Synthetic Patient 01155,Obstetrics & Gynecology,5,,2026-06-24,Routine,After 3pm only,Active
-66,11282635856,Synthetic Patient 00331,Obstetrics & Gynecology,5,29,2026-06-10,Urgent,Mon/Wed/Fri only,Active
-67,17432710429,Synthetic Patient 01712,Family Medicine,1,,2026-06-07,Routine,Weekday mornings,Active
-68,48061534091,Synthetic Patient 08786,Endocrinology,3,15,2026-06-27,Routine,Weekday afternoons,Active
-69,33157418900,Synthetic Patient 05348,Family Medicine,5,,2026-06-04,Routine,Mornings before 10am,Active
-70,16182251141,Synthetic Patient 01448,Family Medicine,1,,2026-06-22,Routine,Weekday afternoons,Active
-71,49454763272,Synthetic Patient 09136,Family Medicine,2,,2026-06-28,Soon,After 3pm only,Active
-72,22856579845,Synthetic Patient 02944,Family Medicine,2,,2026-06-05,Urgent,After 3pm only,Active
-73,53566715073,Synthetic Patient 10012,Behavioral Health,6,33,2026-06-13,Routine,Weekday mornings,Scheduled Elsewhere
-74,55138682088,Synthetic Patient 10369,Pediatrics,4,21,2026-05-24,Routine,Weekday mornings,Active
-75,32388202668,Synthetic Patient 05182,Dermatology,6,,2026-06-22,Routine,Weekday afternoons,Active
-76,29058642829,Synthetic Patient 04391,Family Medicine,2,,2026-06-23,Soon,Any weekday,Active
-77,18848797650,Synthetic Patient 02010,Family Medicine,1,,2026-06-28,Soon,Weekday afternoons,Active
-78,28828463298,Synthetic Patient 04354,Family Medicine,4,,2026-06-09,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
-79,29871812908,Synthetic Patient 04575,Family Medicine,2,,2026-06-17,Routine,Tue/Thu only,Active
-80,25353367168,Synthetic Patient 03556,Internal Medicine,1,,2026-06-13,Routine,Mon/Wed/Fri only,Active
-81,48374760219,Synthetic Patient 08881,Internal Medicine,1,2,2026-06-21,Routine,After 3pm only,Active
-82,41785289214,Synthetic Patient 07360,Family Medicine,5,30,2026-06-20,Routine,Mon/Wed/Fri only,Active
-83,38543942963,Synthetic Patient 06590,Cardiology,3,17,2026-06-20,Routine,Weekday afternoons,Active
-84,15801168920,Synthetic Patient 01371,Family Medicine,1,3,2026-05-20,Soon,Tue/Thu only,Contacted
-85,33139752671,Synthetic Patient 05344,Pediatrics,4,19,2026-06-23,Soon,Mornings before 10am,Active
-86,26329940724,Synthetic Patient 03789,Family Medicine,4,,2026-05-31,Soon,Weekday afternoons,Contacted
-87,34181026458,Synthetic Patient 05591,Pediatrics,4,,2026-06-30,Urgent,Weekday afternoons,Contacted
-88,30516145961,Synthetic Patient 04739,Obstetrics & Gynecology,5,,2026-06-20,Soon,Mornings before 10am,Active
-89,34687344953,Synthetic Patient 05709,Family Medicine,4,,2026-06-18,Routine,After 3pm only,Active
-90,54030616046,Synthetic Patient 10106,Dermatology,6,,2026-06-18,Soon,Any time,Active
-91,43411647694,Synthetic Patient 07719,Obstetrics & Gynecology,5,27,2026-06-24,Soon,After 3pm only,Active
-92,22246508064,Synthetic Patient 02812,Pediatrics,4,,2026-05-11,Urgent,Any weekday,Active
-93,51833839909,Synthetic Patient 09638,Pediatrics,4,21,2026-06-27,Soon,Mon/Wed/Fri only,Active
-94,51784903089,Synthetic Patient 09628,Dermatology,6,,2026-06-11,Routine,After 3pm only,Active
-95,39388641573,Synthetic Patient 06811,Family Medicine,5,,2026-06-19,Routine,Any time,Contacted
-96,36598814674,Synthetic Patient 06129,Endocrinology,3,18,2026-06-17,Urgent,Weekday afternoons,Active
-97,21184767230,Synthetic Patient 02577,Family Medicine,1,,2026-06-19,Soon,Mon/Wed/Fri only,Scheduled Elsewhere
-98,52469264118,Synthetic Patient 09766,Family Medicine,5,30,2026-06-30,Urgent,Any weekday,Scheduled Elsewhere
-99,42582847806,Synthetic Patient 07542,Family Medicine,4,,2026-07-01,Soon,Mon/Wed/Fri only,Contacted
-100,24790224424,Synthetic Patient 03421,Cardiology,3,,2026-06-22,Urgent,After 3pm only,Active
-101,53215962939,Synthetic Patient 09927,Internal Medicine,1,,2026-05-21,Urgent,Mornings before 10am,Active
-102,12814952614,Synthetic Patient 00668,Internal Medicine,2,,2026-07-01,Routine,Mornings before 10am,Active
-103,20797065705,Synthetic Patient 02502,Cardiology,3,,2026-07-04,Soon,Mon/Wed/Fri only,Active
-104,23116048034,Synthetic Patient 03004,Internal Medicine,2,,2026-07-02,Routine,Tue/Thu only,Contacted
-105,32315229249,Synthetic Patient 05170,Internal Medicine,1,,2026-06-17,Routine,Any weekday,Active
-106,52844553582,Synthetic Patient 09853,Internal Medicine,2,,2026-06-19,Soon,Any weekday,Active
-107,47131441234,Synthetic Patient 08561,Endocrinology,3,18,2026-06-24,Routine,Mornings before 10am,Active
-108,39812595427,Synthetic Patient 06911,Family Medicine,1,,2026-06-20,Soon,Mon/Wed/Fri only,Active
-109,53056443347,Synthetic Patient 09897,Obstetrics & Gynecology,5,25,2026-06-06,Routine,After 3pm only,Active
-110,34027460680,Synthetic Patient 05558,Internal Medicine,3,,2026-06-24,Routine,Weekday afternoons,Active
-111,52766106744,Synthetic Patient 09832,Cardiology,3,14,2026-06-24,Routine,Weekday afternoons,Active
-112,10548316494,Synthetic Patient 00154,Family Medicine,1,,2026-06-26,Routine,Weekday mornings,Active
-113,48825536787,Synthetic Patient 08986,Internal Medicine,3,16,2026-06-28,Soon,After 3pm only,Contacted
-114,26877830191,Synthetic Patient 03899,Family Medicine,2,,2026-06-26,Soon,Any weekday,Active
-115,43001880512,Synthetic Patient 07642,Internal Medicine,2,,2026-06-15,Routine,Tue/Thu only,Active
-116,47793103933,Synthetic Patient 08727,Behavioral Health,6,33,2026-06-28,Urgent,Mon/Wed/Fri only,Active
-117,12400479968,Synthetic Patient 00567,Family Medicine,5,,2026-06-19,Urgent,Any time,Active
-118,16908863384,Synthetic Patient 01601,Obstetrics & Gynecology,5,,2026-06-20,Soon,Weekday mornings,Scheduled Elsewhere
-119,37989578605,Synthetic Patient 06460,Internal Medicine,2,,2026-06-14,Routine,Any time,Contacted
-120,54632953354,Synthetic Patient 10255,Family Medicine,2,,2026-06-21,Soon,Mornings before 10am,Active
-121,51600513712,Synthetic Patient 09571,Internal Medicine,2,,2026-06-21,Routine,Any weekday,Scheduled Elsewhere
-122,48126549285,Synthetic Patient 08807,Obstetrics & Gynecology,5,27,2026-06-27,Soon,Mornings before 10am,Active
-123,17629726849,Synthetic Patient 01756,Internal Medicine,2,8,2026-07-02,Routine,Weekday mornings,Active
-124,29448148450,Synthetic Patient 04483,Obstetrics & Gynecology,5,,2026-06-17,Routine,After 3pm only,Active
-125,52525068499,Synthetic Patient 09777,Family Medicine,4,,2026-06-23,Soon,Weekday afternoons,Active
-126,26216593463,Synthetic Patient 03765,Internal Medicine,3,,2026-05-31,Soon,Mon/Wed/Fri only,Contacted
-127,14572505328,Synthetic Patient 01072,Family Medicine,5,30,2026-06-02,Routine,Weekday afternoons,Active
-128,43240788456,Synthetic Patient 07690,Family Medicine,4,22,2026-06-22,Routine,Mon/Wed/Fri only,Contacted
-129,43350455103,Synthetic Patient 07707,Endocrinology,3,,2026-06-18,Routine,Weekday mornings,Active
-130,46389094192,Synthetic Patient 08394,Internal Medicine,1,,2026-06-25,Soon,Mornings before 10am,Active
-131,30793440604,Synthetic Patient 04813,Dermatology,6,34,2026-06-30,Soon,Any weekday,Active
-132,21224441467,Synthetic Patient 02584,Internal Medicine,2,8,2026-06-26,Soon,After 3pm only,Contacted
-133,54738159562,Synthetic Patient 10282,Family Medicine,5,28,2026-05-29,Urgent,Mon/Wed/Fri only,Active
-134,40819158069,Synthetic Patient 07139,Internal Medicine,2,,2026-07-05,Urgent,After 3pm only,Contacted
-135,26013233505,Synthetic Patient 03721,Internal Medicine,2,,2026-07-01,Soon,After 3pm only,Active
-136,25709714521,Synthetic Patient 03652,Internal Medicine,1,,2026-05-15,Routine,Tue/Thu only,Active
-137,43298593105,Synthetic Patient 07700,Family Medicine,4,,2026-06-18,Urgent,Tue/Thu only,Active
-138,39213172198,Synthetic Patient 06769,Endocrinology,3,,2026-06-07,Soon,Any time,Scheduled Elsewhere
-139,27287157510,Synthetic Patient 03988,Behavioral Health,6,35,2026-06-08,Urgent,Tue/Thu only,Active
-140,14834382863,Synthetic Patient 01134,Family Medicine,1,,2026-07-01,Routine,Mornings before 10am,Active
-141,33973873284,Synthetic Patient 05548,Family Medicine,4,22,2026-06-15,Routine,Mornings before 10am,Active
-142,42211310431,Synthetic Patient 07456,Endocrinology,3,,2026-06-24,Soon,Weekday mornings,Active
-143,34579401606,Synthetic Patient 05684,Internal Medicine,2,8,2026-06-17,Soon,Mornings before 10am,Active
-144,28216475155,Synthetic Patient 04219,Pediatrics,4,21,2026-06-22,Routine,After 3pm only,Active
-145,11074223383,Synthetic Patient 00280,Cardiology,3,,2026-06-20,Soon,After 3pm only,Active
-146,14370911993,Synthetic Patient 01028,Pediatrics,4,21,2026-06-25,Routine,Any weekday,Scheduled Elsewhere
-147,22455138578,Synthetic Patient 02867,Obstetrics & Gynecology,5,,2026-06-03,Routine,Any time,Active
-148,29146636885,Synthetic Patient 04418,Family Medicine,5,26,2026-06-27,Soon,Any weekday,Active
-149,48113408338,Synthetic Patient 08801,Dermatology,6,,2026-06-18,Routine,After 3pm only,Active
-150,34969964322,Synthetic Patient 05779,Obstetrics & Gynecology,5,,2026-05-11,Soon,Any time,Active
-151,41567753966,Synthetic Patient 07319,Dermatology,6,,2026-07-03,Soon,Any weekday,Active
-152,54728160440,Synthetic Patient 10281,Family Medicine,1,,2026-06-15,Routine,Mon/Wed/Fri only,Active
-153,20886298694,Synthetic Patient 02521,Family Medicine,4,,2026-06-13,Soon,Weekday mornings,Active
-154,39336101181,Synthetic Patient 06801,Family Medicine,4,22,2026-05-31,Routine,Weekday afternoons,Active
-155,37167492386,Synthetic Patient 06267,Family Medicine,5,,2026-06-16,Soon,Any time,Active
-156,39823056594,Synthetic Patient 06916,Internal Medicine,2,12,2026-06-26,Routine,Mornings before 10am,Active
-157,45307764163,Synthetic Patient 08136,Internal Medicine,2,,2026-06-30,Urgent,Weekday mornings,Active
-158,22890558139,Synthetic Patient 02956,Obstetrics & Gynecology,5,,2026-06-13,Soon,Any time,Contacted
-159,45653207057,Synthetic Patient 08235,Family Medicine,4,,2026-06-10,Routine,Mon/Wed/Fri only,Active
-160,23124907066,Synthetic Patient 03008,Family Medicine,2,,2026-05-30,Urgent,Mornings before 10am,Active
-161,18795512710,Synthetic Patient 01994,Pediatrics,4,,2026-06-20,Urgent,Any time,Active
-162,13092155557,Synthetic Patient 00728,Family Medicine,1,3,2026-07-02,Routine,After 3pm only,Active
-163,54612654660,Synthetic Patient 10249,Behavioral Health,6,,2026-06-28,Urgent,Weekday afternoons,Active
-164,31523527640,Synthetic Patient 04977,Internal Medicine,1,,2026-06-24,Routine,Any time,Active
-165,48117717540,Synthetic Patient 08803,Family Medicine,2,,2026-06-21,Soon,Tue/Thu only,Active
-166,21145931374,Synthetic Patient 02559,Internal Medicine,2,8,2026-06-28,Urgent,Weekday mornings,Active
-167,27041733071,Synthetic Patient 03937,Family Medicine,1,,2026-06-18,Soon,Mon/Wed/Fri only,Active
-168,33014057823,Synthetic Patient 05321,Behavioral Health,6,,2026-06-05,Routine,Any time,Scheduled Elsewhere
-169,25446234013,Synthetic Patient 03575,Internal Medicine,2,12,2026-06-19,Soon,Weekday afternoons,Active
-170,26602442575,Synthetic Patient 03838,Behavioral Health,6,,2026-05-30,Routine,Mon/Wed/Fri only,Active
+1,41806627880,Synthetic Patient 04076,Behavioral Health,6,33,2026-06-16,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
+2,41610063471,Synthetic Patient 04049,Pediatrics,4,21,2026-06-18,Routine,Weekday afternoons,Scheduled Elsewhere
+3,17604389694,Synthetic Patient 00942,Endocrinology,3,,2026-06-14,Routine,Weekday afternoons,Active
+4,25178039362,Synthetic Patient 01930,Family Medicine,4,,2026-06-20,Routine,Mon/Wed/Fri only,Contacted
+5,30727017708,Synthetic Patient 02651,Family Medicine,1,,2026-06-04,Routine,Mon/Wed/Fri only,Active
+6,22640514254,Synthetic Patient 01585,Family Medicine,1,5,2026-06-25,Routine,After 3pm only,Scheduled Elsewhere
+7,38112997724,Synthetic Patient 03593,Dermatology,6,34,2026-07-01,Urgent,After 3pm only,Active
+8,36038812248,Synthetic Patient 03340,Family Medicine,2,,2026-06-28,Soon,Mornings before 10am,Active
+9,27322243234,Synthetic Patient 02218,Endocrinology,3,,2026-07-03,Soon,Weekday mornings,Active
+10,51849984294,Synthetic Patient 05321,Internal Medicine,1,,2026-06-13,Routine,Any time,Active
+11,37108818128,Synthetic Patient 03467,Internal Medicine,1,2,2026-06-23,Routine,Any time,Active
+12,33065812223,Synthetic Patient 02955,Family Medicine,1,,2026-06-22,Routine,Mon/Wed/Fri only,Active
+13,48756759355,Synthetic Patient 04936,Internal Medicine,1,,2026-06-01,Routine,Mornings before 10am,Active
+14,29799409539,Synthetic Patient 02530,Behavioral Health,6,31,2026-06-02,Routine,Weekday afternoons,Active
+15,48754891222,Synthetic Patient 04934,Pediatrics,4,23,2026-06-16,Routine,After 3pm only,Active
+16,18687125737,Synthetic Patient 01067,Behavioral Health,6,,2026-07-03,Urgent,Any time,Active
+17,14398783916,Synthetic Patient 00545,Behavioral Health,6,,2026-07-02,Routine,Any weekday,Active
+18,23825160915,Synthetic Patient 01750,Dermatology,6,,2026-06-17,Soon,Tue/Thu only,Active
+19,34624586661,Synthetic Patient 03151,Family Medicine,1,1,2026-05-28,Soon,Any time,Active
+20,46427356196,Synthetic Patient 04635,Internal Medicine,1,2,2026-06-15,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
+21,54472748186,Synthetic Patient 05632,Family Medicine,1,,2026-06-19,Routine,After 3pm only,Active
+22,15235020219,Synthetic Patient 00669,Family Medicine,2,,2026-05-31,Routine,Mornings before 10am,Active
+23,39920034612,Synthetic Patient 03839,Dermatology,6,,2026-06-21,Routine,After 3pm only,Active
+24,12203509732,Synthetic Patient 00263,Family Medicine,5,,2026-06-27,Routine,After 3pm only,Active
+25,47656003973,Synthetic Patient 04782,Internal Medicine,3,,2026-05-30,Routine,After 3pm only,Active
+26,32458942500,Synthetic Patient 02881,Family Medicine,1,,2026-06-04,Routine,Tue/Thu only,Active
+27,14668584998,Synthetic Patient 00585,Behavioral Health,6,33,2026-05-14,Routine,Any time,Active
+28,45005382968,Synthetic Patient 04440,Internal Medicine,1,6,2026-06-11,Routine,Mornings before 10am,Active
+29,27037572327,Synthetic Patient 02184,Obstetrics & Gynecology,5,27,2026-07-02,Routine,Any time,Active
+30,34858662710,Synthetic Patient 03190,Behavioral Health,6,31,2026-06-22,Soon,Tue/Thu only,Contacted
+31,32038358009,Synthetic Patient 02820,Pediatrics,4,,2026-06-19,Routine,Weekday mornings,Contacted
+32,35669897694,Synthetic Patient 03297,Pediatrics,4,,2026-06-24,Soon,Mornings before 10am,Active
+33,46767577934,Synthetic Patient 04667,Internal Medicine,1,6,2026-07-04,Soon,Weekday mornings,Active
+34,32036927247,Synthetic Patient 02819,Family Medicine,5,28,2026-04-25,Soon,After 3pm only,Scheduled Elsewhere
+35,17780267194,Synthetic Patient 00964,Family Medicine,4,,2026-06-11,Soon,Weekday mornings,Active
+36,45468370575,Synthetic Patient 04522,Obstetrics & Gynecology,5,,2026-06-26,Urgent,Weekday afternoons,Active
+37,18255409853,Synthetic Patient 01013,Obstetrics & Gynecology,5,25,2026-04-22,Routine,After 3pm only,Active
+38,36586644248,Synthetic Patient 03410,Internal Medicine,1,4,2026-06-16,Routine,Any weekday,Active
+39,32008291817,Synthetic Patient 02812,Family Medicine,4,22,2026-06-28,Routine,Mornings before 10am,Active
+40,22099777392,Synthetic Patient 01505,Cardiology,3,,2026-06-14,Urgent,Any time,Active
+41,20766740971,Synthetic Patient 01336,Family Medicine,5,,2026-06-15,Soon,Weekday mornings,Active
+42,40473229888,Synthetic Patient 03903,Pediatrics,4,19,2026-06-14,Routine,Weekday afternoons,Active
+43,21898840329,Synthetic Patient 01483,Obstetrics & Gynecology,5,25,2026-06-08,Soon,Weekday mornings,Contacted
+44,48361978285,Synthetic Patient 04880,Pediatrics,4,,2026-07-04,Routine,Mon/Wed/Fri only,Active
+45,28367327382,Synthetic Patient 02358,Family Medicine,5,30,2026-05-15,Routine,Tue/Thu only,Active
+46,18205258197,Synthetic Patient 01008,Internal Medicine,1,6,2026-06-23,Routine,Mon/Wed/Fri only,Active
+47,38481412817,Synthetic Patient 03640,Pediatrics,4,,2026-06-28,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
+48,13457524219,Synthetic Patient 00421,Obstetrics & Gynecology,5,,2026-05-28,Routine,Tue/Thu only,Active
+49,14624222418,Synthetic Patient 00576,Dermatology,6,32,2026-05-21,Routine,Any time,Active
+50,45116292563,Synthetic Patient 04455,Family Medicine,4,,2026-06-20,Routine,Mornings before 10am,Active
+51,30479398193,Synthetic Patient 02619,Internal Medicine,2,12,2026-06-17,Routine,Weekday mornings,Active
+52,26337079729,Synthetic Patient 02102,Family Medicine,2,,2026-04-11,Routine,After 3pm only,Contacted
+53,41964839829,Synthetic Patient 04094,Family Medicine,5,,2026-06-11,Routine,Mon/Wed/Fri only,Active
+54,39901920162,Synthetic Patient 03835,Family Medicine,2,,2026-06-24,Routine,Any weekday,Active
+55,13257061985,Synthetic Patient 00398,Obstetrics & Gynecology,5,,2026-07-05,Urgent,After 3pm only,Active
+56,53461704912,Synthetic Patient 05516,Obstetrics & Gynecology,5,27,2026-06-04,Soon,Weekday afternoons,Scheduled Elsewhere
+57,33517910390,Synthetic Patient 03015,Behavioral Health,6,33,2026-05-28,Soon,Weekday afternoons,Active
+58,12132304778,Synthetic Patient 00253,Family Medicine,2,7,2026-06-18,Soon,Any weekday,Active
+59,35612522494,Synthetic Patient 03288,Family Medicine,2,9,2026-06-25,Soon,Tue/Thu only,Active
+60,38277773781,Synthetic Patient 03617,Obstetrics & Gynecology,5,29,2026-06-26,Soon,Weekday afternoons,Active
+61,16076663216,Synthetic Patient 00773,Family Medicine,4,24,2026-06-11,Soon,Any weekday,Active
+62,27975114731,Synthetic Patient 02302,Internal Medicine,1,,2026-06-23,Urgent,Mornings before 10am,Contacted
+63,10673469649,Synthetic Patient 00094,Pediatrics,4,,2026-06-22,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
+64,36364231585,Synthetic Patient 03378,Behavioral Health,6,31,2026-05-16,Routine,Any time,Active
+65,14946434932,Synthetic Patient 00629,Obstetrics & Gynecology,5,,2026-06-25,Routine,After 3pm only,Active
+66,11463139890,Synthetic Patient 00180,Obstetrics & Gynecology,5,29,2026-06-11,Urgent,Mon/Wed/Fri only,Active
+67,17570380110,Synthetic Patient 00937,Family Medicine,1,,2026-06-08,Routine,Weekday mornings,Active
+68,47486203180,Synthetic Patient 04754,Endocrinology,3,15,2026-06-28,Routine,Weekday afternoons,Active
+69,32553868277,Synthetic Patient 02896,Family Medicine,5,,2026-06-05,Routine,Mornings before 10am,Active
+70,16222595050,Synthetic Patient 00789,Family Medicine,1,,2026-06-23,Routine,Weekday afternoons,Active
+71,48926403391,Synthetic Patient 04963,Family Medicine,2,,2026-06-29,Soon,After 3pm only,Active
+72,22728815922,Synthetic Patient 01596,Family Medicine,2,,2026-06-06,Urgent,After 3pm only,Active
+73,53122158321,Synthetic Patient 05474,Behavioral Health,6,33,2026-06-14,Routine,Weekday mornings,Scheduled Elsewhere
+74,29601850169,Synthetic Patient 02505,Pediatrics,4,21,2026-05-25,Routine,Weekday mornings,Active
+75,32016441948,Synthetic Patient 02814,Dermatology,6,,2026-06-23,Routine,Weekday afternoons,Active
+76,28815189273,Synthetic Patient 02407,Family Medicine,2,,2026-06-24,Soon,Any weekday,Active
+77,18920182742,Synthetic Patient 01091,Family Medicine,1,,2026-06-29,Soon,Weekday afternoons,Active
+78,28424796339,Synthetic Patient 02369,Family Medicine,4,,2026-06-10,Routine,Mon/Wed/Fri only,Scheduled Elsewhere
+79,29522451052,Synthetic Patient 02497,Family Medicine,2,,2026-06-18,Routine,Tue/Thu only,Active
+80,25330336333,Synthetic Patient 01949,Internal Medicine,1,,2026-06-14,Routine,Mon/Wed/Fri only,Active
+81,48190278602,Synthetic Patient 04852,Internal Medicine,1,2,2026-06-22,Routine,After 3pm only,Active
+82,41176607137,Synthetic Patient 03999,Family Medicine,5,30,2026-06-21,Routine,Mon/Wed/Fri only,Active
+83,38217549595,Synthetic Patient 03605,Cardiology,3,17,2026-06-21,Routine,Weekday afternoons,Active
+84,15832692901,Synthetic Patient 00743,Family Medicine,1,3,2026-05-21,Soon,Tue/Thu only,Contacted
+85,32533893908,Synthetic Patient 02893,Pediatrics,4,19,2026-06-24,Soon,Mornings before 10am,Active
+86,26168790413,Synthetic Patient 02074,Family Medicine,4,,2026-06-01,Soon,Weekday afternoons,Contacted
+87,33740743795,Synthetic Patient 03041,Pediatrics,4,,2026-07-01,Urgent,Weekday afternoons,Contacted
+88,30123128878,Synthetic Patient 02578,Obstetrics & Gynecology,5,,2026-06-21,Soon,Mornings before 10am,Active
+89,34194449699,Synthetic Patient 03100,Family Medicine,4,,2026-06-19,Routine,After 3pm only,Active
+90,53512178620,Synthetic Patient 05524,Dermatology,6,,2026-06-19,Soon,Any time,Active
+91,43096070929,Synthetic Patient 04223,Obstetrics & Gynecology,5,27,2026-06-25,Soon,After 3pm only,Active
+92,22313915022,Synthetic Patient 01528,Pediatrics,4,,2026-05-12,Urgent,Any weekday,Active
+93,50947462063,Synthetic Patient 05214,Pediatrics,4,21,2026-06-28,Soon,Mon/Wed/Fri only,Active
+94,51196166798,Synthetic Patient 05243,Dermatology,6,,2026-06-12,Routine,After 3pm only,Active
+95,38926061212,Synthetic Patient 03700,Family Medicine,5,,2026-06-20,Routine,Any time,Contacted
+96,36096447259,Synthetic Patient 03349,Endocrinology,3,18,2026-06-18,Urgent,Weekday afternoons,Active
+97,21356764865,Synthetic Patient 01405,Family Medicine,1,,2026-06-20,Soon,Mon/Wed/Fri only,Scheduled Elsewhere
+98,51734775519,Synthetic Patient 05305,Family Medicine,5,30,2026-07-01,Urgent,Any weekday,Scheduled Elsewhere
+99,41954204144,Synthetic Patient 04093,Family Medicine,4,,2026-07-02,Soon,Mon/Wed/Fri only,Contacted
+100,24656252775,Synthetic Patient 01868,Cardiology,3,,2026-06-23,Urgent,After 3pm only,Active
+101,52432953581,Synthetic Patient 05386,Internal Medicine,1,,2026-05-22,Urgent,Mornings before 10am,Active
+102,13006221675,Synthetic Patient 00365,Internal Medicine,2,,2026-07-02,Routine,Mornings before 10am,Active
+103,21109811841,Synthetic Patient 01369,Cardiology,3,,2026-07-05,Soon,Mon/Wed/Fri only,Active
+104,53891732090,Synthetic Patient 05563,Internal Medicine,2,,2026-07-03,Routine,Tue/Thu only,Contacted
+105,32039825362,Synthetic Patient 02821,Internal Medicine,1,,2026-06-18,Routine,Any weekday,Active
+106,51917624353,Synthetic Patient 05331,Internal Medicine,2,,2026-06-20,Soon,Any weekday,Active
+107,46845201098,Synthetic Patient 04677,Endocrinology,3,18,2026-06-25,Routine,Mornings before 10am,Active
+108,39419230091,Synthetic Patient 03772,Family Medicine,1,,2026-06-21,Soon,Mon/Wed/Fri only,Active
+109,52240891167,Synthetic Patient 05366,Obstetrics & Gynecology,5,25,2026-06-07,Routine,After 3pm only,Active
+110,33628529408,Synthetic Patient 03027,Internal Medicine,3,,2026-06-25,Routine,Weekday afternoons,Active
+111,51851271878,Synthetic Patient 05322,Cardiology,3,14,2026-06-25,Routine,Weekday afternoons,Active
+112,10548125170,Synthetic Patient 00083,Family Medicine,1,,2026-06-27,Routine,Weekday mornings,Active
+113,48339288871,Synthetic Patient 04879,Internal Medicine,3,16,2026-06-29,Soon,After 3pm only,Contacted
+114,26647505808,Synthetic Patient 02133,Family Medicine,2,,2026-06-27,Soon,Any weekday,Active
+115,42369966429,Synthetic Patient 04134,Internal Medicine,2,,2026-06-16,Routine,Tue/Thu only,Active
+116,47298454399,Synthetic Patient 04731,Behavioral Health,6,33,2026-06-29,Urgent,Mon/Wed/Fri only,Active
+117,12535684730,Synthetic Patient 00311,Family Medicine,5,,2026-06-20,Urgent,Any time,Active
+118,16979650683,Synthetic Patient 00877,Obstetrics & Gynecology,5,,2026-06-21,Soon,Weekday mornings,Scheduled Elsewhere
+119,37602477813,Synthetic Patient 03538,Internal Medicine,2,,2026-06-15,Routine,Any time,Contacted
+120,54048690932,Synthetic Patient 05582,Family Medicine,2,,2026-06-22,Soon,Mornings before 10am,Active
+121,51200464618,Synthetic Patient 05244,Internal Medicine,2,,2026-06-22,Routine,Any weekday,Scheduled Elsewhere
+122,47584071997,Synthetic Patient 04774,Obstetrics & Gynecology,5,27,2026-06-28,Soon,Mornings before 10am,Active
+123,17707055728,Synthetic Patient 00956,Internal Medicine,2,8,2026-07-03,Routine,Weekday mornings,Active
+124,29246722790,Synthetic Patient 02456,Obstetrics & Gynecology,5,,2026-06-18,Routine,After 3pm only,Active
+125,52119366973,Synthetic Patient 05349,Family Medicine,4,,2026-06-24,Soon,Weekday afternoons,Active
+126,26059758563,Synthetic Patient 02060,Internal Medicine,3,,2026-06-01,Soon,Mon/Wed/Fri only,Contacted
+127,14649212531,Synthetic Patient 00581,Family Medicine,5,30,2026-06-03,Routine,Weekday afternoons,Active
+128,42821046133,Synthetic Patient 04191,Family Medicine,4,22,2026-06-23,Routine,Mon/Wed/Fri only,Contacted
+129,42643572325,Synthetic Patient 04173,Endocrinology,3,,2026-06-19,Routine,Weekday mornings,Active
+130,45700655271,Synthetic Patient 04553,Internal Medicine,1,,2026-06-26,Soon,Mornings before 10am,Active
+131,30640656558,Synthetic Patient 02639,Dermatology,6,34,2026-07-01,Soon,Any weekday,Active
+132,21392376862,Synthetic Patient 01410,Internal Medicine,2,8,2026-06-27,Soon,After 3pm only,Contacted
+133,42811862296,Synthetic Patient 04190,Family Medicine,5,28,2026-05-30,Urgent,Mon/Wed/Fri only,Active
+134,40331788365,Synthetic Patient 03893,Internal Medicine,2,,2026-07-06,Urgent,After 3pm only,Contacted
+135,25733704746,Synthetic Patient 02013,Internal Medicine,2,,2026-07-02,Soon,After 3pm only,Active
+136,25512794342,Synthetic Patient 01981,Internal Medicine,1,,2026-05-16,Routine,Tue/Thu only,Active
+137,42736058159,Synthetic Patient 04179,Family Medicine,4,,2026-06-19,Urgent,Tue/Thu only,Active
+138,38835748323,Synthetic Patient 03688,Endocrinology,3,,2026-06-08,Soon,Any time,Scheduled Elsewhere
+139,27007174572,Synthetic Patient 02183,Behavioral Health,6,35,2026-06-09,Urgent,Tue/Thu only,Active
+140,14891849910,Synthetic Patient 00618,Family Medicine,1,,2026-07-02,Routine,Mornings before 10am,Active
+141,33670958192,Synthetic Patient 03032,Family Medicine,4,22,2026-06-16,Routine,Mornings before 10am,Active
+142,41653215176,Synthetic Patient 04057,Endocrinology,3,,2026-06-25,Soon,Weekday mornings,Active
+143,34208520824,Synthetic Patient 03102,Internal Medicine,2,8,2026-06-18,Soon,Mornings before 10am,Active
+144,27934175445,Synthetic Patient 02297,Pediatrics,4,21,2026-06-23,Routine,After 3pm only,Active
+145,11244422264,Synthetic Patient 00152,Cardiology,3,,2026-06-21,Soon,After 3pm only,Active
+146,14531126161,Synthetic Patient 00563,Pediatrics,4,21,2026-06-26,Routine,Any weekday,Scheduled Elsewhere
+147,22537929487,Synthetic Patient 01563,Obstetrics & Gynecology,5,,2026-06-04,Routine,Any time,Active
+148,28778079929,Synthetic Patient 02402,Family Medicine,5,26,2026-06-28,Soon,Any weekday,Active
+149,53646422521,Synthetic Patient 05535,Dermatology,6,,2026-06-19,Routine,After 3pm only,Active
+150,34672095431,Synthetic Patient 03162,Obstetrics & Gynecology,5,,2026-05-12,Soon,Any time,Active
+151,41004030037,Synthetic Patient 03976,Dermatology,6,,2026-07-04,Soon,Any weekday,Active
+152,47672751299,Synthetic Patient 04785,Family Medicine,1,,2026-06-16,Routine,Mon/Wed/Fri only,Active
+153,21141811336,Synthetic Patient 01373,Family Medicine,4,,2026-06-14,Soon,Weekday mornings,Active
+154,38864399202,Synthetic Patient 03693,Family Medicine,4,22,2026-06-01,Routine,Weekday afternoons,Active
+155,36515899520,Synthetic Patient 03395,Family Medicine,5,,2026-06-17,Soon,Any time,Active
+156,39336101181,Synthetic Patient 03761,Internal Medicine,2,12,2026-06-27,Routine,Mornings before 10am,Active
+157,44867937671,Synthetic Patient 04427,Internal Medicine,2,,2026-07-01,Urgent,Weekday mornings,Active
+158,22871968764,Synthetic Patient 01612,Obstetrics & Gynecology,5,,2026-06-14,Soon,Any time,Contacted
+159,45142074480,Synthetic Patient 04461,Family Medicine,4,,2026-06-11,Routine,Mon/Wed/Fri only,Active
+160,23048427987,Synthetic Patient 01630,Family Medicine,2,,2026-05-31,Urgent,Mornings before 10am,Active
+161,18850534018,Synthetic Patient 01087,Pediatrics,4,,2026-06-21,Urgent,Any time,Active
+162,13245449994,Synthetic Patient 00394,Family Medicine,1,3,2026-07-03,Routine,After 3pm only,Active
+163,54392038726,Synthetic Patient 05619,Behavioral Health,6,,2026-06-29,Urgent,Weekday afternoons,Active
+164,31273618186,Synthetic Patient 02713,Internal Medicine,1,,2026-06-25,Routine,Any time,Active
+165,47520043173,Synthetic Patient 04764,Family Medicine,2,,2026-06-22,Soon,Tue/Thu only,Active
+166,21320771981,Synthetic Patient 01400,Internal Medicine,2,8,2026-06-29,Urgent,Weekday mornings,Active
+167,26802290645,Synthetic Patient 02149,Family Medicine,1,,2026-06-19,Soon,Mon/Wed/Fri only,Active
+168,32788757663,Synthetic Patient 02916,Behavioral Health,6,,2026-06-06,Routine,Any time,Scheduled Elsewhere
+169,25406615481,Synthetic Patient 01960,Internal Medicine,2,12,2026-06-20,Soon,Weekday afternoons,Active
+170,26220469205,Synthetic Patient 02081,Behavioral Health,6,,2026-05-31,Routine,Mon/Wed/Fri only,Active

@@ -18,9 +18,10 @@ from common import DATA_RAW, NEIGHBOURHOODS, SEED, ensure_dirs
 KAGGLE_FILE = DATA_RAW / "KaggleV2-May-2016.csv"
 OUTPUT_FILE = DATA_RAW / "appointments_raw.csv"
 
-N_PATIENTS = 14_000
+N_PATIENTS = 6_500
 N_APPOINTTMENTS = 32_000
 HISTORY_DAYS = 300  # historical window ending yesterday
+TARGET_NO_SHOW_RATE = 0.202  # matches the real Kaggle dataset
 
 
 def _sigmoid(x: np.ndarray) -> np.ndarray:
@@ -79,21 +80,30 @@ def generate_synthetic_raw() -> pd.DataFrame:
     # SMS reminders are only sent for appointments booked >= 3 days ahead.
     sms = ((lead >= 3) & (rng.random(N_APPOINTTMENTS) < 0.62)).astype(int)
 
-    # --- No-show probability: realistic drivers, ~20% base rate ---
+    # --- No-show probability: realistic drivers, calibrated to ~20% ---
     a = ages[idx]
-    z = (
-        -1.20
-        + 0.018 * np.clip(lead, 0, 60)          # long lead time raises risk
-        - 0.90 * (lead == 0)                    # same-day bookings rarely no-show
-        - 0.012 * a                              # younger patients riskier
-        + 0.35 * scholarship[idx]
-        + 0.42 * alcoholism[idx]
-        - 0.28 * sms                             # reminders reduce risk
-        + 0.10 * (hypertension[idx])
-        + 0.65 * latent[idx]                     # per-patient behavior
+    dow = np.array([d.weekday() for d in appt_days])
+    z_raw = (
+        0.045 * np.clip(lead, 0, 75)            # long lead time raises risk
+        - 1.20 * (lead == 0)                    # same-day bookings rarely no-show
+        - 0.028 * a                              # younger patients riskier
+        + 0.50 * scholarship[idx]
+        + 0.60 * alcoholism[idx]
+        - 0.55 * sms                             # reminders reduce risk
+        + 0.12 * (hypertension[idx])
+        + 0.30 * (dow == 0) + 0.18 * (dow == 4)  # Monday/Friday effect
+        + 1.00 * latent[idx]                     # per-patient behavior
+        + rng.normal(0, 0.20, size=N_APPOINTTMENTS)
     )
-    noise = rng.normal(0, 0.35, size=N_APPOINTTMENTS)
-    no_show = (rng.random(N_APPOINTTMENTS) < _sigmoid(z + noise)).astype(int)
+    # Solve the intercept so the overall rate lands on the Kaggle benchmark.
+    lo, hi = -6.0, 2.0
+    for _ in range(40):
+        mid = (lo + hi) / 2
+        if _sigmoid(z_raw + mid).mean() < TARGET_NO_SHOW_RATE:
+            lo = mid
+        else:
+            hi = mid
+    no_show = (rng.random(N_APPOINTTMENTS) < _sigmoid(z_raw + (lo + hi) / 2)).astype(int)
 
     df = pd.DataFrame({
         "PatientId": patient_ids[idx].astype(float),
