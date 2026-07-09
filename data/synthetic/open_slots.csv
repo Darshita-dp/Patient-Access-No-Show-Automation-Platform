@@ -1,0 +1,1373 @@
+slot_id,slot_datetime,provider_id,clinic_id,specialty,slot_status
+1,2026-07-07 08:00:00,8,2,Internal Medicine,Open
+2,2026-07-07 08:00:00,32,6,Dermatology,Open
+3,2026-07-07 08:00:00,31,6,Behavioral Health,Open
+4,2026-07-07 08:00:00,28,5,Family Medicine,Open
+5,2026-07-07 08:00:00,35,6,Behavioral Health,Open
+6,2026-07-07 08:00:00,27,5,Obstetrics & Gynecology,Released (Cancellation)
+7,2026-07-07 08:00:00,4,1,Internal Medicine,Open
+8,2026-07-07 08:00:00,24,4,Family Medicine,Open
+9,2026-07-07 08:00:00,22,4,Family Medicine,Released (Cancellation)
+10,2026-07-07 08:00:00,20,4,Family Medicine,Open
+11,2026-07-07 08:00:00,33,6,Behavioral Health,Open
+12,2026-07-07 08:00:00,36,6,Dermatology,Open
+13,2026-07-07 08:00:00,9,2,Family Medicine,Open
+14,2026-07-07 08:00:00,11,2,Family Medicine,Open
+15,2026-07-07 08:00:00,14,3,Cardiology,Open
+16,2026-07-07 08:00:00,17,3,Cardiology,Open
+17,2026-07-07 08:30:00,9,2,Family Medicine,Open
+18,2026-07-07 08:30:00,28,5,Family Medicine,Open
+19,2026-07-07 08:30:00,12,2,Internal Medicine,Released (Cancellation)
+20,2026-07-07 08:30:00,8,2,Internal Medicine,Released (Cancellation)
+21,2026-07-07 08:30:00,13,3,Internal Medicine,Open
+22,2026-07-07 08:30:00,32,6,Dermatology,Open
+23,2026-07-07 09:00:00,4,1,Internal Medicine,Open
+24,2026-07-07 09:00:00,23,4,Pediatrics,Open
+25,2026-07-07 09:00:00,29,5,Obstetrics & Gynecology,Open
+26,2026-07-07 09:00:00,31,6,Behavioral Health,Released (Cancellation)
+27,2026-07-07 09:00:00,27,5,Obstetrics & Gynecology,Released (Cancellation)
+28,2026-07-07 09:30:00,27,5,Obstetrics & Gynecology,Open
+29,2026-07-07 09:30:00,28,5,Family Medicine,Open
+30,2026-07-07 09:30:00,15,3,Endocrinology,Open
+31,2026-07-07 09:30:00,5,1,Family Medicine,Open
+32,2026-07-07 09:30:00,12,2,Internal Medicine,Open
+33,2026-07-07 09:30:00,1,1,Family Medicine,Released (Cancellation)
+34,2026-07-07 10:00:00,29,5,Obstetrics & Gynecology,Released (Cancellation)
+35,2026-07-07 10:00:00,10,2,Internal Medicine,Open
+36,2026-07-07 10:00:00,16,3,Internal Medicine,Open
+37,2026-07-07 10:00:00,11,2,Family Medicine,Open
+38,2026-07-07 10:00:00,2,1,Internal Medicine,Open
+39,2026-07-07 10:00:00,25,5,Obstetrics & Gynecology,Open
+40,2026-07-07 10:00:00,13,3,Internal Medicine,Open
+41,2026-07-07 10:30:00,5,1,Family Medicine,Open
+42,2026-07-07 10:30:00,17,3,Cardiology,Open
+43,2026-07-07 10:30:00,30,5,Family Medicine,Open
+44,2026-07-07 10:30:00,15,3,Endocrinology,Open
+45,2026-07-07 10:30:00,14,3,Cardiology,Open
+46,2026-07-07 10:30:00,2,1,Internal Medicine,Open
+47,2026-07-07 10:30:00,7,2,Family Medicine,Released (Cancellation)
+48,2026-07-07 10:30:00,25,5,Obstetrics & Gynecology,Open
+49,2026-07-07 10:30:00,35,6,Behavioral Health,Released (Cancellation)
+50,2026-07-07 10:30:00,21,4,Pediatrics,Open
+51,2026-07-07 11:00:00,22,4,Family Medicine,Open
+52,2026-07-07 11:00:00,29,5,Obstetrics & Gynecology,Open
+53,2026-07-07 11:00:00,35,6,Behavioral Health,Open
+54,2026-07-07 11:00:00,5,1,Family Medicine,Open
+55,2026-07-07 11:00:00,18,3,Endocrinology,Released (Cancellation)
+56,2026-07-07 11:00:00,31,6,Behavioral Health,Open
+57,2026-07-07 11:00:00,17,3,Cardiology,Released (Cancellation)
+58,2026-07-07 11:00:00,16,3,Internal Medicine,Open
+59,2026-07-07 11:00:00,14,3,Cardiology,Open
+60,2026-07-07 11:00:00,7,2,Family Medicine,Open
+61,2026-07-07 11:30:00,29,5,Obstetrics & Gynecology,Open
+62,2026-07-07 11:30:00,1,1,Family Medicine,Open
+63,2026-07-07 11:30:00,3,1,Family Medicine,Open
+64,2026-07-07 11:30:00,26,5,Family Medicine,Open
+65,2026-07-07 11:30:00,10,2,Internal Medicine,Open
+66,2026-07-07 11:30:00,34,6,Dermatology,Open
+67,2026-07-07 11:30:00,28,5,Family Medicine,Released (Cancellation)
+68,2026-07-07 11:30:00,27,5,Obstetrics & Gynecology,Open
+69,2026-07-07 12:00:00,13,3,Internal Medicine,Open
+70,2026-07-07 12:00:00,9,2,Family Medicine,Open
+71,2026-07-07 12:00:00,21,4,Pediatrics,Open
+72,2026-07-07 12:00:00,26,5,Family Medicine,Open
+73,2026-07-07 12:00:00,35,6,Behavioral Health,Open
+74,2026-07-07 12:00:00,6,1,Internal Medicine,Open
+75,2026-07-07 12:00:00,1,1,Family Medicine,Open
+76,2026-07-07 12:00:00,25,5,Obstetrics & Gynecology,Released (Cancellation)
+77,2026-07-07 12:00:00,17,3,Cardiology,Open
+78,2026-07-07 12:00:00,33,6,Behavioral Health,Open
+79,2026-07-07 12:00:00,30,5,Family Medicine,Open
+80,2026-07-07 12:00:00,32,6,Dermatology,Released (Cancellation)
+81,2026-07-07 12:30:00,13,3,Internal Medicine,Open
+82,2026-07-07 12:30:00,3,1,Family Medicine,Released (Cancellation)
+83,2026-07-07 12:30:00,31,6,Behavioral Health,Open
+84,2026-07-07 12:30:00,34,6,Dermatology,Open
+85,2026-07-07 12:30:00,27,5,Obstetrics & Gynecology,Open
+86,2026-07-07 12:30:00,12,2,Internal Medicine,Open
+87,2026-07-07 12:30:00,7,2,Family Medicine,Open
+88,2026-07-07 12:30:00,8,2,Internal Medicine,Open
+89,2026-07-07 12:30:00,20,4,Family Medicine,Released (Cancellation)
+90,2026-07-07 13:00:00,34,6,Dermatology,Open
+91,2026-07-07 13:00:00,18,3,Endocrinology,Open
+92,2026-07-07 13:00:00,25,5,Obstetrics & Gynecology,Open
+93,2026-07-07 13:00:00,17,3,Cardiology,Released (Cancellation)
+94,2026-07-07 13:00:00,28,5,Family Medicine,Open
+95,2026-07-07 13:00:00,15,3,Endocrinology,Open
+96,2026-07-07 13:30:00,18,3,Endocrinology,Open
+97,2026-07-07 13:30:00,31,6,Behavioral Health,Open
+98,2026-07-07 13:30:00,25,5,Obstetrics & Gynecology,Released (Cancellation)
+99,2026-07-07 13:30:00,26,5,Family Medicine,Open
+100,2026-07-07 13:30:00,23,4,Pediatrics,Open
+101,2026-07-07 13:30:00,35,6,Behavioral Health,Open
+102,2026-07-07 13:30:00,4,1,Internal Medicine,Open
+103,2026-07-07 13:30:00,8,2,Internal Medicine,Open
+104,2026-07-07 13:30:00,3,1,Family Medicine,Open
+105,2026-07-07 13:30:00,2,1,Internal Medicine,Open
+106,2026-07-07 13:30:00,34,6,Dermatology,Open
+107,2026-07-07 13:30:00,27,5,Obstetrics & Gynecology,Open
+108,2026-07-07 13:30:00,12,2,Internal Medicine,Open
+109,2026-07-07 13:30:00,11,2,Family Medicine,Open
+110,2026-07-07 14:00:00,22,4,Family Medicine,Open
+111,2026-07-07 14:00:00,28,5,Family Medicine,Open
+112,2026-07-07 14:00:00,34,6,Dermatology,Open
+113,2026-07-07 14:00:00,7,2,Family Medicine,Open
+114,2026-07-07 14:00:00,13,3,Internal Medicine,Open
+115,2026-07-07 14:00:00,12,2,Internal Medicine,Open
+116,2026-07-07 14:00:00,2,1,Internal Medicine,Open
+117,2026-07-07 14:00:00,35,6,Behavioral Health,Open
+118,2026-07-07 14:00:00,18,3,Endocrinology,Open
+119,2026-07-07 14:30:00,17,3,Cardiology,Open
+120,2026-07-07 14:30:00,19,4,Pediatrics,Open
+121,2026-07-07 14:30:00,23,4,Pediatrics,Open
+122,2026-07-07 15:00:00,22,4,Family Medicine,Open
+123,2026-07-07 15:00:00,29,5,Obstetrics & Gynecology,Released (Cancellation)
+124,2026-07-07 15:00:00,25,5,Obstetrics & Gynecology,Open
+125,2026-07-07 15:00:00,9,2,Family Medicine,Released (Cancellation)
+126,2026-07-07 15:00:00,19,4,Pediatrics,Open
+127,2026-07-07 15:00:00,20,4,Family Medicine,Open
+128,2026-07-07 15:00:00,6,1,Internal Medicine,Open
+129,2026-07-08 08:00:00,21,4,Pediatrics,Open
+130,2026-07-08 08:00:00,16,3,Internal Medicine,Open
+131,2026-07-08 08:00:00,20,4,Family Medicine,Open
+132,2026-07-08 08:00:00,5,1,Family Medicine,Open
+133,2026-07-08 08:00:00,26,5,Family Medicine,Released (Cancellation)
+134,2026-07-08 08:00:00,18,3,Endocrinology,Open
+135,2026-07-08 08:00:00,8,2,Internal Medicine,Open
+136,2026-07-08 08:00:00,4,1,Internal Medicine,Open
+137,2026-07-08 08:00:00,11,2,Family Medicine,Open
+138,2026-07-08 08:00:00,28,5,Family Medicine,Open
+139,2026-07-08 08:30:00,36,6,Dermatology,Open
+140,2026-07-08 08:30:00,15,3,Endocrinology,Released (Cancellation)
+141,2026-07-08 08:30:00,16,3,Internal Medicine,Open
+142,2026-07-08 08:30:00,13,3,Internal Medicine,Open
+143,2026-07-08 08:30:00,21,4,Pediatrics,Open
+144,2026-07-08 08:30:00,7,2,Family Medicine,Open
+145,2026-07-08 08:30:00,33,6,Behavioral Health,Released (Cancellation)
+146,2026-07-08 08:30:00,28,5,Family Medicine,Released (Cancellation)
+147,2026-07-08 08:30:00,8,2,Internal Medicine,Open
+148,2026-07-08 08:30:00,2,1,Internal Medicine,Open
+149,2026-07-08 09:00:00,5,1,Family Medicine,Open
+150,2026-07-08 09:00:00,27,5,Obstetrics & Gynecology,Open
+151,2026-07-08 09:00:00,34,6,Dermatology,Open
+152,2026-07-08 09:00:00,7,2,Family Medicine,Open
+153,2026-07-08 09:00:00,20,4,Family Medicine,Open
+154,2026-07-08 09:00:00,26,5,Family Medicine,Open
+155,2026-07-08 09:00:00,9,2,Family Medicine,Open
+156,2026-07-08 09:00:00,35,6,Behavioral Health,Open
+157,2026-07-08 09:00:00,2,1,Internal Medicine,Open
+158,2026-07-08 09:00:00,29,5,Obstetrics & Gynecology,Open
+159,2026-07-08 09:00:00,13,3,Internal Medicine,Open
+160,2026-07-08 09:30:00,15,3,Endocrinology,Released (Cancellation)
+161,2026-07-08 09:30:00,7,2,Family Medicine,Open
+162,2026-07-08 09:30:00,27,5,Obstetrics & Gynecology,Open
+163,2026-07-08 09:30:00,23,4,Pediatrics,Open
+164,2026-07-08 09:30:00,29,5,Obstetrics & Gynecology,Open
+165,2026-07-08 09:30:00,28,5,Family Medicine,Open
+166,2026-07-08 09:30:00,13,3,Internal Medicine,Released (Cancellation)
+167,2026-07-08 09:30:00,21,4,Pediatrics,Open
+168,2026-07-08 09:30:00,10,2,Internal Medicine,Open
+169,2026-07-08 09:30:00,2,1,Internal Medicine,Open
+170,2026-07-08 09:30:00,20,4,Family Medicine,Released (Cancellation)
+171,2026-07-08 10:00:00,31,6,Behavioral Health,Open
+172,2026-07-08 10:00:00,24,4,Family Medicine,Open
+173,2026-07-08 10:00:00,15,3,Endocrinology,Released (Cancellation)
+174,2026-07-08 10:00:00,7,2,Family Medicine,Released (Cancellation)
+175,2026-07-08 10:00:00,6,1,Internal Medicine,Open
+176,2026-07-08 10:00:00,28,5,Family Medicine,Released (Cancellation)
+177,2026-07-08 10:00:00,9,2,Family Medicine,Open
+178,2026-07-08 10:00:00,11,2,Family Medicine,Open
+179,2026-07-08 10:00:00,1,1,Family Medicine,Open
+180,2026-07-08 10:00:00,18,3,Endocrinology,Open
+181,2026-07-08 10:30:00,23,4,Pediatrics,Open
+182,2026-07-08 10:30:00,27,5,Obstetrics & Gynecology,Open
+183,2026-07-08 10:30:00,28,5,Family Medicine,Open
+184,2026-07-08 10:30:00,15,3,Endocrinology,Open
+185,2026-07-08 10:30:00,19,4,Pediatrics,Open
+186,2026-07-08 10:30:00,7,2,Family Medicine,Released (Cancellation)
+187,2026-07-08 11:00:00,14,3,Cardiology,Open
+188,2026-07-08 11:00:00,1,1,Family Medicine,Open
+189,2026-07-08 11:00:00,22,4,Family Medicine,Open
+190,2026-07-08 11:00:00,33,6,Behavioral Health,Open
+191,2026-07-08 11:00:00,5,1,Family Medicine,Open
+192,2026-07-08 11:00:00,23,4,Pediatrics,Open
+193,2026-07-08 11:00:00,35,6,Behavioral Health,Open
+194,2026-07-08 11:00:00,4,1,Internal Medicine,Open
+195,2026-07-08 11:00:00,28,5,Family Medicine,Open
+196,2026-07-08 11:00:00,10,2,Internal Medicine,Open
+197,2026-07-08 11:00:00,15,3,Endocrinology,Open
+198,2026-07-08 11:00:00,31,6,Behavioral Health,Released (Cancellation)
+199,2026-07-08 11:00:00,9,2,Family Medicine,Open
+200,2026-07-08 11:00:00,11,2,Family Medicine,Open
+201,2026-07-08 11:30:00,23,4,Pediatrics,Released (Cancellation)
+202,2026-07-08 11:30:00,4,1,Internal Medicine,Open
+203,2026-07-08 11:30:00,34,6,Dermatology,Open
+204,2026-07-08 11:30:00,19,4,Pediatrics,Open
+205,2026-07-08 11:30:00,32,6,Dermatology,Open
+206,2026-07-08 11:30:00,25,5,Obstetrics & Gynecology,Open
+207,2026-07-08 11:30:00,14,3,Cardiology,Released (Cancellation)
+208,2026-07-08 11:30:00,35,6,Behavioral Health,Open
+209,2026-07-08 11:30:00,26,5,Family Medicine,Released (Cancellation)
+210,2026-07-08 11:30:00,6,1,Internal Medicine,Open
+211,2026-07-08 11:30:00,33,6,Behavioral Health,Open
+212,2026-07-08 11:30:00,12,2,Internal Medicine,Open
+213,2026-07-08 12:00:00,7,2,Family Medicine,Released (Cancellation)
+214,2026-07-08 12:00:00,9,2,Family Medicine,Open
+215,2026-07-08 12:00:00,31,6,Behavioral Health,Open
+216,2026-07-08 12:00:00,2,1,Internal Medicine,Released (Cancellation)
+217,2026-07-08 12:00:00,23,4,Pediatrics,Open
+218,2026-07-08 12:00:00,13,3,Internal Medicine,Open
+219,2026-07-08 12:00:00,30,5,Family Medicine,Open
+220,2026-07-08 12:00:00,36,6,Dermatology,Open
+221,2026-07-08 12:00:00,6,1,Internal Medicine,Open
+222,2026-07-08 12:30:00,33,6,Behavioral Health,Open
+223,2026-07-08 12:30:00,23,4,Pediatrics,Open
+224,2026-07-08 12:30:00,22,4,Family Medicine,Open
+225,2026-07-08 12:30:00,20,4,Family Medicine,Open
+226,2026-07-08 12:30:00,19,4,Pediatrics,Open
+227,2026-07-08 12:30:00,7,2,Family Medicine,Open
+228,2026-07-08 12:30:00,24,4,Family Medicine,Open
+229,2026-07-08 12:30:00,27,5,Obstetrics & Gynecology,Open
+230,2026-07-08 13:00:00,35,6,Behavioral Health,Released (Cancellation)
+231,2026-07-08 13:00:00,34,6,Dermatology,Open
+232,2026-07-08 13:00:00,24,4,Family Medicine,Open
+233,2026-07-08 13:00:00,17,3,Cardiology,Open
+234,2026-07-08 13:00:00,22,4,Family Medicine,Open
+235,2026-07-08 13:00:00,32,6,Dermatology,Open
+236,2026-07-08 13:00:00,3,1,Family Medicine,Open
+237,2026-07-08 13:00:00,29,5,Obstetrics & Gynecology,Open
+238,2026-07-08 13:00:00,13,3,Internal Medicine,Open
+239,2026-07-08 13:00:00,14,3,Cardiology,Open
+240,2026-07-08 13:30:00,11,2,Family Medicine,Open
+241,2026-07-08 13:30:00,14,3,Cardiology,Open
+242,2026-07-08 13:30:00,16,3,Internal Medicine,Open
+243,2026-07-08 13:30:00,18,3,Endocrinology,Open
+244,2026-07-08 13:30:00,10,2,Internal Medicine,Open
+245,2026-07-08 13:30:00,25,5,Obstetrics & Gynecology,Open
+246,2026-07-08 13:30:00,28,5,Family Medicine,Open
+247,2026-07-08 13:30:00,30,5,Family Medicine,Open
+248,2026-07-08 13:30:00,4,1,Internal Medicine,Open
+249,2026-07-08 13:30:00,35,6,Behavioral Health,Open
+250,2026-07-08 13:30:00,19,4,Pediatrics,Open
+251,2026-07-08 14:00:00,29,5,Obstetrics & Gynecology,Open
+252,2026-07-08 14:00:00,21,4,Pediatrics,Open
+253,2026-07-08 14:00:00,1,1,Family Medicine,Released (Cancellation)
+254,2026-07-08 14:00:00,36,6,Dermatology,Open
+255,2026-07-08 14:30:00,31,6,Behavioral Health,Open
+256,2026-07-08 14:30:00,20,4,Family Medicine,Open
+257,2026-07-08 14:30:00,17,3,Cardiology,Open
+258,2026-07-08 14:30:00,19,4,Pediatrics,Open
+259,2026-07-08 14:30:00,7,2,Family Medicine,Open
+260,2026-07-08 15:00:00,22,4,Family Medicine,Open
+261,2026-07-08 15:00:00,1,1,Family Medicine,Open
+262,2026-07-08 15:00:00,20,4,Family Medicine,Open
+263,2026-07-08 15:00:00,9,2,Family Medicine,Open
+264,2026-07-08 15:30:00,6,1,Internal Medicine,Open
+265,2026-07-08 15:30:00,4,1,Internal Medicine,Open
+266,2026-07-09 08:00:00,11,2,Family Medicine,Released (Cancellation)
+267,2026-07-09 08:00:00,22,4,Family Medicine,Open
+268,2026-07-09 08:00:00,23,4,Pediatrics,Open
+269,2026-07-09 08:00:00,16,3,Internal Medicine,Open
+270,2026-07-09 08:00:00,24,4,Family Medicine,Open
+271,2026-07-09 08:00:00,6,1,Internal Medicine,Open
+272,2026-07-09 08:00:00,15,3,Endocrinology,Open
+273,2026-07-09 08:00:00,21,4,Pediatrics,Open
+274,2026-07-09 08:00:00,26,5,Family Medicine,Open
+275,2026-07-09 08:00:00,5,1,Family Medicine,Open
+276,2026-07-09 08:00:00,9,2,Family Medicine,Open
+277,2026-07-09 08:00:00,3,1,Family Medicine,Open
+278,2026-07-09 08:00:00,27,5,Obstetrics & Gynecology,Open
+279,2026-07-09 08:00:00,18,3,Endocrinology,Open
+280,2026-07-09 08:30:00,20,4,Family Medicine,Open
+281,2026-07-09 08:30:00,36,6,Dermatology,Open
+282,2026-07-09 08:30:00,31,6,Behavioral Health,Open
+283,2026-07-09 08:30:00,2,1,Internal Medicine,Released (Cancellation)
+284,2026-07-09 08:30:00,21,4,Pediatrics,Open
+285,2026-07-09 09:00:00,30,5,Family Medicine,Open
+286,2026-07-09 09:00:00,3,1,Family Medicine,Open
+287,2026-07-09 09:00:00,21,4,Pediatrics,Open
+288,2026-07-09 09:00:00,7,2,Family Medicine,Open
+289,2026-07-09 09:00:00,31,6,Behavioral Health,Open
+290,2026-07-09 09:00:00,25,5,Obstetrics & Gynecology,Open
+291,2026-07-09 09:00:00,12,2,Internal Medicine,Released (Cancellation)
+292,2026-07-09 09:30:00,26,5,Family Medicine,Released (Cancellation)
+293,2026-07-09 09:30:00,35,6,Behavioral Health,Open
+294,2026-07-09 09:30:00,8,2,Internal Medicine,Open
+295,2026-07-09 09:30:00,25,5,Obstetrics & Gynecology,Open
+296,2026-07-09 09:30:00,18,3,Endocrinology,Open
+297,2026-07-09 09:30:00,28,5,Family Medicine,Open
+298,2026-07-09 09:30:00,10,2,Internal Medicine,Open
+299,2026-07-09 09:30:00,36,6,Dermatology,Open
+300,2026-07-09 10:00:00,25,5,Obstetrics & Gynecology,Open
+301,2026-07-09 10:00:00,1,1,Family Medicine,Open
+302,2026-07-09 10:00:00,9,2,Family Medicine,Open
+303,2026-07-09 10:00:00,27,5,Obstetrics & Gynecology,Open
+304,2026-07-09 10:00:00,8,2,Internal Medicine,Open
+305,2026-07-09 10:30:00,32,6,Dermatology,Open
+306,2026-07-09 10:30:00,6,1,Internal Medicine,Open
+307,2026-07-09 10:30:00,23,4,Pediatrics,Open
+308,2026-07-09 10:30:00,1,1,Family Medicine,Open
+309,2026-07-09 10:30:00,25,5,Obstetrics & Gynecology,Open
+310,2026-07-09 10:30:00,10,2,Internal Medicine,Open
+311,2026-07-09 10:30:00,8,2,Internal Medicine,Open
+312,2026-07-09 10:30:00,13,3,Internal Medicine,Open
+313,2026-07-09 10:30:00,12,2,Internal Medicine,Open
+314,2026-07-09 10:30:00,28,5,Family Medicine,Open
+315,2026-07-09 10:30:00,31,6,Behavioral Health,Open
+316,2026-07-09 11:00:00,15,3,Endocrinology,Open
+317,2026-07-09 11:00:00,14,3,Cardiology,Open
+318,2026-07-09 11:00:00,34,6,Dermatology,Open
+319,2026-07-09 11:00:00,35,6,Behavioral Health,Open
+320,2026-07-09 11:00:00,7,2,Family Medicine,Open
+321,2026-07-09 11:00:00,17,3,Cardiology,Open
+322,2026-07-09 11:00:00,18,3,Endocrinology,Open
+323,2026-07-09 11:00:00,27,5,Obstetrics & Gynecology,Released (Cancellation)
+324,2026-07-09 11:00:00,28,5,Family Medicine,Open
+325,2026-07-09 11:00:00,25,5,Obstetrics & Gynecology,Open
+326,2026-07-09 11:00:00,24,4,Family Medicine,Open
+327,2026-07-09 11:30:00,11,2,Family Medicine,Open
+328,2026-07-09 11:30:00,26,5,Family Medicine,Open
+329,2026-07-09 11:30:00,18,3,Endocrinology,Open
+330,2026-07-09 11:30:00,15,3,Endocrinology,Open
+331,2026-07-09 11:30:00,6,1,Internal Medicine,Open
+332,2026-07-09 11:30:00,27,5,Obstetrics & Gynecology,Open
+333,2026-07-09 11:30:00,16,3,Internal Medicine,Open
+334,2026-07-09 12:00:00,35,6,Behavioral Health,Open
+335,2026-07-09 12:00:00,14,3,Cardiology,Released (Cancellation)
+336,2026-07-09 12:00:00,10,2,Internal Medicine,Open
+337,2026-07-09 12:00:00,29,5,Obstetrics & Gynecology,Open
+338,2026-07-09 12:00:00,16,3,Internal Medicine,Open
+339,2026-07-09 12:00:00,2,1,Internal Medicine,Open
+340,2026-07-09 12:00:00,7,2,Family Medicine,Open
+341,2026-07-09 12:00:00,19,4,Pediatrics,Open
+342,2026-07-09 12:00:00,28,5,Family Medicine,Released (Cancellation)
+343,2026-07-09 12:00:00,17,3,Cardiology,Open
+344,2026-07-09 12:00:00,36,6,Dermatology,Open
+345,2026-07-09 12:30:00,12,2,Internal Medicine,Open
+346,2026-07-09 12:30:00,4,1,Internal Medicine,Open
+347,2026-07-09 12:30:00,2,1,Internal Medicine,Open
+348,2026-07-09 12:30:00,11,2,Family Medicine,Open
+349,2026-07-09 12:30:00,33,6,Behavioral Health,Open
+350,2026-07-09 12:30:00,22,4,Family Medicine,Open
+351,2026-07-09 12:30:00,30,5,Family Medicine,Open
+352,2026-07-09 13:00:00,35,6,Behavioral Health,Released (Cancellation)
+353,2026-07-09 13:00:00,24,4,Family Medicine,Open
+354,2026-07-09 13:00:00,13,3,Internal Medicine,Open
+355,2026-07-09 13:00:00,32,6,Dermatology,Open
+356,2026-07-09 13:00:00,4,1,Internal Medicine,Open
+357,2026-07-09 13:00:00,14,3,Cardiology,Open
+358,2026-07-09 13:00:00,26,5,Family Medicine,Open
+359,2026-07-09 13:00:00,18,3,Endocrinology,Open
+360,2026-07-09 13:00:00,29,5,Obstetrics & Gynecology,Open
+361,2026-07-09 13:00:00,21,4,Pediatrics,Open
+362,2026-07-09 13:00:00,23,4,Pediatrics,Open
+363,2026-07-09 13:00:00,1,1,Family Medicine,Open
+364,2026-07-09 13:00:00,12,2,Internal Medicine,Open
+365,2026-07-09 13:30:00,19,4,Pediatrics,Open
+366,2026-07-09 13:30:00,13,3,Internal Medicine,Open
+367,2026-07-09 13:30:00,36,6,Dermatology,Open
+368,2026-07-09 13:30:00,23,4,Pediatrics,Open
+369,2026-07-09 13:30:00,28,5,Family Medicine,Open
+370,2026-07-09 13:30:00,14,3,Cardiology,Open
+371,2026-07-09 13:30:00,11,2,Family Medicine,Open
+372,2026-07-09 13:30:00,10,2,Internal Medicine,Released (Cancellation)
+373,2026-07-09 13:30:00,33,6,Behavioral Health,Open
+374,2026-07-09 13:30:00,18,3,Endocrinology,Open
+375,2026-07-09 13:30:00,9,2,Family Medicine,Open
+376,2026-07-09 13:30:00,6,1,Internal Medicine,Open
+377,2026-07-09 13:30:00,25,5,Obstetrics & Gynecology,Open
+378,2026-07-09 14:00:00,35,6,Behavioral Health,Open
+379,2026-07-09 14:00:00,6,1,Internal Medicine,Released (Cancellation)
+380,2026-07-09 14:00:00,26,5,Family Medicine,Open
+381,2026-07-09 14:00:00,34,6,Dermatology,Open
+382,2026-07-09 14:00:00,24,4,Family Medicine,Released (Cancellation)
+383,2026-07-09 14:00:00,22,4,Family Medicine,Open
+384,2026-07-09 14:00:00,21,4,Pediatrics,Open
+385,2026-07-09 14:00:00,5,1,Family Medicine,Open
+386,2026-07-09 14:30:00,13,3,Internal Medicine,Open
+387,2026-07-09 14:30:00,34,6,Dermatology,Released (Cancellation)
+388,2026-07-09 14:30:00,6,1,Internal Medicine,Released (Cancellation)
+389,2026-07-09 14:30:00,15,3,Endocrinology,Open
+390,2026-07-09 14:30:00,1,1,Family Medicine,Open
+391,2026-07-09 14:30:00,19,4,Pediatrics,Open
+392,2026-07-09 14:30:00,22,4,Family Medicine,Open
+393,2026-07-09 14:30:00,8,2,Internal Medicine,Open
+394,2026-07-09 14:30:00,7,2,Family Medicine,Open
+395,2026-07-09 15:00:00,8,2,Internal Medicine,Open
+396,2026-07-09 15:30:00,19,4,Pediatrics,Open
+397,2026-07-10 08:00:00,20,4,Family Medicine,Open
+398,2026-07-10 08:00:00,11,2,Family Medicine,Open
+399,2026-07-10 08:00:00,33,6,Behavioral Health,Open
+400,2026-07-10 08:00:00,17,3,Cardiology,Open
+401,2026-07-10 08:00:00,35,6,Behavioral Health,Open
+402,2026-07-10 08:00:00,25,5,Obstetrics & Gynecology,Open
+403,2026-07-10 08:00:00,31,6,Behavioral Health,Open
+404,2026-07-10 08:30:00,29,5,Obstetrics & Gynecology,Released (Cancellation)
+405,2026-07-10 08:30:00,21,4,Pediatrics,Open
+406,2026-07-10 08:30:00,17,3,Cardiology,Open
+407,2026-07-10 08:30:00,27,5,Obstetrics & Gynecology,Open
+408,2026-07-10 08:30:00,14,3,Cardiology,Open
+409,2026-07-10 08:30:00,31,6,Behavioral Health,Open
+410,2026-07-10 08:30:00,23,4,Pediatrics,Released (Cancellation)
+411,2026-07-10 08:30:00,26,5,Family Medicine,Released (Cancellation)
+412,2026-07-10 08:30:00,34,6,Dermatology,Open
+413,2026-07-10 09:00:00,31,6,Behavioral Health,Open
+414,2026-07-10 09:00:00,12,2,Internal Medicine,Open
+415,2026-07-10 09:00:00,9,2,Family Medicine,Open
+416,2026-07-10 09:00:00,25,5,Obstetrics & Gynecology,Open
+417,2026-07-10 09:00:00,26,5,Family Medicine,Open
+418,2026-07-10 09:00:00,33,6,Behavioral Health,Open
+419,2026-07-10 09:00:00,18,3,Endocrinology,Open
+420,2026-07-10 09:00:00,34,6,Dermatology,Open
+421,2026-07-10 09:00:00,22,4,Family Medicine,Open
+422,2026-07-10 09:00:00,1,1,Family Medicine,Open
+423,2026-07-10 09:00:00,24,4,Family Medicine,Open
+424,2026-07-10 09:00:00,36,6,Dermatology,Open
+425,2026-07-10 09:00:00,3,1,Family Medicine,Released (Cancellation)
+426,2026-07-10 09:00:00,10,2,Internal Medicine,Open
+427,2026-07-10 09:00:00,28,5,Family Medicine,Released (Cancellation)
+428,2026-07-10 09:30:00,10,2,Internal Medicine,Open
+429,2026-07-10 09:30:00,22,4,Family Medicine,Open
+430,2026-07-10 09:30:00,25,5,Obstetrics & Gynecology,Open
+431,2026-07-10 09:30:00,5,1,Family Medicine,Open
+432,2026-07-10 09:30:00,15,3,Endocrinology,Open
+433,2026-07-10 09:30:00,18,3,Endocrinology,Open
+434,2026-07-10 09:30:00,29,5,Obstetrics & Gynecology,Open
+435,2026-07-10 09:30:00,21,4,Pediatrics,Open
+436,2026-07-10 09:30:00,17,3,Cardiology,Open
+437,2026-07-10 10:00:00,25,5,Obstetrics & Gynecology,Open
+438,2026-07-10 10:00:00,22,4,Family Medicine,Open
+439,2026-07-10 10:00:00,1,1,Family Medicine,Open
+440,2026-07-10 10:00:00,26,5,Family Medicine,Open
+441,2026-07-10 10:00:00,24,4,Family Medicine,Open
+442,2026-07-10 10:00:00,23,4,Pediatrics,Open
+443,2026-07-10 10:00:00,33,6,Behavioral Health,Released (Cancellation)
+444,2026-07-10 10:00:00,28,5,Family Medicine,Released (Cancellation)
+445,2026-07-10 10:00:00,32,6,Dermatology,Open
+446,2026-07-10 10:00:00,14,3,Cardiology,Open
+447,2026-07-10 10:30:00,9,2,Family Medicine,Released (Cancellation)
+448,2026-07-10 10:30:00,2,1,Internal Medicine,Open
+449,2026-07-10 10:30:00,33,6,Behavioral Health,Open
+450,2026-07-10 10:30:00,7,2,Family Medicine,Open
+451,2026-07-10 10:30:00,8,2,Internal Medicine,Open
+452,2026-07-10 10:30:00,23,4,Pediatrics,Open
+453,2026-07-10 10:30:00,21,4,Pediatrics,Open
+454,2026-07-10 10:30:00,35,6,Behavioral Health,Open
+455,2026-07-10 10:30:00,1,1,Family Medicine,Open
+456,2026-07-10 10:30:00,20,4,Family Medicine,Open
+457,2026-07-10 10:30:00,4,1,Internal Medicine,Released (Cancellation)
+458,2026-07-10 11:00:00,7,2,Family Medicine,Open
+459,2026-07-10 11:00:00,27,5,Obstetrics & Gynecology,Open
+460,2026-07-10 11:00:00,16,3,Internal Medicine,Open
+461,2026-07-10 11:00:00,23,4,Pediatrics,Released (Cancellation)
+462,2026-07-10 11:00:00,19,4,Pediatrics,Open
+463,2026-07-10 11:00:00,33,6,Behavioral Health,Open
+464,2026-07-10 11:00:00,24,4,Family Medicine,Open
+465,2026-07-10 11:00:00,32,6,Dermatology,Released (Cancellation)
+466,2026-07-10 11:00:00,1,1,Family Medicine,Open
+467,2026-07-10 11:00:00,4,1,Internal Medicine,Open
+468,2026-07-10 11:00:00,34,6,Dermatology,Open
+469,2026-07-10 11:30:00,20,4,Family Medicine,Open
+470,2026-07-10 11:30:00,7,2,Family Medicine,Open
+471,2026-07-10 11:30:00,13,3,Internal Medicine,Open
+472,2026-07-10 11:30:00,2,1,Internal Medicine,Open
+473,2026-07-10 11:30:00,36,6,Dermatology,Open
+474,2026-07-10 11:30:00,15,3,Endocrinology,Open
+475,2026-07-10 12:00:00,29,5,Obstetrics & Gynecology,Released (Cancellation)
+476,2026-07-10 12:00:00,21,4,Pediatrics,Open
+477,2026-07-10 12:00:00,14,3,Cardiology,Open
+478,2026-07-10 12:00:00,6,1,Internal Medicine,Open
+479,2026-07-10 12:00:00,17,3,Cardiology,Open
+480,2026-07-10 12:00:00,33,6,Behavioral Health,Released (Cancellation)
+481,2026-07-10 12:00:00,10,2,Internal Medicine,Open
+482,2026-07-10 12:00:00,20,4,Family Medicine,Open
+483,2026-07-10 12:00:00,25,5,Obstetrics & Gynecology,Open
+484,2026-07-10 12:00:00,30,5,Family Medicine,Open
+485,2026-07-10 12:00:00,13,3,Internal Medicine,Open
+486,2026-07-10 12:00:00,26,5,Family Medicine,Open
+487,2026-07-10 12:30:00,28,5,Family Medicine,Open
+488,2026-07-10 12:30:00,34,6,Dermatology,Released (Cancellation)
+489,2026-07-10 12:30:00,6,1,Internal Medicine,Open
+490,2026-07-10 12:30:00,3,1,Family Medicine,Open
+491,2026-07-10 12:30:00,29,5,Obstetrics & Gynecology,Open
+492,2026-07-10 12:30:00,17,3,Cardiology,Open
+493,2026-07-10 12:30:00,27,5,Obstetrics & Gynecology,Open
+494,2026-07-10 12:30:00,20,4,Family Medicine,Open
+495,2026-07-10 13:00:00,23,4,Pediatrics,Open
+496,2026-07-10 13:00:00,9,2,Family Medicine,Open
+497,2026-07-10 13:00:00,17,3,Cardiology,Open
+498,2026-07-10 13:00:00,33,6,Behavioral Health,Open
+499,2026-07-10 13:00:00,18,3,Endocrinology,Open
+500,2026-07-10 13:00:00,29,5,Obstetrics & Gynecology,Open
+501,2026-07-10 13:00:00,4,1,Internal Medicine,Released (Cancellation)
+502,2026-07-10 13:00:00,11,2,Family Medicine,Open
+503,2026-07-10 13:00:00,7,2,Family Medicine,Open
+504,2026-07-10 13:00:00,28,5,Family Medicine,Open
+505,2026-07-10 13:30:00,14,3,Cardiology,Released (Cancellation)
+506,2026-07-10 13:30:00,34,6,Dermatology,Open
+507,2026-07-10 13:30:00,24,4,Family Medicine,Open
+508,2026-07-10 13:30:00,7,2,Family Medicine,Open
+509,2026-07-10 13:30:00,32,6,Dermatology,Open
+510,2026-07-10 13:30:00,26,5,Family Medicine,Open
+511,2026-07-10 13:30:00,36,6,Dermatology,Open
+512,2026-07-10 13:30:00,28,5,Family Medicine,Open
+513,2026-07-10 13:30:00,19,4,Pediatrics,Open
+514,2026-07-10 13:30:00,16,3,Internal Medicine,Open
+515,2026-07-10 13:30:00,22,4,Family Medicine,Open
+516,2026-07-10 13:30:00,10,2,Internal Medicine,Open
+517,2026-07-10 14:00:00,35,6,Behavioral Health,Open
+518,2026-07-10 14:00:00,24,4,Family Medicine,Open
+519,2026-07-10 14:00:00,1,1,Family Medicine,Released (Cancellation)
+520,2026-07-10 14:00:00,33,6,Behavioral Health,Open
+521,2026-07-10 14:00:00,13,3,Internal Medicine,Released (Cancellation)
+522,2026-07-10 14:30:00,1,1,Family Medicine,Open
+523,2026-07-10 14:30:00,31,6,Behavioral Health,Open
+524,2026-07-10 14:30:00,29,5,Obstetrics & Gynecology,Open
+525,2026-07-10 14:30:00,18,3,Endocrinology,Open
+526,2026-07-10 14:30:00,15,3,Endocrinology,Open
+527,2026-07-10 15:00:00,19,4,Pediatrics,Released (Cancellation)
+528,2026-07-10 15:00:00,29,5,Obstetrics & Gynecology,Open
+529,2026-07-10 15:00:00,7,2,Family Medicine,Released (Cancellation)
+530,2026-07-10 15:30:00,4,1,Internal Medicine,Open
+531,2026-07-13 08:00:00,13,3,Internal Medicine,Open
+532,2026-07-13 08:00:00,27,5,Obstetrics & Gynecology,Released (Cancellation)
+533,2026-07-13 08:00:00,23,4,Pediatrics,Released (Cancellation)
+534,2026-07-13 08:00:00,28,5,Family Medicine,Open
+535,2026-07-13 08:00:00,17,3,Cardiology,Open
+536,2026-07-13 08:00:00,1,1,Family Medicine,Released (Cancellation)
+537,2026-07-13 08:00:00,33,6,Behavioral Health,Open
+538,2026-07-13 08:00:00,32,6,Dermatology,Open
+539,2026-07-13 08:00:00,19,4,Pediatrics,Open
+540,2026-07-13 08:30:00,23,4,Pediatrics,Open
+541,2026-07-13 08:30:00,20,4,Family Medicine,Open
+542,2026-07-13 08:30:00,5,1,Family Medicine,Open
+543,2026-07-13 08:30:00,30,5,Family Medicine,Open
+544,2026-07-13 08:30:00,19,4,Pediatrics,Open
+545,2026-07-13 08:30:00,33,6,Behavioral Health,Open
+546,2026-07-13 08:30:00,22,4,Family Medicine,Open
+547,2026-07-13 08:30:00,12,2,Internal Medicine,Released (Cancellation)
+548,2026-07-13 08:30:00,4,1,Internal Medicine,Released (Cancellation)
+549,2026-07-13 08:30:00,6,1,Internal Medicine,Open
+550,2026-07-13 09:00:00,25,5,Obstetrics & Gynecology,Open
+551,2026-07-13 09:00:00,9,2,Family Medicine,Open
+552,2026-07-13 09:00:00,10,2,Internal Medicine,Open
+553,2026-07-13 09:00:00,3,1,Family Medicine,Open
+554,2026-07-13 09:00:00,13,3,Internal Medicine,Released (Cancellation)
+555,2026-07-13 09:00:00,4,1,Internal Medicine,Open
+556,2026-07-13 09:00:00,29,5,Obstetrics & Gynecology,Open
+557,2026-07-13 09:00:00,24,4,Family Medicine,Open
+558,2026-07-13 09:00:00,17,3,Cardiology,Open
+559,2026-07-13 09:30:00,18,3,Endocrinology,Open
+560,2026-07-13 09:30:00,30,5,Family Medicine,Open
+561,2026-07-13 09:30:00,14,3,Cardiology,Open
+562,2026-07-13 09:30:00,28,5,Family Medicine,Open
+563,2026-07-13 10:00:00,16,3,Internal Medicine,Released (Cancellation)
+564,2026-07-13 10:00:00,32,6,Dermatology,Released (Cancellation)
+565,2026-07-13 10:00:00,19,4,Pediatrics,Open
+566,2026-07-13 10:00:00,9,2,Family Medicine,Open
+567,2026-07-13 10:00:00,6,1,Internal Medicine,Open
+568,2026-07-13 10:00:00,10,2,Internal Medicine,Open
+569,2026-07-13 10:00:00,4,1,Internal Medicine,Open
+570,2026-07-13 10:00:00,8,2,Internal Medicine,Open
+571,2026-07-13 10:00:00,22,4,Family Medicine,Released (Cancellation)
+572,2026-07-13 10:00:00,24,4,Family Medicine,Open
+573,2026-07-13 10:30:00,22,4,Family Medicine,Released (Cancellation)
+574,2026-07-13 10:30:00,20,4,Family Medicine,Open
+575,2026-07-13 10:30:00,34,6,Dermatology,Released (Cancellation)
+576,2026-07-13 10:30:00,9,2,Family Medicine,Open
+577,2026-07-13 10:30:00,5,1,Family Medicine,Open
+578,2026-07-13 10:30:00,23,4,Pediatrics,Open
+579,2026-07-13 10:30:00,7,2,Family Medicine,Open
+580,2026-07-13 10:30:00,19,4,Pediatrics,Open
+581,2026-07-13 10:30:00,18,3,Endocrinology,Open
+582,2026-07-13 10:30:00,35,6,Behavioral Health,Open
+583,2026-07-13 10:30:00,11,2,Family Medicine,Released (Cancellation)
+584,2026-07-13 11:00:00,17,3,Cardiology,Open
+585,2026-07-13 11:00:00,10,2,Internal Medicine,Released (Cancellation)
+586,2026-07-13 11:00:00,20,4,Family Medicine,Open
+587,2026-07-13 11:00:00,28,5,Family Medicine,Open
+588,2026-07-13 11:00:00,34,6,Dermatology,Released (Cancellation)
+589,2026-07-13 11:00:00,26,5,Family Medicine,Released (Cancellation)
+590,2026-07-13 11:00:00,11,2,Family Medicine,Open
+591,2026-07-13 11:00:00,2,1,Internal Medicine,Open
+592,2026-07-13 11:00:00,32,6,Dermatology,Open
+593,2026-07-13 11:30:00,12,2,Internal Medicine,Open
+594,2026-07-13 11:30:00,15,3,Endocrinology,Open
+595,2026-07-13 11:30:00,29,5,Obstetrics & Gynecology,Open
+596,2026-07-13 11:30:00,5,1,Family Medicine,Open
+597,2026-07-13 11:30:00,2,1,Internal Medicine,Open
+598,2026-07-13 11:30:00,16,3,Internal Medicine,Open
+599,2026-07-13 11:30:00,3,1,Family Medicine,Open
+600,2026-07-13 11:30:00,23,4,Pediatrics,Released (Cancellation)
+601,2026-07-13 11:30:00,9,2,Family Medicine,Open
+602,2026-07-13 11:30:00,19,4,Pediatrics,Open
+603,2026-07-13 12:00:00,4,1,Internal Medicine,Open
+604,2026-07-13 12:00:00,12,2,Internal Medicine,Open
+605,2026-07-13 12:00:00,1,1,Family Medicine,Open
+606,2026-07-13 12:00:00,26,5,Family Medicine,Open
+607,2026-07-13 12:00:00,31,6,Behavioral Health,Open
+608,2026-07-13 12:00:00,8,2,Internal Medicine,Released (Cancellation)
+609,2026-07-13 12:00:00,32,6,Dermatology,Open
+610,2026-07-13 12:00:00,13,3,Internal Medicine,Open
+611,2026-07-13 12:00:00,36,6,Dermatology,Released (Cancellation)
+612,2026-07-13 12:00:00,15,3,Endocrinology,Open
+613,2026-07-13 12:00:00,21,4,Pediatrics,Open
+614,2026-07-13 12:30:00,7,2,Family Medicine,Open
+615,2026-07-13 12:30:00,36,6,Dermatology,Open
+616,2026-07-13 12:30:00,1,1,Family Medicine,Open
+617,2026-07-13 12:30:00,19,4,Pediatrics,Open
+618,2026-07-13 12:30:00,28,5,Family Medicine,Open
+619,2026-07-13 12:30:00,30,5,Family Medicine,Released (Cancellation)
+620,2026-07-13 12:30:00,31,6,Behavioral Health,Open
+621,2026-07-13 12:30:00,32,6,Dermatology,Open
+622,2026-07-13 12:30:00,26,5,Family Medicine,Open
+623,2026-07-13 12:30:00,34,6,Dermatology,Open
+624,2026-07-13 12:30:00,29,5,Obstetrics & Gynecology,Released (Cancellation)
+625,2026-07-13 12:30:00,5,1,Family Medicine,Released (Cancellation)
+626,2026-07-13 12:30:00,10,2,Internal Medicine,Open
+627,2026-07-13 12:30:00,24,4,Family Medicine,Open
+628,2026-07-13 12:30:00,4,1,Internal Medicine,Open
+629,2026-07-13 13:00:00,5,1,Family Medicine,Open
+630,2026-07-13 13:00:00,26,5,Family Medicine,Released (Cancellation)
+631,2026-07-13 13:00:00,15,3,Endocrinology,Open
+632,2026-07-13 13:00:00,12,2,Internal Medicine,Open
+633,2026-07-13 13:00:00,27,5,Obstetrics & Gynecology,Open
+634,2026-07-13 13:00:00,6,1,Internal Medicine,Open
+635,2026-07-13 13:00:00,16,3,Internal Medicine,Open
+636,2026-07-13 13:00:00,23,4,Pediatrics,Open
+637,2026-07-13 13:00:00,35,6,Behavioral Health,Open
+638,2026-07-13 13:00:00,36,6,Dermatology,Open
+639,2026-07-13 13:00:00,14,3,Cardiology,Open
+640,2026-07-13 13:00:00,19,4,Pediatrics,Released (Cancellation)
+641,2026-07-13 13:00:00,1,1,Family Medicine,Released (Cancellation)
+642,2026-07-13 13:00:00,25,5,Obstetrics & Gynecology,Open
+643,2026-07-13 13:00:00,10,2,Internal Medicine,Open
+644,2026-07-13 13:30:00,11,2,Family Medicine,Open
+645,2026-07-13 13:30:00,28,5,Family Medicine,Open
+646,2026-07-13 13:30:00,29,5,Obstetrics & Gynecology,Open
+647,2026-07-13 13:30:00,33,6,Behavioral Health,Open
+648,2026-07-13 13:30:00,30,5,Family Medicine,Open
+649,2026-07-13 13:30:00,4,1,Internal Medicine,Open
+650,2026-07-13 13:30:00,13,3,Internal Medicine,Open
+651,2026-07-13 13:30:00,18,3,Endocrinology,Open
+652,2026-07-13 13:30:00,17,3,Cardiology,Open
+653,2026-07-13 14:00:00,15,3,Endocrinology,Open
+654,2026-07-13 14:00:00,2,1,Internal Medicine,Open
+655,2026-07-13 14:00:00,9,2,Family Medicine,Open
+656,2026-07-13 14:00:00,13,3,Internal Medicine,Open
+657,2026-07-13 14:00:00,36,6,Dermatology,Open
+658,2026-07-13 14:00:00,26,5,Family Medicine,Open
+659,2026-07-13 14:30:00,6,1,Internal Medicine,Open
+660,2026-07-13 14:30:00,31,6,Behavioral Health,Open
+661,2026-07-13 14:30:00,1,1,Family Medicine,Open
+662,2026-07-13 14:30:00,5,1,Family Medicine,Open
+663,2026-07-13 15:00:00,18,3,Endocrinology,Released (Cancellation)
+664,2026-07-13 15:00:00,22,4,Family Medicine,Open
+665,2026-07-13 15:00:00,6,1,Internal Medicine,Open
+666,2026-07-13 15:30:00,4,1,Internal Medicine,Open
+667,2026-07-13 15:30:00,6,1,Internal Medicine,Open
+668,2026-07-14 08:00:00,2,1,Internal Medicine,Open
+669,2026-07-14 08:00:00,7,2,Family Medicine,Open
+670,2026-07-14 08:00:00,35,6,Behavioral Health,Open
+671,2026-07-14 08:00:00,14,3,Cardiology,Open
+672,2026-07-14 08:00:00,18,3,Endocrinology,Open
+673,2026-07-14 08:00:00,9,2,Family Medicine,Open
+674,2026-07-14 08:00:00,16,3,Internal Medicine,Open
+675,2026-07-14 08:00:00,21,4,Pediatrics,Open
+676,2026-07-14 08:30:00,28,5,Family Medicine,Open
+677,2026-07-14 08:30:00,26,5,Family Medicine,Open
+678,2026-07-14 08:30:00,30,5,Family Medicine,Open
+679,2026-07-14 08:30:00,21,4,Pediatrics,Released (Cancellation)
+680,2026-07-14 08:30:00,23,4,Pediatrics,Open
+681,2026-07-14 08:30:00,25,5,Obstetrics & Gynecology,Released (Cancellation)
+682,2026-07-14 08:30:00,4,1,Internal Medicine,Open
+683,2026-07-14 08:30:00,24,4,Family Medicine,Released (Cancellation)
+684,2026-07-14 08:30:00,9,2,Family Medicine,Open
+685,2026-07-14 08:30:00,3,1,Family Medicine,Open
+686,2026-07-14 08:30:00,5,1,Family Medicine,Released (Cancellation)
+687,2026-07-14 08:30:00,32,6,Dermatology,Released (Cancellation)
+688,2026-07-14 08:30:00,17,3,Cardiology,Open
+689,2026-07-14 08:30:00,15,3,Endocrinology,Open
+690,2026-07-14 08:30:00,34,6,Dermatology,Open
+691,2026-07-14 09:00:00,21,4,Pediatrics,Open
+692,2026-07-14 09:00:00,17,3,Cardiology,Released (Cancellation)
+693,2026-07-14 09:00:00,18,3,Endocrinology,Open
+694,2026-07-14 09:00:00,26,5,Family Medicine,Open
+695,2026-07-14 09:00:00,29,5,Obstetrics & Gynecology,Released (Cancellation)
+696,2026-07-14 09:00:00,7,2,Family Medicine,Open
+697,2026-07-14 09:00:00,3,1,Family Medicine,Open
+698,2026-07-14 09:00:00,8,2,Internal Medicine,Open
+699,2026-07-14 09:00:00,14,3,Cardiology,Released (Cancellation)
+700,2026-07-14 09:00:00,25,5,Obstetrics & Gynecology,Open
+701,2026-07-14 09:00:00,33,6,Behavioral Health,Open
+702,2026-07-14 09:30:00,24,4,Family Medicine,Released (Cancellation)
+703,2026-07-14 09:30:00,31,6,Behavioral Health,Open
+704,2026-07-14 09:30:00,33,6,Behavioral Health,Open
+705,2026-07-14 09:30:00,19,4,Pediatrics,Open
+706,2026-07-14 09:30:00,11,2,Family Medicine,Open
+707,2026-07-14 09:30:00,21,4,Pediatrics,Released (Cancellation)
+708,2026-07-14 09:30:00,7,2,Family Medicine,Open
+709,2026-07-14 09:30:00,12,2,Internal Medicine,Open
+710,2026-07-14 10:00:00,11,2,Family Medicine,Open
+711,2026-07-14 10:00:00,1,1,Family Medicine,Open
+712,2026-07-14 10:00:00,20,4,Family Medicine,Open
+713,2026-07-14 10:00:00,36,6,Dermatology,Open
+714,2026-07-14 10:00:00,35,6,Behavioral Health,Open
+715,2026-07-14 10:00:00,24,4,Family Medicine,Open
+716,2026-07-14 10:00:00,14,3,Cardiology,Open
+717,2026-07-14 10:00:00,19,4,Pediatrics,Open
+718,2026-07-14 10:00:00,16,3,Internal Medicine,Open
+719,2026-07-14 10:00:00,3,1,Family Medicine,Open
+720,2026-07-14 10:00:00,10,2,Internal Medicine,Open
+721,2026-07-14 10:00:00,34,6,Dermatology,Open
+722,2026-07-14 10:30:00,5,1,Family Medicine,Released (Cancellation)
+723,2026-07-14 10:30:00,14,3,Cardiology,Open
+724,2026-07-14 10:30:00,4,1,Internal Medicine,Open
+725,2026-07-14 10:30:00,26,5,Family Medicine,Open
+726,2026-07-14 10:30:00,18,3,Endocrinology,Released (Cancellation)
+727,2026-07-14 10:30:00,8,2,Internal Medicine,Released (Cancellation)
+728,2026-07-14 10:30:00,17,3,Cardiology,Open
+729,2026-07-14 10:30:00,36,6,Dermatology,Released (Cancellation)
+730,2026-07-14 10:30:00,33,6,Behavioral Health,Open
+731,2026-07-14 10:30:00,27,5,Obstetrics & Gynecology,Open
+732,2026-07-14 10:30:00,20,4,Family Medicine,Open
+733,2026-07-14 10:30:00,11,2,Family Medicine,Released (Cancellation)
+734,2026-07-14 11:00:00,22,4,Family Medicine,Open
+735,2026-07-14 11:00:00,8,2,Internal Medicine,Open
+736,2026-07-14 11:00:00,4,1,Internal Medicine,Open
+737,2026-07-14 11:00:00,10,2,Internal Medicine,Released (Cancellation)
+738,2026-07-14 11:00:00,5,1,Family Medicine,Open
+739,2026-07-14 11:00:00,25,5,Obstetrics & Gynecology,Open
+740,2026-07-14 11:00:00,19,4,Pediatrics,Open
+741,2026-07-14 11:30:00,21,4,Pediatrics,Open
+742,2026-07-14 11:30:00,26,5,Family Medicine,Open
+743,2026-07-14 11:30:00,17,3,Cardiology,Released (Cancellation)
+744,2026-07-14 11:30:00,4,1,Internal Medicine,Open
+745,2026-07-14 11:30:00,25,5,Obstetrics & Gynecology,Open
+746,2026-07-14 11:30:00,19,4,Pediatrics,Open
+747,2026-07-14 11:30:00,2,1,Internal Medicine,Open
+748,2026-07-14 11:30:00,31,6,Behavioral Health,Open
+749,2026-07-14 12:00:00,2,1,Internal Medicine,Open
+750,2026-07-14 12:00:00,18,3,Endocrinology,Released (Cancellation)
+751,2026-07-14 12:00:00,24,4,Family Medicine,Open
+752,2026-07-14 12:00:00,3,1,Family Medicine,Open
+753,2026-07-14 12:00:00,27,5,Obstetrics & Gynecology,Open
+754,2026-07-14 12:00:00,6,1,Internal Medicine,Open
+755,2026-07-14 12:00:00,30,5,Family Medicine,Open
+756,2026-07-14 12:00:00,19,4,Pediatrics,Released (Cancellation)
+757,2026-07-14 12:00:00,17,3,Cardiology,Open
+758,2026-07-14 12:00:00,9,2,Family Medicine,Open
+759,2026-07-14 12:00:00,14,3,Cardiology,Open
+760,2026-07-14 12:00:00,20,4,Family Medicine,Open
+761,2026-07-14 12:00:00,29,5,Obstetrics & Gynecology,Open
+762,2026-07-14 12:00:00,8,2,Internal Medicine,Open
+763,2026-07-14 12:30:00,32,6,Dermatology,Open
+764,2026-07-14 12:30:00,6,1,Internal Medicine,Open
+765,2026-07-14 12:30:00,34,6,Dermatology,Open
+766,2026-07-14 12:30:00,8,2,Internal Medicine,Open
+767,2026-07-14 12:30:00,11,2,Family Medicine,Open
+768,2026-07-14 12:30:00,12,2,Internal Medicine,Open
+769,2026-07-14 12:30:00,35,6,Behavioral Health,Open
+770,2026-07-14 12:30:00,10,2,Internal Medicine,Open
+771,2026-07-14 12:30:00,1,1,Family Medicine,Open
+772,2026-07-14 12:30:00,28,5,Family Medicine,Open
+773,2026-07-14 13:00:00,33,6,Behavioral Health,Open
+774,2026-07-14 13:00:00,7,2,Family Medicine,Released (Cancellation)
+775,2026-07-14 13:00:00,24,4,Family Medicine,Open
+776,2026-07-14 13:00:00,16,3,Internal Medicine,Open
+777,2026-07-14 13:00:00,9,2,Family Medicine,Open
+778,2026-07-14 13:00:00,12,2,Internal Medicine,Open
+779,2026-07-14 13:00:00,1,1,Family Medicine,Open
+780,2026-07-14 13:30:00,20,4,Family Medicine,Open
+781,2026-07-14 13:30:00,10,2,Internal Medicine,Open
+782,2026-07-14 13:30:00,12,2,Internal Medicine,Open
+783,2026-07-14 13:30:00,3,1,Family Medicine,Released (Cancellation)
+784,2026-07-14 13:30:00,17,3,Cardiology,Open
+785,2026-07-14 13:30:00,8,2,Internal Medicine,Open
+786,2026-07-14 13:30:00,13,3,Internal Medicine,Open
+787,2026-07-14 13:30:00,5,1,Family Medicine,Open
+788,2026-07-14 13:30:00,22,4,Family Medicine,Open
+789,2026-07-14 14:00:00,11,2,Family Medicine,Open
+790,2026-07-14 14:00:00,23,4,Pediatrics,Open
+791,2026-07-14 14:00:00,13,3,Internal Medicine,Open
+792,2026-07-14 14:00:00,28,5,Family Medicine,Released (Cancellation)
+793,2026-07-14 14:00:00,24,4,Family Medicine,Open
+794,2026-07-14 14:00:00,33,6,Behavioral Health,Open
+795,2026-07-14 14:00:00,7,2,Family Medicine,Open
+796,2026-07-14 14:00:00,6,1,Internal Medicine,Open
+797,2026-07-14 14:00:00,21,4,Pediatrics,Open
+798,2026-07-14 14:00:00,17,3,Cardiology,Open
+799,2026-07-14 14:00:00,25,5,Obstetrics & Gynecology,Open
+800,2026-07-14 14:00:00,34,6,Dermatology,Open
+801,2026-07-14 14:00:00,31,6,Behavioral Health,Open
+802,2026-07-14 14:30:00,15,3,Endocrinology,Open
+803,2026-07-14 14:30:00,28,5,Family Medicine,Open
+804,2026-07-14 15:00:00,17,3,Cardiology,Open
+805,2026-07-14 15:00:00,19,4,Pediatrics,Open
+806,2026-07-14 15:00:00,4,1,Internal Medicine,Open
+807,2026-07-14 15:00:00,7,2,Family Medicine,Released (Cancellation)
+808,2026-07-14 15:00:00,25,5,Obstetrics & Gynecology,Open
+809,2026-07-14 15:30:00,19,4,Pediatrics,Open
+810,2026-07-15 08:00:00,8,2,Internal Medicine,Open
+811,2026-07-15 08:00:00,23,4,Pediatrics,Open
+812,2026-07-15 08:00:00,26,5,Family Medicine,Open
+813,2026-07-15 08:00:00,30,5,Family Medicine,Open
+814,2026-07-15 08:00:00,31,6,Behavioral Health,Open
+815,2026-07-15 08:00:00,9,2,Family Medicine,Released (Cancellation)
+816,2026-07-15 08:00:00,32,6,Dermatology,Released (Cancellation)
+817,2026-07-15 08:00:00,12,2,Internal Medicine,Released (Cancellation)
+818,2026-07-15 08:00:00,14,3,Cardiology,Released (Cancellation)
+819,2026-07-15 08:00:00,20,4,Family Medicine,Open
+820,2026-07-15 08:00:00,24,4,Family Medicine,Released (Cancellation)
+821,2026-07-15 08:00:00,16,3,Internal Medicine,Open
+822,2026-07-15 08:00:00,21,4,Pediatrics,Open
+823,2026-07-15 08:30:00,6,1,Internal Medicine,Open
+824,2026-07-15 08:30:00,1,1,Family Medicine,Open
+825,2026-07-15 08:30:00,22,4,Family Medicine,Released (Cancellation)
+826,2026-07-15 08:30:00,21,4,Pediatrics,Open
+827,2026-07-15 08:30:00,28,5,Family Medicine,Open
+828,2026-07-15 08:30:00,5,1,Family Medicine,Open
+829,2026-07-15 08:30:00,27,5,Obstetrics & Gynecology,Open
+830,2026-07-15 08:30:00,4,1,Internal Medicine,Open
+831,2026-07-15 09:00:00,10,2,Internal Medicine,Open
+832,2026-07-15 09:00:00,31,6,Behavioral Health,Released (Cancellation)
+833,2026-07-15 09:00:00,14,3,Cardiology,Open
+834,2026-07-15 09:00:00,3,1,Family Medicine,Open
+835,2026-07-15 09:00:00,24,4,Family Medicine,Open
+836,2026-07-15 09:00:00,6,1,Internal Medicine,Open
+837,2026-07-15 09:00:00,9,2,Family Medicine,Open
+838,2026-07-15 09:00:00,19,4,Pediatrics,Open
+839,2026-07-15 09:30:00,36,6,Dermatology,Open
+840,2026-07-15 09:30:00,24,4,Family Medicine,Released (Cancellation)
+841,2026-07-15 09:30:00,13,3,Internal Medicine,Open
+842,2026-07-15 09:30:00,8,2,Internal Medicine,Open
+843,2026-07-15 09:30:00,25,5,Obstetrics & Gynecology,Released (Cancellation)
+844,2026-07-15 09:30:00,28,5,Family Medicine,Open
+845,2026-07-15 09:30:00,19,4,Pediatrics,Open
+846,2026-07-15 09:30:00,33,6,Behavioral Health,Released (Cancellation)
+847,2026-07-15 10:00:00,24,4,Family Medicine,Open
+848,2026-07-15 10:00:00,1,1,Family Medicine,Open
+849,2026-07-15 10:00:00,34,6,Dermatology,Open
+850,2026-07-15 10:00:00,36,6,Dermatology,Open
+851,2026-07-15 10:00:00,20,4,Family Medicine,Open
+852,2026-07-15 10:00:00,10,2,Internal Medicine,Open
+853,2026-07-15 10:00:00,21,4,Pediatrics,Released (Cancellation)
+854,2026-07-15 10:00:00,19,4,Pediatrics,Released (Cancellation)
+855,2026-07-15 10:00:00,30,5,Family Medicine,Open
+856,2026-07-15 10:00:00,3,1,Family Medicine,Open
+857,2026-07-15 10:00:00,9,2,Family Medicine,Released (Cancellation)
+858,2026-07-15 10:00:00,18,3,Endocrinology,Open
+859,2026-07-15 10:30:00,24,4,Family Medicine,Open
+860,2026-07-15 10:30:00,19,4,Pediatrics,Open
+861,2026-07-15 10:30:00,5,1,Family Medicine,Open
+862,2026-07-15 10:30:00,11,2,Family Medicine,Open
+863,2026-07-15 10:30:00,36,6,Dermatology,Released (Cancellation)
+864,2026-07-15 10:30:00,21,4,Pediatrics,Open
+865,2026-07-15 11:00:00,22,4,Family Medicine,Open
+866,2026-07-15 11:00:00,25,5,Obstetrics & Gynecology,Open
+867,2026-07-15 11:00:00,35,6,Behavioral Health,Open
+868,2026-07-15 11:00:00,33,6,Behavioral Health,Released (Cancellation)
+869,2026-07-15 11:00:00,14,3,Cardiology,Released (Cancellation)
+870,2026-07-15 11:00:00,18,3,Endocrinology,Open
+871,2026-07-15 11:00:00,5,1,Family Medicine,Released (Cancellation)
+872,2026-07-15 11:00:00,12,2,Internal Medicine,Open
+873,2026-07-15 11:30:00,16,3,Internal Medicine,Open
+874,2026-07-15 11:30:00,22,4,Family Medicine,Open
+875,2026-07-15 11:30:00,33,6,Behavioral Health,Released (Cancellation)
+876,2026-07-15 11:30:00,23,4,Pediatrics,Open
+877,2026-07-15 11:30:00,11,2,Family Medicine,Open
+878,2026-07-15 11:30:00,5,1,Family Medicine,Open
+879,2026-07-15 11:30:00,17,3,Cardiology,Open
+880,2026-07-15 11:30:00,28,5,Family Medicine,Open
+881,2026-07-15 11:30:00,15,3,Endocrinology,Open
+882,2026-07-15 11:30:00,29,5,Obstetrics & Gynecology,Open
+883,2026-07-15 11:30:00,36,6,Dermatology,Open
+884,2026-07-15 11:30:00,34,6,Dermatology,Open
+885,2026-07-15 11:30:00,9,2,Family Medicine,Open
+886,2026-07-15 11:30:00,3,1,Family Medicine,Open
+887,2026-07-15 12:00:00,16,3,Internal Medicine,Released (Cancellation)
+888,2026-07-15 12:00:00,13,3,Internal Medicine,Released (Cancellation)
+889,2026-07-15 12:00:00,17,3,Cardiology,Open
+890,2026-07-15 12:00:00,30,5,Family Medicine,Open
+891,2026-07-15 12:00:00,2,1,Internal Medicine,Open
+892,2026-07-15 12:00:00,20,4,Family Medicine,Open
+893,2026-07-15 12:00:00,35,6,Behavioral Health,Released (Cancellation)
+894,2026-07-15 12:00:00,33,6,Behavioral Health,Open
+895,2026-07-15 12:00:00,14,3,Cardiology,Open
+896,2026-07-15 12:00:00,15,3,Endocrinology,Open
+897,2026-07-15 12:00:00,34,6,Dermatology,Open
+898,2026-07-15 12:00:00,22,4,Family Medicine,Open
+899,2026-07-15 12:00:00,26,5,Family Medicine,Open
+900,2026-07-15 12:30:00,35,6,Behavioral Health,Open
+901,2026-07-15 12:30:00,7,2,Family Medicine,Open
+902,2026-07-15 12:30:00,2,1,Internal Medicine,Open
+903,2026-07-15 12:30:00,27,5,Obstetrics & Gynecology,Open
+904,2026-07-15 12:30:00,36,6,Dermatology,Open
+905,2026-07-15 12:30:00,19,4,Pediatrics,Released (Cancellation)
+906,2026-07-15 12:30:00,13,3,Internal Medicine,Released (Cancellation)
+907,2026-07-15 12:30:00,26,5,Family Medicine,Open
+908,2026-07-15 12:30:00,9,2,Family Medicine,Open
+909,2026-07-15 12:30:00,6,1,Internal Medicine,Open
+910,2026-07-15 12:30:00,5,1,Family Medicine,Open
+911,2026-07-15 13:00:00,31,6,Behavioral Health,Open
+912,2026-07-15 13:00:00,13,3,Internal Medicine,Open
+913,2026-07-15 13:00:00,25,5,Obstetrics & Gynecology,Open
+914,2026-07-15 13:00:00,32,6,Dermatology,Open
+915,2026-07-15 13:00:00,12,2,Internal Medicine,Open
+916,2026-07-15 13:00:00,34,6,Dermatology,Open
+917,2026-07-15 13:00:00,6,1,Internal Medicine,Open
+918,2026-07-15 13:00:00,5,1,Family Medicine,Open
+919,2026-07-15 13:00:00,4,1,Internal Medicine,Released (Cancellation)
+920,2026-07-15 13:00:00,27,5,Obstetrics & Gynecology,Open
+921,2026-07-15 13:00:00,3,1,Family Medicine,Open
+922,2026-07-15 13:00:00,8,2,Internal Medicine,Open
+923,2026-07-15 13:00:00,16,3,Internal Medicine,Open
+924,2026-07-15 13:00:00,29,5,Obstetrics & Gynecology,Open
+925,2026-07-15 13:00:00,10,2,Internal Medicine,Open
+926,2026-07-15 13:00:00,23,4,Pediatrics,Released (Cancellation)
+927,2026-07-15 13:30:00,24,4,Family Medicine,Open
+928,2026-07-15 13:30:00,7,2,Family Medicine,Open
+929,2026-07-15 13:30:00,30,5,Family Medicine,Open
+930,2026-07-15 13:30:00,14,3,Cardiology,Open
+931,2026-07-15 13:30:00,8,2,Internal Medicine,Open
+932,2026-07-15 13:30:00,25,5,Obstetrics & Gynecology,Open
+933,2026-07-15 13:30:00,33,6,Behavioral Health,Open
+934,2026-07-15 13:30:00,9,2,Family Medicine,Open
+935,2026-07-15 13:30:00,4,1,Internal Medicine,Open
+936,2026-07-15 13:30:00,35,6,Behavioral Health,Open
+937,2026-07-15 14:00:00,25,5,Obstetrics & Gynecology,Open
+938,2026-07-15 14:00:00,28,5,Family Medicine,Open
+939,2026-07-15 14:00:00,26,5,Family Medicine,Open
+940,2026-07-15 14:00:00,6,1,Internal Medicine,Open
+941,2026-07-15 14:00:00,13,3,Internal Medicine,Released (Cancellation)
+942,2026-07-15 14:00:00,9,2,Family Medicine,Open
+943,2026-07-15 14:00:00,15,3,Endocrinology,Open
+944,2026-07-15 14:00:00,36,6,Dermatology,Released (Cancellation)
+945,2026-07-15 14:30:00,1,1,Family Medicine,Open
+946,2026-07-15 14:30:00,29,5,Obstetrics & Gynecology,Open
+947,2026-07-15 14:30:00,4,1,Internal Medicine,Open
+948,2026-07-15 14:30:00,15,3,Endocrinology,Open
+949,2026-07-15 14:30:00,25,5,Obstetrics & Gynecology,Open
+950,2026-07-15 15:00:00,25,5,Obstetrics & Gynecology,Open
+951,2026-07-15 15:00:00,20,4,Family Medicine,Open
+952,2026-07-15 15:00:00,18,3,Endocrinology,Open
+953,2026-07-15 15:00:00,7,2,Family Medicine,Open
+954,2026-07-15 15:30:00,4,1,Internal Medicine,Open
+955,2026-07-16 08:00:00,26,5,Family Medicine,Open
+956,2026-07-16 08:00:00,25,5,Obstetrics & Gynecology,Open
+957,2026-07-16 08:00:00,13,3,Internal Medicine,Open
+958,2026-07-16 08:00:00,17,3,Cardiology,Open
+959,2026-07-16 08:30:00,4,1,Internal Medicine,Open
+960,2026-07-16 08:30:00,6,1,Internal Medicine,Released (Cancellation)
+961,2026-07-16 08:30:00,7,2,Family Medicine,Open
+962,2026-07-16 08:30:00,18,3,Endocrinology,Open
+963,2026-07-16 08:30:00,22,4,Family Medicine,Open
+964,2026-07-16 08:30:00,33,6,Behavioral Health,Open
+965,2026-07-16 08:30:00,15,3,Endocrinology,Open
+966,2026-07-16 08:30:00,19,4,Pediatrics,Open
+967,2026-07-16 08:30:00,14,3,Cardiology,Open
+968,2026-07-16 08:30:00,3,1,Family Medicine,Open
+969,2026-07-16 08:30:00,32,6,Dermatology,Open
+970,2026-07-16 08:30:00,11,2,Family Medicine,Open
+971,2026-07-16 08:30:00,9,2,Family Medicine,Open
+972,2026-07-16 08:30:00,13,3,Internal Medicine,Open
+973,2026-07-16 08:30:00,28,5,Family Medicine,Open
+974,2026-07-16 09:00:00,34,6,Dermatology,Open
+975,2026-07-16 09:00:00,27,5,Obstetrics & Gynecology,Open
+976,2026-07-16 09:00:00,33,6,Behavioral Health,Open
+977,2026-07-16 09:00:00,28,5,Family Medicine,Released (Cancellation)
+978,2026-07-16 09:00:00,35,6,Behavioral Health,Open
+979,2026-07-16 09:00:00,20,4,Family Medicine,Open
+980,2026-07-16 09:00:00,9,2,Family Medicine,Open
+981,2026-07-16 09:00:00,16,3,Internal Medicine,Released (Cancellation)
+982,2026-07-16 09:00:00,8,2,Internal Medicine,Released (Cancellation)
+983,2026-07-16 09:00:00,2,1,Internal Medicine,Open
+984,2026-07-16 09:00:00,14,3,Cardiology,Open
+985,2026-07-16 09:30:00,15,3,Endocrinology,Open
+986,2026-07-16 09:30:00,22,4,Family Medicine,Open
+987,2026-07-16 09:30:00,35,6,Behavioral Health,Open
+988,2026-07-16 09:30:00,32,6,Dermatology,Released (Cancellation)
+989,2026-07-16 09:30:00,12,2,Internal Medicine,Open
+990,2026-07-16 09:30:00,19,4,Pediatrics,Open
+991,2026-07-16 09:30:00,25,5,Obstetrics & Gynecology,Open
+992,2026-07-16 09:30:00,13,3,Internal Medicine,Released (Cancellation)
+993,2026-07-16 10:00:00,14,3,Cardiology,Open
+994,2026-07-16 10:00:00,5,1,Family Medicine,Open
+995,2026-07-16 10:00:00,2,1,Internal Medicine,Open
+996,2026-07-16 10:00:00,30,5,Family Medicine,Open
+997,2026-07-16 10:00:00,20,4,Family Medicine,Open
+998,2026-07-16 10:00:00,29,5,Obstetrics & Gynecology,Open
+999,2026-07-16 10:00:00,13,3,Internal Medicine,Open
+1000,2026-07-16 10:30:00,18,3,Endocrinology,Open
+1001,2026-07-16 10:30:00,8,2,Internal Medicine,Released (Cancellation)
+1002,2026-07-16 10:30:00,20,4,Family Medicine,Open
+1003,2026-07-16 10:30:00,4,1,Internal Medicine,Open
+1004,2026-07-16 10:30:00,19,4,Pediatrics,Open
+1005,2026-07-16 10:30:00,16,3,Internal Medicine,Open
+1006,2026-07-16 10:30:00,23,4,Pediatrics,Open
+1007,2026-07-16 10:30:00,32,6,Dermatology,Released (Cancellation)
+1008,2026-07-16 10:30:00,24,4,Family Medicine,Open
+1009,2026-07-16 10:30:00,7,2,Family Medicine,Open
+1010,2026-07-16 11:00:00,30,5,Family Medicine,Open
+1011,2026-07-16 11:00:00,9,2,Family Medicine,Open
+1012,2026-07-16 11:00:00,29,5,Obstetrics & Gynecology,Open
+1013,2026-07-16 11:00:00,36,6,Dermatology,Open
+1014,2026-07-16 11:00:00,22,4,Family Medicine,Open
+1015,2026-07-16 11:00:00,4,1,Internal Medicine,Open
+1016,2026-07-16 11:00:00,31,6,Behavioral Health,Open
+1017,2026-07-16 11:00:00,17,3,Cardiology,Open
+1018,2026-07-16 11:30:00,17,3,Cardiology,Open
+1019,2026-07-16 11:30:00,36,6,Dermatology,Open
+1020,2026-07-16 11:30:00,20,4,Family Medicine,Open
+1021,2026-07-16 11:30:00,31,6,Behavioral Health,Open
+1022,2026-07-16 11:30:00,32,6,Dermatology,Open
+1023,2026-07-16 11:30:00,9,2,Family Medicine,Released (Cancellation)
+1024,2026-07-16 11:30:00,10,2,Internal Medicine,Open
+1025,2026-07-16 11:30:00,16,3,Internal Medicine,Open
+1026,2026-07-16 11:30:00,28,5,Family Medicine,Open
+1027,2026-07-16 11:30:00,11,2,Family Medicine,Open
+1028,2026-07-16 11:30:00,21,4,Pediatrics,Open
+1029,2026-07-16 11:30:00,30,5,Family Medicine,Released (Cancellation)
+1030,2026-07-16 12:00:00,13,3,Internal Medicine,Open
+1031,2026-07-16 12:00:00,14,3,Cardiology,Open
+1032,2026-07-16 12:00:00,33,6,Behavioral Health,Open
+1033,2026-07-16 12:00:00,26,5,Family Medicine,Open
+1034,2026-07-16 12:00:00,34,6,Dermatology,Open
+1035,2026-07-16 12:00:00,31,6,Behavioral Health,Open
+1036,2026-07-16 12:00:00,7,2,Family Medicine,Open
+1037,2026-07-16 12:00:00,11,2,Family Medicine,Released (Cancellation)
+1038,2026-07-16 12:00:00,3,1,Family Medicine,Open
+1039,2026-07-16 12:00:00,27,5,Obstetrics & Gynecology,Open
+1040,2026-07-16 12:00:00,20,4,Family Medicine,Released (Cancellation)
+1041,2026-07-16 12:30:00,36,6,Dermatology,Open
+1042,2026-07-16 12:30:00,33,6,Behavioral Health,Open
+1043,2026-07-16 12:30:00,2,1,Internal Medicine,Open
+1044,2026-07-16 12:30:00,32,6,Dermatology,Open
+1045,2026-07-16 12:30:00,30,5,Family Medicine,Open
+1046,2026-07-16 12:30:00,7,2,Family Medicine,Open
+1047,2026-07-16 12:30:00,12,2,Internal Medicine,Released (Cancellation)
+1048,2026-07-16 12:30:00,23,4,Pediatrics,Open
+1049,2026-07-16 12:30:00,4,1,Internal Medicine,Open
+1050,2026-07-16 12:30:00,13,3,Internal Medicine,Open
+1051,2026-07-16 12:30:00,21,4,Pediatrics,Open
+1052,2026-07-16 12:30:00,19,4,Pediatrics,Open
+1053,2026-07-16 12:30:00,27,5,Obstetrics & Gynecology,Open
+1054,2026-07-16 13:00:00,24,4,Family Medicine,Open
+1055,2026-07-16 13:00:00,30,5,Family Medicine,Open
+1056,2026-07-16 13:00:00,20,4,Family Medicine,Open
+1057,2026-07-16 13:00:00,31,6,Behavioral Health,Open
+1058,2026-07-16 13:00:00,17,3,Cardiology,Open
+1059,2026-07-16 13:00:00,32,6,Dermatology,Open
+1060,2026-07-16 13:00:00,35,6,Behavioral Health,Open
+1061,2026-07-16 13:00:00,3,1,Family Medicine,Open
+1062,2026-07-16 13:00:00,27,5,Obstetrics & Gynecology,Open
+1063,2026-07-16 13:30:00,16,3,Internal Medicine,Open
+1064,2026-07-16 13:30:00,6,1,Internal Medicine,Open
+1065,2026-07-16 13:30:00,1,1,Family Medicine,Open
+1066,2026-07-16 13:30:00,9,2,Family Medicine,Open
+1067,2026-07-16 13:30:00,35,6,Behavioral Health,Open
+1068,2026-07-16 13:30:00,10,2,Internal Medicine,Open
+1069,2026-07-16 14:00:00,8,2,Internal Medicine,Open
+1070,2026-07-16 14:00:00,4,1,Internal Medicine,Open
+1071,2026-07-16 14:00:00,9,2,Family Medicine,Open
+1072,2026-07-16 14:00:00,7,2,Family Medicine,Open
+1073,2026-07-16 14:00:00,36,6,Dermatology,Open
+1074,2026-07-16 14:00:00,35,6,Behavioral Health,Open
+1075,2026-07-16 14:00:00,29,5,Obstetrics & Gynecology,Open
+1076,2026-07-16 14:00:00,11,2,Family Medicine,Open
+1077,2026-07-16 14:00:00,1,1,Family Medicine,Open
+1078,2026-07-16 14:00:00,26,5,Family Medicine,Open
+1079,2026-07-16 14:00:00,5,1,Family Medicine,Open
+1080,2026-07-16 14:30:00,15,3,Endocrinology,Open
+1081,2026-07-16 14:30:00,23,4,Pediatrics,Open
+1082,2026-07-16 14:30:00,31,6,Behavioral Health,Open
+1083,2026-07-16 14:30:00,25,5,Obstetrics & Gynecology,Open
+1084,2026-07-16 14:30:00,29,5,Obstetrics & Gynecology,Open
+1085,2026-07-16 14:30:00,18,3,Endocrinology,Open
+1086,2026-07-16 15:00:00,9,2,Family Medicine,Released (Cancellation)
+1087,2026-07-16 15:00:00,22,4,Family Medicine,Open
+1088,2026-07-16 15:30:00,25,5,Obstetrics & Gynecology,Open
+1089,2026-07-16 15:30:00,19,4,Pediatrics,Open
+1090,2026-07-16 15:30:00,6,1,Internal Medicine,Open
+1091,2026-07-17 08:00:00,29,5,Obstetrics & Gynecology,Open
+1092,2026-07-17 08:00:00,1,1,Family Medicine,Open
+1093,2026-07-17 08:00:00,32,6,Dermatology,Open
+1094,2026-07-17 08:00:00,18,3,Endocrinology,Open
+1095,2026-07-17 08:00:00,20,4,Family Medicine,Released (Cancellation)
+1096,2026-07-17 08:00:00,10,2,Internal Medicine,Open
+1097,2026-07-17 08:00:00,33,6,Behavioral Health,Released (Cancellation)
+1098,2026-07-17 08:00:00,19,4,Pediatrics,Open
+1099,2026-07-17 08:00:00,27,5,Obstetrics & Gynecology,Open
+1100,2026-07-17 08:00:00,5,1,Family Medicine,Open
+1101,2026-07-17 08:00:00,7,2,Family Medicine,Released (Cancellation)
+1102,2026-07-17 08:30:00,30,5,Family Medicine,Open
+1103,2026-07-17 08:30:00,13,3,Internal Medicine,Open
+1104,2026-07-17 08:30:00,12,2,Internal Medicine,Released (Cancellation)
+1105,2026-07-17 08:30:00,16,3,Internal Medicine,Open
+1106,2026-07-17 08:30:00,15,3,Endocrinology,Open
+1107,2026-07-17 08:30:00,6,1,Internal Medicine,Released (Cancellation)
+1108,2026-07-17 08:30:00,11,2,Family Medicine,Released (Cancellation)
+1109,2026-07-17 08:30:00,17,3,Cardiology,Open
+1110,2026-07-17 08:30:00,3,1,Family Medicine,Open
+1111,2026-07-17 08:30:00,36,6,Dermatology,Open
+1112,2026-07-17 08:30:00,28,5,Family Medicine,Open
+1113,2026-07-17 09:00:00,4,1,Internal Medicine,Released (Cancellation)
+1114,2026-07-17 09:00:00,1,1,Family Medicine,Open
+1115,2026-07-17 09:00:00,15,3,Endocrinology,Released (Cancellation)
+1116,2026-07-17 09:00:00,9,2,Family Medicine,Open
+1117,2026-07-17 09:00:00,36,6,Dermatology,Open
+1118,2026-07-17 09:00:00,23,4,Pediatrics,Open
+1119,2026-07-17 09:00:00,27,5,Obstetrics & Gynecology,Open
+1120,2026-07-17 09:00:00,7,2,Family Medicine,Open
+1121,2026-07-17 09:00:00,20,4,Family Medicine,Open
+1122,2026-07-17 09:00:00,6,1,Internal Medicine,Released (Cancellation)
+1123,2026-07-17 09:30:00,35,6,Behavioral Health,Open
+1124,2026-07-17 09:30:00,26,5,Family Medicine,Open
+1125,2026-07-17 09:30:00,5,1,Family Medicine,Open
+1126,2026-07-17 09:30:00,13,3,Internal Medicine,Open
+1127,2026-07-17 09:30:00,19,4,Pediatrics,Open
+1128,2026-07-17 09:30:00,2,1,Internal Medicine,Open
+1129,2026-07-17 09:30:00,6,1,Internal Medicine,Released (Cancellation)
+1130,2026-07-17 09:30:00,27,5,Obstetrics & Gynecology,Released (Cancellation)
+1131,2026-07-17 10:00:00,11,2,Family Medicine,Open
+1132,2026-07-17 10:00:00,35,6,Behavioral Health,Open
+1133,2026-07-17 10:00:00,9,2,Family Medicine,Open
+1134,2026-07-17 10:00:00,19,4,Pediatrics,Open
+1135,2026-07-17 10:00:00,33,6,Behavioral Health,Open
+1136,2026-07-17 10:00:00,24,4,Family Medicine,Open
+1137,2026-07-17 10:00:00,6,1,Internal Medicine,Released (Cancellation)
+1138,2026-07-17 10:00:00,36,6,Dermatology,Open
+1139,2026-07-17 10:30:00,13,3,Internal Medicine,Open
+1140,2026-07-17 10:30:00,26,5,Family Medicine,Open
+1141,2026-07-17 10:30:00,24,4,Family Medicine,Released (Cancellation)
+1142,2026-07-17 10:30:00,10,2,Internal Medicine,Open
+1143,2026-07-17 10:30:00,27,5,Obstetrics & Gynecology,Open
+1144,2026-07-17 10:30:00,5,1,Family Medicine,Released (Cancellation)
+1145,2026-07-17 10:30:00,9,2,Family Medicine,Open
+1146,2026-07-17 10:30:00,7,2,Family Medicine,Released (Cancellation)
+1147,2026-07-17 10:30:00,2,1,Internal Medicine,Open
+1148,2026-07-17 11:00:00,9,2,Family Medicine,Open
+1149,2026-07-17 11:00:00,14,3,Cardiology,Open
+1150,2026-07-17 11:00:00,30,5,Family Medicine,Open
+1151,2026-07-17 11:00:00,24,4,Family Medicine,Open
+1152,2026-07-17 11:00:00,22,4,Family Medicine,Open
+1153,2026-07-17 11:00:00,33,6,Behavioral Health,Open
+1154,2026-07-17 11:00:00,8,2,Internal Medicine,Open
+1155,2026-07-17 11:00:00,5,1,Family Medicine,Open
+1156,2026-07-17 11:00:00,12,2,Internal Medicine,Open
+1157,2026-07-17 11:00:00,1,1,Family Medicine,Open
+1158,2026-07-17 11:00:00,11,2,Family Medicine,Open
+1159,2026-07-17 11:30:00,29,5,Obstetrics & Gynecology,Open
+1160,2026-07-17 11:30:00,31,6,Behavioral Health,Open
+1161,2026-07-17 11:30:00,26,5,Family Medicine,Open
+1162,2026-07-17 11:30:00,16,3,Internal Medicine,Released (Cancellation)
+1163,2026-07-17 11:30:00,5,1,Family Medicine,Open
+1164,2026-07-17 11:30:00,1,1,Family Medicine,Open
+1165,2026-07-17 11:30:00,34,6,Dermatology,Open
+1166,2026-07-17 11:30:00,8,2,Internal Medicine,Open
+1167,2026-07-17 11:30:00,15,3,Endocrinology,Open
+1168,2026-07-17 11:30:00,7,2,Family Medicine,Open
+1169,2026-07-17 11:30:00,6,1,Internal Medicine,Open
+1170,2026-07-17 11:30:00,30,5,Family Medicine,Open
+1171,2026-07-17 12:00:00,3,1,Family Medicine,Open
+1172,2026-07-17 12:00:00,31,6,Behavioral Health,Open
+1173,2026-07-17 12:00:00,9,2,Family Medicine,Open
+1174,2026-07-17 12:00:00,27,5,Obstetrics & Gynecology,Open
+1175,2026-07-17 12:00:00,29,5,Obstetrics & Gynecology,Open
+1176,2026-07-17 12:00:00,24,4,Family Medicine,Released (Cancellation)
+1177,2026-07-17 12:00:00,17,3,Cardiology,Open
+1178,2026-07-17 12:00:00,16,3,Internal Medicine,Open
+1179,2026-07-17 12:00:00,34,6,Dermatology,Open
+1180,2026-07-17 12:00:00,25,5,Obstetrics & Gynecology,Open
+1181,2026-07-17 12:30:00,21,4,Pediatrics,Open
+1182,2026-07-17 12:30:00,5,1,Family Medicine,Open
+1183,2026-07-17 12:30:00,34,6,Dermatology,Released (Cancellation)
+1184,2026-07-17 12:30:00,32,6,Dermatology,Open
+1185,2026-07-17 12:30:00,23,4,Pediatrics,Open
+1186,2026-07-17 12:30:00,11,2,Family Medicine,Open
+1187,2026-07-17 12:30:00,19,4,Pediatrics,Open
+1188,2026-07-17 12:30:00,24,4,Family Medicine,Open
+1189,2026-07-17 12:30:00,2,1,Internal Medicine,Open
+1190,2026-07-17 12:30:00,13,3,Internal Medicine,Open
+1191,2026-07-17 12:30:00,36,6,Dermatology,Released (Cancellation)
+1192,2026-07-17 13:00:00,19,4,Pediatrics,Open
+1193,2026-07-17 13:00:00,26,5,Family Medicine,Open
+1194,2026-07-17 13:00:00,30,5,Family Medicine,Open
+1195,2026-07-17 13:00:00,18,3,Endocrinology,Open
+1196,2026-07-17 13:00:00,20,4,Family Medicine,Open
+1197,2026-07-17 13:00:00,4,1,Internal Medicine,Open
+1198,2026-07-17 13:00:00,8,2,Internal Medicine,Open
+1199,2026-07-17 13:00:00,2,1,Internal Medicine,Open
+1200,2026-07-17 13:00:00,33,6,Behavioral Health,Open
+1201,2026-07-17 13:00:00,24,4,Family Medicine,Open
+1202,2026-07-17 13:00:00,10,2,Internal Medicine,Open
+1203,2026-07-17 13:30:00,7,2,Family Medicine,Open
+1204,2026-07-17 13:30:00,23,4,Pediatrics,Open
+1205,2026-07-17 13:30:00,16,3,Internal Medicine,Released (Cancellation)
+1206,2026-07-17 13:30:00,34,6,Dermatology,Open
+1207,2026-07-17 13:30:00,36,6,Dermatology,Open
+1208,2026-07-17 13:30:00,28,5,Family Medicine,Open
+1209,2026-07-17 13:30:00,15,3,Endocrinology,Open
+1210,2026-07-17 13:30:00,11,2,Family Medicine,Released (Cancellation)
+1211,2026-07-17 13:30:00,21,4,Pediatrics,Open
+1212,2026-07-17 13:30:00,22,4,Family Medicine,Open
+1213,2026-07-17 14:00:00,36,6,Dermatology,Released (Cancellation)
+1214,2026-07-17 14:00:00,7,2,Family Medicine,Released (Cancellation)
+1215,2026-07-17 14:00:00,29,5,Obstetrics & Gynecology,Open
+1216,2026-07-17 14:00:00,25,5,Obstetrics & Gynecology,Open
+1217,2026-07-17 14:00:00,31,6,Behavioral Health,Open
+1218,2026-07-17 14:00:00,4,1,Internal Medicine,Open
+1219,2026-07-17 14:30:00,34,6,Dermatology,Open
+1220,2026-07-17 14:30:00,6,1,Internal Medicine,Open
+1221,2026-07-17 14:30:00,12,2,Internal Medicine,Open
+1222,2026-07-17 14:30:00,7,2,Family Medicine,Open
+1223,2026-07-17 14:30:00,19,4,Pediatrics,Open
+1224,2026-07-17 15:00:00,8,2,Internal Medicine,Released (Cancellation)
+1225,2026-07-17 15:00:00,33,6,Behavioral Health,Open
+1226,2026-07-17 15:00:00,17,3,Cardiology,Open
+1227,2026-07-17 15:00:00,4,1,Internal Medicine,Open
+1228,2026-07-17 15:00:00,1,1,Family Medicine,Open
+1229,2026-07-20 08:00:00,13,3,Internal Medicine,Open
+1230,2026-07-20 08:00:00,21,4,Pediatrics,Open
+1231,2026-07-20 08:00:00,24,4,Family Medicine,Open
+1232,2026-07-20 08:00:00,29,5,Obstetrics & Gynecology,Open
+1233,2026-07-20 08:00:00,25,5,Obstetrics & Gynecology,Open
+1234,2026-07-20 08:00:00,5,1,Family Medicine,Open
+1235,2026-07-20 08:00:00,1,1,Family Medicine,Open
+1236,2026-07-20 08:00:00,7,2,Family Medicine,Open
+1237,2026-07-20 08:00:00,26,5,Family Medicine,Released (Cancellation)
+1238,2026-07-20 08:00:00,6,1,Internal Medicine,Open
+1239,2026-07-20 08:00:00,15,3,Endocrinology,Open
+1240,2026-07-20 08:30:00,22,4,Family Medicine,Open
+1241,2026-07-20 08:30:00,21,4,Pediatrics,Open
+1242,2026-07-20 08:30:00,32,6,Dermatology,Open
+1243,2026-07-20 08:30:00,31,6,Behavioral Health,Open
+1244,2026-07-20 08:30:00,26,5,Family Medicine,Open
+1245,2026-07-20 08:30:00,19,4,Pediatrics,Open
+1246,2026-07-20 08:30:00,27,5,Obstetrics & Gynecology,Open
+1247,2026-07-20 08:30:00,11,2,Family Medicine,Open
+1248,2026-07-20 09:00:00,33,6,Behavioral Health,Open
+1249,2026-07-20 09:00:00,1,1,Family Medicine,Open
+1250,2026-07-20 09:00:00,22,4,Family Medicine,Open
+1251,2026-07-20 09:00:00,11,2,Family Medicine,Open
+1252,2026-07-20 09:00:00,36,6,Dermatology,Open
+1253,2026-07-20 09:00:00,29,5,Obstetrics & Gynecology,Open
+1254,2026-07-20 09:00:00,27,5,Obstetrics & Gynecology,Open
+1255,2026-07-20 09:00:00,4,1,Internal Medicine,Open
+1256,2026-07-20 09:00:00,12,2,Internal Medicine,Open
+1257,2026-07-20 09:00:00,20,4,Family Medicine,Open
+1258,2026-07-20 09:00:00,30,5,Family Medicine,Open
+1259,2026-07-20 09:00:00,14,3,Cardiology,Open
+1260,2026-07-20 09:30:00,7,2,Family Medicine,Open
+1261,2026-07-20 09:30:00,1,1,Family Medicine,Released (Cancellation)
+1262,2026-07-20 09:30:00,22,4,Family Medicine,Open
+1263,2026-07-20 09:30:00,21,4,Pediatrics,Released (Cancellation)
+1264,2026-07-20 09:30:00,4,1,Internal Medicine,Open
+1265,2026-07-20 09:30:00,24,4,Family Medicine,Open
+1266,2026-07-20 09:30:00,35,6,Behavioral Health,Open
+1267,2026-07-20 09:30:00,25,5,Obstetrics & Gynecology,Open
+1268,2026-07-20 09:30:00,26,5,Family Medicine,Open
+1269,2026-07-20 09:30:00,18,3,Endocrinology,Open
+1270,2026-07-20 09:30:00,16,3,Internal Medicine,Open
+1271,2026-07-20 09:30:00,11,2,Family Medicine,Open
+1272,2026-07-20 10:00:00,22,4,Family Medicine,Open
+1273,2026-07-20 10:00:00,6,1,Internal Medicine,Open
+1274,2026-07-20 10:00:00,21,4,Pediatrics,Open
+1275,2026-07-20 10:00:00,12,2,Internal Medicine,Open
+1276,2026-07-20 10:00:00,5,1,Family Medicine,Open
+1277,2026-07-20 10:00:00,11,2,Family Medicine,Open
+1278,2026-07-20 10:00:00,13,3,Internal Medicine,Open
+1279,2026-07-20 10:00:00,19,4,Pediatrics,Open
+1280,2026-07-20 10:00:00,34,6,Dermatology,Open
+1281,2026-07-20 10:00:00,18,3,Endocrinology,Released (Cancellation)
+1282,2026-07-20 10:00:00,10,2,Internal Medicine,Open
+1283,2026-07-20 10:00:00,33,6,Behavioral Health,Open
+1284,2026-07-20 10:30:00,8,2,Internal Medicine,Open
+1285,2026-07-20 10:30:00,11,2,Family Medicine,Open
+1286,2026-07-20 10:30:00,6,1,Internal Medicine,Open
+1287,2026-07-20 10:30:00,35,6,Behavioral Health,Open
+1288,2026-07-20 10:30:00,36,6,Dermatology,Released (Cancellation)
+1289,2026-07-20 10:30:00,21,4,Pediatrics,Open
+1290,2026-07-20 10:30:00,31,6,Behavioral Health,Open
+1291,2026-07-20 10:30:00,16,3,Internal Medicine,Open
+1292,2026-07-20 10:30:00,28,5,Family Medicine,Released (Cancellation)
+1293,2026-07-20 10:30:00,18,3,Endocrinology,Open
+1294,2026-07-20 10:30:00,1,1,Family Medicine,Open
+1295,2026-07-20 10:30:00,33,6,Behavioral Health,Open
+1296,2026-07-20 11:00:00,4,1,Internal Medicine,Released (Cancellation)
+1297,2026-07-20 11:00:00,22,4,Family Medicine,Released (Cancellation)
+1298,2026-07-20 11:00:00,11,2,Family Medicine,Released (Cancellation)
+1299,2026-07-20 11:00:00,19,4,Pediatrics,Open
+1300,2026-07-20 11:00:00,14,3,Cardiology,Released (Cancellation)
+1301,2026-07-20 11:00:00,1,1,Family Medicine,Open
+1302,2026-07-20 11:00:00,34,6,Dermatology,Open
+1303,2026-07-20 11:00:00,25,5,Obstetrics & Gynecology,Open
+1304,2026-07-20 11:00:00,29,5,Obstetrics & Gynecology,Open
+1305,2026-07-20 11:30:00,35,6,Behavioral Health,Open
+1306,2026-07-20 11:30:00,26,5,Family Medicine,Released (Cancellation)
+1307,2026-07-20 11:30:00,7,2,Family Medicine,Open
+1308,2026-07-20 11:30:00,13,3,Internal Medicine,Open
+1309,2026-07-20 11:30:00,6,1,Internal Medicine,Released (Cancellation)
+1310,2026-07-20 11:30:00,2,1,Internal Medicine,Released (Cancellation)
+1311,2026-07-20 11:30:00,31,6,Behavioral Health,Open
+1312,2026-07-20 12:00:00,10,2,Internal Medicine,Open
+1313,2026-07-20 12:00:00,7,2,Family Medicine,Open
+1314,2026-07-20 12:00:00,5,1,Family Medicine,Open
+1315,2026-07-20 12:00:00,12,2,Internal Medicine,Open
+1316,2026-07-20 12:00:00,22,4,Family Medicine,Open
+1317,2026-07-20 12:00:00,24,4,Family Medicine,Open
+1318,2026-07-20 12:00:00,14,3,Cardiology,Open
+1319,2026-07-20 12:00:00,28,5,Family Medicine,Open
+1320,2026-07-20 12:00:00,3,1,Family Medicine,Open
+1321,2026-07-20 12:00:00,17,3,Cardiology,Open
+1322,2026-07-20 12:00:00,31,6,Behavioral Health,Open
+1323,2026-07-20 12:30:00,7,2,Family Medicine,Open
+1324,2026-07-20 12:30:00,35,6,Behavioral Health,Open
+1325,2026-07-20 12:30:00,24,4,Family Medicine,Open
+1326,2026-07-20 12:30:00,12,2,Internal Medicine,Released (Cancellation)
+1327,2026-07-20 12:30:00,27,5,Obstetrics & Gynecology,Open
+1328,2026-07-20 12:30:00,17,3,Cardiology,Open
+1329,2026-07-20 12:30:00,32,6,Dermatology,Open
+1330,2026-07-20 12:30:00,14,3,Cardiology,Open
+1331,2026-07-20 12:30:00,34,6,Dermatology,Open
+1332,2026-07-20 12:30:00,9,2,Family Medicine,Open
+1333,2026-07-20 13:00:00,19,4,Pediatrics,Open
+1334,2026-07-20 13:00:00,30,5,Family Medicine,Open
+1335,2026-07-20 13:00:00,31,6,Behavioral Health,Released (Cancellation)
+1336,2026-07-20 13:00:00,9,2,Family Medicine,Open
+1337,2026-07-20 13:00:00,5,1,Family Medicine,Open
+1338,2026-07-20 13:00:00,20,4,Family Medicine,Open
+1339,2026-07-20 13:00:00,14,3,Cardiology,Open
+1340,2026-07-20 13:00:00,27,5,Obstetrics & Gynecology,Open
+1341,2026-07-20 13:00:00,34,6,Dermatology,Open
+1342,2026-07-20 13:00:00,33,6,Behavioral Health,Open
+1343,2026-07-20 13:00:00,23,4,Pediatrics,Open
+1344,2026-07-20 13:00:00,1,1,Family Medicine,Open
+1345,2026-07-20 13:30:00,25,5,Obstetrics & Gynecology,Open
+1346,2026-07-20 13:30:00,15,3,Endocrinology,Open
+1347,2026-07-20 13:30:00,12,2,Internal Medicine,Released (Cancellation)
+1348,2026-07-20 13:30:00,16,3,Internal Medicine,Open
+1349,2026-07-20 13:30:00,13,3,Internal Medicine,Open
+1350,2026-07-20 13:30:00,31,6,Behavioral Health,Open
+1351,2026-07-20 13:30:00,8,2,Internal Medicine,Open
+1352,2026-07-20 13:30:00,9,2,Family Medicine,Open
+1353,2026-07-20 13:30:00,4,1,Internal Medicine,Released (Cancellation)
+1354,2026-07-20 13:30:00,17,3,Cardiology,Open
+1355,2026-07-20 13:30:00,1,1,Family Medicine,Open
+1356,2026-07-20 13:30:00,21,4,Pediatrics,Open
+1357,2026-07-20 14:00:00,15,3,Endocrinology,Open
+1358,2026-07-20 14:00:00,19,4,Pediatrics,Open
+1359,2026-07-20 14:00:00,13,3,Internal Medicine,Released (Cancellation)
+1360,2026-07-20 14:00:00,2,1,Internal Medicine,Open
+1361,2026-07-20 14:00:00,22,4,Family Medicine,Open
+1362,2026-07-20 14:00:00,24,4,Family Medicine,Released (Cancellation)
+1363,2026-07-20 14:30:00,20,4,Family Medicine,Open
+1364,2026-07-20 14:30:00,28,5,Family Medicine,Open
+1365,2026-07-20 14:30:00,18,3,Endocrinology,Open
+1366,2026-07-20 14:30:00,9,2,Family Medicine,Released (Cancellation)
+1367,2026-07-20 14:30:00,12,2,Internal Medicine,Open
+1368,2026-07-20 14:30:00,4,1,Internal Medicine,Open
+1369,2026-07-20 15:00:00,6,1,Internal Medicine,Open
+1370,2026-07-20 15:00:00,19,4,Pediatrics,Released (Cancellation)
+1371,2026-07-20 15:30:00,22,4,Family Medicine,Released (Cancellation)
+1372,2026-07-20 15:30:00,4,1,Internal Medicine,Open

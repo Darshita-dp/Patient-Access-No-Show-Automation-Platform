@@ -1,0 +1,37 @@
+provider_id,provider_name,clinic_id,specialty,daily_capacity
+1,Dr. Diego Lopes,1,Family Medicine,15
+2,Dr. Beatriz Lima,1,Internal Medicine,13
+3,Dr. Clara Vieira,1,Family Medicine,12
+4,Dr. Daniel Costa,1,Internal Medicine,16
+5,Dr. Priya Iyer,1,Family Medicine,14
+6,Dr. Paulo Gomes,1,Internal Medicine,16
+7,Dr. Eduardo Tavares,2,Family Medicine,15
+8,Dr. James Whitfield,2,Internal Medicine,15
+9,Dr. Bruno Fernandes,2,Family Medicine,15
+10,Dr. Larissa Nogueira,2,Internal Medicine,12
+11,Dr. Nina Petrov,2,Family Medicine,13
+12,Dr. Marina Carvalho,2,Internal Medicine,14
+13,Dr. Isabel Teixeira,3,Internal Medicine,14
+14,Dr. Ricardo Pinto,3,Cardiology,12
+15,Dr. Renata Freitas,3,Endocrinology,14
+16,Dr. Sofia Martins,3,Internal Medicine,12
+17,Dr. Alice Pereira,3,Cardiology,15
+18,Dr. Gustavo Araujo,3,Endocrinology,15
+19,Dr. Helena Monteiro,4,Pediatrics,16
+20,Dr. Rafael Oliveira,4,Family Medicine,15
+21,Dr. Julia Batista,4,Pediatrics,13
+22,Dr. Felipe Souza,4,Family Medicine,16
+23,Dr. Marcus Almeida,4,Pediatrics,14
+24,Dr. Ana Silva,4,Family Medicine,13
+25,Dr. Andre Barbosa,5,Obstetrics & Gynecology,16
+26,Dr. Lucas Cardoso,5,Family Medicine,13
+27,Dr. Mateus Correia,5,Obstetrics & Gynecology,12
+28,Dr. Grace Nakamura,5,Family Medicine,14
+29,Dr. Thiago Ribeiro,5,Obstetrics & Gynecology,15
+30,Dr. Omar Farouk,5,Family Medicine,12
+31,Dr. Camila Duarte,6,Behavioral Health,14
+32,Dr. Vanessa Ramos,6,Dermatology,12
+33,Dr. Elena Rocha,6,Behavioral Health,15
+34,Dr. Carlos Mendes,6,Dermatology,14
+35,Dr. Victor Moreira,6,Behavioral Health,13
+36,Dr. Leila Hassan,6,Dermatology,13
