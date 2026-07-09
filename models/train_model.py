@@ -63,14 +63,16 @@ def build_candidates() -> dict[str, Pipeline]:
     return {
         "LogisticRegression": Pipeline([
             ("prep", preprocess),
-            ("clf", LogisticRegression(max_iter=2000, class_weight="balanced",
-                                       random_state=SEED)),
+            # No class_weight rebalancing: keeps predicted probabilities
+            # calibrated to the true ~20% base rate so the UI shows honest
+            # numbers. Imbalance is handled by the F1-optimal threshold.
+            ("clf", LogisticRegression(max_iter=2000, random_state=SEED)),
         ]),
         "RandomForestClassifier": Pipeline([
             ("prep", preprocess),
             ("clf", RandomForestClassifier(
                 n_estimators=300, max_depth=12, min_samples_leaf=20,
-                class_weight="balanced", n_jobs=-1, random_state=SEED)),
+                n_jobs=-1, random_state=SEED)),
         ]),
         "GradientBoostingClassifier": Pipeline([
             ("prep", preprocess),

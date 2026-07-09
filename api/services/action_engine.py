@@ -93,6 +93,57 @@ def recommend_action(row: dict) -> tuple[str, str, str]:
     )
 
 
+def build_risk_explanation(row: dict) -> dict:
+    """Plain-language explanation of why an appointment carries its risk.
+
+    Mirrors the model's dominant drivers (lead time, patient history,
+    reminders, demographics) as staff-readable factors.
+    """
+    factors = []
+    lead = row.get("lead_time_days") or 0
+    if lead >= 21:
+        factors.append(f"Booked {int(lead)} days in advance — long lead times are "
+                       "the strongest no-show driver.")
+    elif lead >= 8:
+        factors.append(f"Booked {int(lead)} days in advance — moderate lead-time risk.")
+
+    prev_ns = int(row.get("patient_previous_no_shows") or 0)
+    prev_appts = int(row.get("patient_previous_appointments") or 0)
+    if prev_ns >= 2:
+        factors.append(f"Patient has missed {prev_ns} of {prev_appts} previous "
+                       "appointments.")
+    elif prev_ns == 1:
+        factors.append("Patient has one prior missed appointment.")
+    elif prev_appts >= 3:
+        factors.append(f"Reliable history — {prev_appts} prior visits with no "
+                       "misses.")
+
+    response = row.get("patient_response")
+    if response == "Confirmed":
+        factors.append("Patient confirmed the reminder — a strong attendance signal.")
+    elif not row.get("sms_received"):
+        factors.append("No SMS reminder has been sent for this visit.")
+    elif response in (None, "", "No Response"):
+        factors.append("Reminder sent but the patient has not responded.")
+
+    age = row.get("age")
+    if age is not None and age <= 30:
+        factors.append("Younger adult patients miss appointments more often.")
+
+    if not factors:
+        factors.append("No individual risk drivers stand out; the score reflects "
+                       "the combination of visit and schedule characteristics.")
+
+    risk = row.get("risk_category", "Medium")
+    proba = row.get("no_show_probability")
+    summary = (
+        f"This appointment is {str(risk).lower()} risk"
+        + (f" ({proba:.0%} predicted no-show probability)" if proba is not None else "")
+        + "."
+    )
+    return {"summary": summary, "factors": factors}
+
+
 def build_recommended_actions(scored: pd.DataFrame, now: datetime) -> pd.DataFrame:
     """One recommendation per scheduled, scored appointment."""
     df = scored.copy()
@@ -130,8 +181,10 @@ def build_access_tasks(
             assignee = OUTREACH_SPECIALIST
         else:
             assignee = COORDINATORS[i % len(COORDINATORS)]
+        # Due the day before the visit (or within two days for far-out
+        # bookings). Tasks for imminent visits can legitimately be overdue.
         due = min(appt_dt - timedelta(days=1), now + timedelta(days=2))
-        due_date = max(due.date(), now.date())
+        due_date = max(due.date(), (now - timedelta(days=2)).date())
 
         days_out = (appt_dt - now).days
         if days_out <= 1:

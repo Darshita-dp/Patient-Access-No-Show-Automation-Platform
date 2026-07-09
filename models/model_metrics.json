@@ -1,56 +1,56 @@
 {
   "model_name": "LogisticRegression",
-  "roc_auc": 0.7205,
-  "accuracy": 0.6727,
-  "precision": 0.3248,
-  "recall": 0.6369,
-  "f1_score": 0.4302,
-  "decision_threshold": 0.49,
+  "roc_auc": 0.7204,
+  "accuracy": 0.685,
+  "precision": 0.3316,
+  "recall": 0.6135,
+  "f1_score": 0.4305,
+  "decision_threshold": 0.21,
   "confusion_matrix": {
-    "true_negative": 3514,
-    "false_positive": 1644,
-    "false_negative": 451,
-    "true_positive": 791
+    "true_negative": 3622,
+    "false_positive": 1536,
+    "false_negative": 480,
+    "true_positive": 762
   },
   "model_version": "v1.0",
-  "trained_at": "2026-07-08T22:41:57",
+  "trained_at": "2026-07-08T23:20:03",
   "train_rows": 25600,
   "test_rows": 6400,
   "split_strategy": "temporal 80/20 (train on earlier appointments)",
   "high_risk_band": {
     "share_of_appointments": 0.2,
-    "no_show_recall": 0.4388,
-    "no_show_precision": 0.4092
+    "no_show_recall": 0.4525,
+    "no_show_precision": 0.402
   },
   "model_comparison": [
     {
       "model_name": "LogisticRegression",
-      "roc_auc": 0.7205,
-      "accuracy": 0.6727,
-      "precision": 0.3248,
-      "recall": 0.6369,
-      "f1_score": 0.4302,
-      "decision_threshold": 0.49,
+      "roc_auc": 0.7204,
+      "accuracy": 0.685,
+      "precision": 0.3316,
+      "recall": 0.6135,
+      "f1_score": 0.4305,
+      "decision_threshold": 0.21,
       "confusion_matrix": {
-        "true_negative": 3514,
-        "false_positive": 1644,
-        "false_negative": 451,
-        "true_positive": 791
+        "true_negative": 3622,
+        "false_positive": 1536,
+        "false_negative": 480,
+        "true_positive": 762
       }
     },
     {
       "model_name": "RandomForestClassifier",
-      "roc_auc": 0.7182,
+      "roc_auc": 0.7173,
       "accuracy": 0.6969,
-      "precision": 0.339,
-      "recall": 0.5918,
-      "f1_score": 0.4311,
-      "decision_threshold": 0.52,
+      "precision": 0.3378,
+      "recall": 0.5853,
+      "f1_score": 0.4284,
+      "decision_threshold": 0.23,
       "confusion_matrix": {
-        "true_negative": 3725,
-        "false_positive": 1433,
-        "false_negative": 507,
-        "true_positive": 735
+        "true_negative": 3733,
+        "false_positive": 1425,
+        "false_negative": 515,
+        "true_positive": 727
       }
     },
     {
@@ -72,63 +72,63 @@
   "top_features": [
     {
       "feature": "lead_time_days",
-      "importance": 0.5936
+      "importance": 0.5827
     },
     {
       "feature": "alcoholism_flag",
-      "importance": 0.4526
+      "importance": 0.4658
     },
     {
       "feature": "age",
-      "importance": 0.4159
+      "importance": 0.409
     },
     {
       "feature": "scholarship_flag",
-      "importance": 0.3419
-    },
-    {
-      "feature": "patient_previous_no_shows",
-      "importance": 0.2823
-    },
-    {
-      "feature": "provider_no_show_rate",
-      "importance": 0.2031
-    },
-    {
-      "feature": "provider_id",
-      "importance": 0.2012
-    },
-    {
-      "feature": "patient_previous_appointments",
-      "importance": 0.1942
-    },
-    {
-      "feature": "clinic_id",
-      "importance": 0.1803
-    },
-    {
-      "feature": "reminder_count",
-      "importance": 0.1681
-    },
-    {
-      "feature": "patient_no_show_rate",
-      "importance": 0.1389
+      "importance": 0.3459
     },
     {
       "feature": "sms_received",
-      "importance": 0.1263
+      "importance": 0.3134
     },
     {
-      "feature": "hypertension_flag",
-      "importance": 0.1061
+      "feature": "gender",
+      "importance": 0.312
+    },
+    {
+      "feature": "patient_previous_no_shows",
+      "importance": 0.2782
+    },
+    {
+      "feature": "provider_no_show_rate",
+      "importance": 0.2049
+    },
+    {
+      "feature": "provider_id",
+      "importance": 0.2026
+    },
+    {
+      "feature": "patient_previous_appointments",
+      "importance": 0.2015
+    },
+    {
+      "feature": "clinic_id",
+      "importance": 0.1928
     },
     {
       "feature": "appointment_day_of_week",
-      "importance": 0.1037
+      "importance": 0.1396
     },
     {
-      "feature": "appointment_month",
-      "importance": 0.0556
+      "feature": "patient_no_show_rate",
+      "importance": 0.1379
+    },
+    {
+      "feature": "appointment_type",
+      "importance": 0.1248
+    },
+    {
+      "feature": "hypertension_flag",
+      "importance": 0.1035
     }
   ]
 }

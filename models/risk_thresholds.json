@@ -1,6 +1,6 @@
 {
   "model_version": "v1.0",
-  "medium_threshold": 0.4366,
-  "high_threshold": 0.6165,
+  "medium_threshold": 0.1636,
+  "high_threshold": 0.2862,
   "logic": "Low < p50 of train probabilities; Medium = p50-p80; High >= p80"
 }
