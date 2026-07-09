@@ -6,9 +6,12 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
-# Data artifacts (keep synthetic samples, ignore large processed files)
+# Data artifacts (keep synthetic operational tables so the app runs after
+# clone; ignore raw + large intermediate files, all regenerable via etl/)
 data/raw/*.csv
 data/processed/*.parquet
+data/processed/appointments_clean.csv
+data/processed/appointments_features.csv
 !data/raw/README.md
 
 # Node / React
