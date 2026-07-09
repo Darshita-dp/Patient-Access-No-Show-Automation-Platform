@@ -46,4 +46,3 @@ flowchart TD
 | `frontend/` | Scheduling team application (Command Center → Action Tracker) |
 | `powerbi/` | Executive dashboard design, DAX, before/after simulation |
 | `workflows/` | Power Automate flow specs + SharePoint task list mock |
-```
