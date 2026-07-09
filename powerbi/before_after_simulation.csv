@@ -1,0 +1,6 @@
+metric,before_automation,after_automation,unit,note
+No-show rate,18.5,14.2,percent,Simulated: targeted outreach to top-20% risk band
+Manual outreach hours per week,22,9,hours,Simulated: automation handles low/medium-risk reminders
+Recovered open slots per week,4,17,slots,Simulated: waitlist matching on released slots
+High-risk appointments contacted,35,82,percent,Simulated: worklist prioritization vs manual review
+Average waitlist days,21,14,days,Simulated: proactive slot offers

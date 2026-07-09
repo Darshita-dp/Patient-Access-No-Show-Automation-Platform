@@ -1,0 +1,61 @@
+Task ID,Appointment ID,Patient ID,Risk Category,Recommended Action,Assigned Staff,Due Date,Status,Escalation Flag
+1,5632000,39440103041,Medium,Send automated reminder,Monica Reyes,2026-07-07,Pending,Yes
+2,5632114,40190133335,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Completed,No
+3,5632544,31933992445,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Pending,Yes
+4,5632670,13066652920,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,In Progress,Yes
+5,5633203,35937937107,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,Completed,No
+6,5633512,49941151612,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Pending,Yes
+7,5633829,40354567505,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Pending,Yes
+8,5633947,37861460742,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Pending,Yes
+9,5635022,32867612057,Medium,Send automated reminder,Monica Reyes,2026-07-07,Completed,No
+10,5635140,12417019923,Medium,Send automated reminder,Jordan Blake,2026-07-07,In Progress,Yes
+11,5632001,35938754780,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Completed,No
+12,5632315,49401051970,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Pending,Yes
+13,5632671,38160220298,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,In Progress,Yes
+14,5633622,30222052708,High,Call patient directly and confirm attendance,Jordan Blake,2026-07-07,Pending,Yes
+15,5633830,19747730906,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Completed,No
+16,5634180,48128960849,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Completed,No
+17,5634612,36329170060,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,In Progress,Yes
+18,5634830,53056443347,Medium,Send automated reminder,Jordan Blake,2026-07-07,Completed,No
+19,5635023,45186382716,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Pending,Yes
+20,5635141,24405345927,High,Call patient directly and confirm attendance,Kevin O'Neal,2026-07-07,In Progress,Yes
+21,5635234,41511246246,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,Pending,Yes
+22,5632116,21760345807,Medium,Send automated reminder,Jordan Blake,2026-07-07,Completed,No
+23,5632219,32253091597,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Pending,Yes
+24,5632438,50606960097,High,Call patient directly and confirm attendance,Kevin O'Neal,2026-07-07,Pending,Yes
+25,5632781,33628529408,Medium,Send automated reminder,Monica Reyes,2026-07-07,Pending,Yes
+26,5633015,18336502786,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Completed,No
+27,5633205,10387519810,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,In Progress,Yes
+28,5633423,20655917485,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Completed,No
+29,5633514,21884481355,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,Completed,No
+30,5633623,41017679785,Medium,Send automated reminder,Jordan Blake,2026-07-07,In Progress,Yes
+31,5634279,44075883468,High,Call patient directly and confirm attendance,Aisha Thompson,2026-07-07,In Progress,Yes
+32,5634613,27514756072,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Pending,Yes
+33,5634917,39081538552,Medium,Send automated reminder,Monica Reyes,2026-07-07,Completed,No
+34,5635554,16979650683,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Completed,No
+35,5632220,44426529907,High,Call patient directly and confirm attendance,Aisha Thompson,2026-07-07,In Progress,Yes
+36,5632316,24897835138,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Completed,No
+37,5632547,49610785324,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Completed,No
+38,5632904,15486250050,Medium,Send automated reminder,Jordan Blake,2026-07-07,In Progress,Yes
+39,5633016,15869410290,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Completed,No
+40,5633106,16897479530,High,Call patient directly and confirm attendance,Kevin O'Neal,2026-07-07,In Progress,Yes
+41,5633320,14262739596,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Completed,No
+42,5633624,14212444763,Medium,Send automated reminder,Jordan Blake,2026-07-07,Pending,Yes
+43,5633717,23476078743,Medium,Send automated reminder,Aisha Thompson,2026-07-07,In Progress,Yes
+44,5633832,27079132348,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Completed,No
+45,5634065,39536015014,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Pending,Yes
+46,5634280,41520717690,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,Pending,Yes
+47,5634516,29871812908,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Completed,No
+48,5635236,33670958192,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Completed,No
+49,5635340,46930722300,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,In Progress,Yes
+50,5635439,43564522427,Medium,Send automated reminder,Jordan Blake,2026-07-07,Completed,No
+51,5635555,29825333677,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Completed,No
+52,5632004,40808350561,High,Call patient directly and confirm attendance,Kevin O'Neal,2026-07-07,Completed,No
+53,5632674,28024374707,High,Call patient directly and confirm attendance,Monica Reyes,2026-07-07,Pending,Yes
+54,5632783,23825205567,Medium,Send automated reminder,Jordan Blake,2026-07-07,In Progress,Yes
+55,5633833,28926936484,Medium,Send automated reminder,Aisha Thompson,2026-07-07,In Progress,Yes
+56,5633951,41066701485,High,Call patient directly and confirm attendance,Kevin O'Neal,2026-07-07,Pending,Yes
+57,5634066,29300456032,Medium,Send automated reminder,Monica Reyes,2026-07-07,In Progress,Yes
+58,5634183,16533228369,High,Escalate to access team for direct outreach,Luis Herrera,2026-07-07,In Progress,Yes
+59,5634517,36849678861,Medium,Send automated reminder,Aisha Thompson,2026-07-07,Completed,No
+60,5634735,52186485788,Medium,Send automated reminder,Kevin O'Neal,2026-07-07,Completed,No
