@@ -1,10 +1,24 @@
-# Patient Access & No-Show Automation Platform
+# 🏥 Patient Access & No-Show Automation Platform
 
-> I built an end-to-end patient access analytics and automation platform that predicts appointment no-show risk, prioritizes waitlist patients, recommends staff actions, and provides real-time scheduling visibility for clinic managers.
+> **An end-to-end decision-support system that predicts appointment no-show risk, prioritizes waitlist patients, recommends staff actions, and gives clinic managers real-time scheduling visibility.**
 
-**Stack:** Python · Scikit-learn · PostgreSQL · FastAPI · React · Power BI · Power Automate (workflow design)
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Data%20Model-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black">
+  <img alt="Domain" src="https://img.shields.io/badge/Domain-Healthcare%20Operations-0F6FC6?style=flat-square">
+  <img alt="Data" src="https://img.shields.io/badge/Data-Synthetic%20%2F%20No%20PHI-6E7781?style=flat-square">
+</p>
 
-![Command Center](docs/screenshots/command_center.png)
+**The product story:** `Prediction → Risk category → Recommended action → Staff task → Waitlist match → Manager dashboard`
+
+**Built for:** Healthcare Business Analyst · Patient Access Analyst · Product Analyst · Digital Transformation Analyst · Healthcare Data Analyst · BI Analyst
+
+![Command Center — high-risk outreach, open-slot recovery, and clinic KPIs in one operational view](docs/screenshots/command_center.png)
+<p align="center"><em>Command Center — the morning operational view for a patient access team.</em></p>
 
 ---
 
@@ -280,9 +294,23 @@ states, and action buttons wired to the API.
 | **Clinic Utilization** | Capacity vs. booked vs. potential (with slot recovery) per clinic |
 | **Action Tracker** | Task board with priorities, overdue flags, and per-staff completion |
 
-![Work Queue](docs/screenshots/work_queue.png)
+**Appointment Work Queue** — the prioritized daily worklist with risk badges, recommended actions, and inline outreach controls:
+![Appointment Work Queue](docs/screenshots/work_queue.png)
+
+**Appointment Detail** — why this appointment is risky, what to do about it, and the one-click waitlist replacement:
 ![Appointment Detail](docs/screenshots/appointment_detail.png)
+
+**Waitlist Manager** — open slots matched to ranked, ready-to-attend candidates with human-readable match reasons:
 ![Waitlist Manager](docs/screenshots/waitlist_manager.png)
+
+**Provider Schedule** — day-by-day utilization, open slots, and high-risk flags per provider:
+![Provider Schedule](docs/screenshots/provider_schedule.png)
+
+**Clinic Utilization** — booked vs. potential capacity and recovered-slot opportunity across clinics:
+![Clinic Utilization](docs/screenshots/clinic_utilization.png)
+
+**Action Tracker** — the manager's task board with priorities, overdue flags, and per-staff completion:
+![Action Tracker](docs/screenshots/action_tracker.png)
 
 ## 13. Workflow Automation
 
