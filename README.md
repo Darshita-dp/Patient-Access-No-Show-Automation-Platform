@@ -330,18 +330,18 @@ generated from the platform's real task data.
 
 ```mermaid
 flowchart TD
-    A[Appointment Scheduled] --> B[Risk Model Scores Appointment]
-    B --> C{Risk Category}
-    C -->|Low| D[No Manual Action]
-    C -->|Medium| E[Automated Reminder]
-    C -->|High| F[Create Staff Outreach Task]
-    F --> G[Call Patient / Confirm Attendance]
-    G --> H{Patient Confirms?}
-    H -->|Yes| I[Keep Appointment]
-    H -->|No| J[Release Slot]
-    J --> K[Waitlist Matching Engine]
-    K --> L[Offer Slot to Waitlist Patient]
-    L --> M[Update Manager Dashboard]
+    A["Appointment Scheduled"] --> B["Risk Model Scores Appointment"]
+    B --> C{"Risk Category"}
+    C -->|Low| D["No Manual Action"]
+    C -->|Medium| E["Automated Reminder"]
+    C -->|High| F["Create Staff Outreach Task"]
+    F --> G["Call Patient and Confirm Attendance"]
+    G --> H{"Patient Confirms"}
+    H -->|Yes| I["Keep Appointment"]
+    H -->|No| J["Release Slot"]
+    J --> K["Waitlist Matching Engine"]
+    K --> L["Offer Slot to Waitlist Patient"]
+    L --> M["Update Manager Dashboard"]
 ```
 
 ## 14. Before / After Process Map
