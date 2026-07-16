@@ -79,10 +79,34 @@ design — the demo always looks current).
 
 ## Testing / verification checklist
 
+**These are manual verification steps.** There is currently **no automated test
+suite and no CI pipeline** in this repository — adding both is a tracked future
+enhancement (see the README's Future Enhancements section).
+
 - `python etl/*.py` in order — all exit 0, row counts printed
 - `python models/train_model.py` — AUC ≈ 0.72, artifacts written
 - `python models/score_appointments.py` — risk/action/task/match CSVs written
 - `curl http://localhost:8000/health` — status ok with table counts
-- All 13 API endpoints exercised (see README API table)
+- All 21 API endpoints exercised (see README API table and `/docs`)
 - `frontend`: vite build succeeds; all 8 routes render with live data and no
   console errors
+
+## Scope boundaries (what this version does not include)
+
+Being explicit so the repository is not read as claiming more than it delivers:
+
+- **No `.pbix` file.** The Power BI layer is a reporting-layer design: a
+  seven-page specification, DAX measures, and a mock executive visual generated
+  from project data. See `powerbi/README.md`.
+- **No live Power Automate flow.** The outreach workflow is a specification plus
+  a simulation driven by local API state transitions. No Microsoft 365 tenant,
+  SharePoint list, Outlook, Teams, or SMS connector is wired up. See
+  `workflows/workflow_documentation.md`.
+- **No subgroup fairness audit.** Fairness considerations and limitations are
+  documented in `docs/model_card.md`; the audit itself is a future enhancement.
+- **No automated tests or CI**, as noted above.
+- **No license.** This repository does not currently include a LICENSE file, so
+  default copyright applies and no reuse rights are granted. An open-source
+  license should be added before broader reuse or distribution.
+- **Not production-validated.** The model is trained on synthetic data and is
+  intended for portfolio demonstration only.

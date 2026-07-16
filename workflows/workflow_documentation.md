@@ -1,5 +1,15 @@
 # Workflow Automation Documentation
 
+> **Scope — read first.** This document is a **Power Automate-style workflow
+> specification and simulation**, written for future Microsoft 365
+> implementation. **No live Power Automate cloud flow is deployed, and there is
+> no live SharePoint list, Outlook, Teams, or SMS integration in this version.**
+> No Microsoft 365 tenant is connected. The outreach loop is **simulated using
+> local API state transitions** (reminder sent → task created → task completed
+> or escalated), and the SharePoint list is a **static CSV mock** exported from
+> the platform's own task data. The connector tables below are implementation
+> sketches, not configured flows.
+
 The platform's decision chain — **prediction → risk category → recommended
 action → staff task → waitlist match → manager dashboard** — is designed to be
 automated with Power Automate and SharePoint in a Microsoft-shop clinic

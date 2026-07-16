@@ -47,9 +47,11 @@ match → Manager dashboard**
 - A **React operations app** gives schedulers a work queue, search, appointment
   detail with risk explanation, waitlist manager, provider schedules, clinic
   utilization, and a manager action tracker.
-- A **Power BI executive layer** tracks the KPIs leadership cares about, and a
-  **Power Automate/SharePoint workflow design** shows how outreach and
-  escalation would run inside a Microsoft-shop clinic.
+- A **Power BI reporting-layer design** (seven-page specification, DAX measures,
+  and a mock executive visual — not a built `.pbix`) defines the KPIs leadership
+  cares about, and a **Power Automate-style workflow specification** shows how
+  outreach and escalation would run inside a Microsoft-shop clinic once
+  implemented on a live M365 tenant.
 
 ## Quantified opportunity (simulated)
 

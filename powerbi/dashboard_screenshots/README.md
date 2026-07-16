@@ -11,6 +11,8 @@ Placeholders for exported Power BI page images. When the PBIX is built from
 6. `06_staff_action_tracker.png`
 7. `07_before_after_impact.png`
 
-Until then, the React application screenshots in `../../docs/screenshots/`
+No `.pbix` has been built yet, so no Power BI page exports exist in this folder.
+In the meantime, the React application screenshots in `../../docs/screenshots/`
 show the same KPIs live against the API, and `mock_executive_summary.png`
-(generated from the actual platform data) previews the executive page layout.
+previews the executive page layout — note that it is **generated
+programmatically from the platform's own data, not exported from Power BI**.

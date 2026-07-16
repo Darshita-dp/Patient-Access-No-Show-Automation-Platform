@@ -3,8 +3,9 @@
 **Patient Access & Appointment No-Show Automation Platform**
 
 - Built an end-to-end patient access automation platform using Python,
-  PostgreSQL, FastAPI, React, and Power BI to predict appointment no-show
-  risk and improve scheduling visibility
+  PostgreSQL, FastAPI, and React to predict appointment no-show risk and
+  improve scheduling visibility, with a Power BI reporting layer designed on
+  top of the same data model
 
 - Developed a no-show prediction model using appointment, patient, reminder,
   and scheduling features, converting model probabilities into low, medium,
@@ -18,9 +19,14 @@
   teams prioritize outreach, fill open slots, and reduce manual scheduling
   follow-up
 
-- Built Power BI executive dashboard tracking no-show rate, clinic
+- Designed a seven-page Power BI reporting layer with documented DAX measures
+  and executive dashboard specifications covering no-show rate, clinic
   utilization, provider schedule gaps, high-risk appointments, waitlist
   demand, and staff action completion
+
+- Documented a Power Automate-style workflow for high-risk appointment
+  outreach and escalation, simulating the reminder, task-creation, and
+  manager-notification loop through local API state transitions
 
 ## Variants with quantified detail
 
@@ -38,4 +44,4 @@
 - Delivered an 8-view React operations app (command center, work queue,
   search, appointment detail with risk explanation, waitlist manager,
   provider schedules, clinic utilization, action tracker) backed by a
-  13-endpoint FastAPI service
+  21-endpoint FastAPI service

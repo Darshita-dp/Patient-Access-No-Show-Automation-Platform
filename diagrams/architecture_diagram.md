@@ -22,9 +22,9 @@ flowchart TD
         G["React Scheduling Team App<br/>8 operational views"]
     end
 
-    subgraph REPORT["Management Layer"]
-        H["Power BI Executive Dashboard<br/>7-page design + DAX measures"]
-        I["Power Automate / SharePoint<br/>Task Workflow (simulated)"]
+    subgraph REPORT["Management Layer (design / spec — not implemented)"]
+        H["Power BI Reporting Layer<br/>7-page design + DAX (mock, no .pbix)"]
+        I["Power Automate / SharePoint<br/>Workflow spec (simulated, no M365)"]
     end
 
     A --> B --> C --> D --> E --> F --> G

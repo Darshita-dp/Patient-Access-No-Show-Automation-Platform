@@ -8,7 +8,7 @@
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Data%20Model-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black">
+  <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-Reporting%20Design-F2C811?style=flat-square&logo=powerbi&logoColor=black">
   <img alt="Domain" src="https://img.shields.io/badge/Domain-Healthcare%20Operations-0F6FC6?style=flat-square">
   <img alt="Data" src="https://img.shields.io/badge/Data-Synthetic%20%2F%20No%20PHI-6E7781?style=flat-square">
 </p>
@@ -19,6 +19,39 @@
 
 ![Command Center — high-risk outreach, open-slot recovery, and clinic KPIs in one operational view](docs/screenshots/command_center.png)
 <p align="center"><em>Command Center — the morning operational view for a patient access team.</em></p>
+
+---
+
+## 📋 Project Status
+
+**Portfolio-ready v1: healthcare patient access analytics and automation platform.**
+
+The analytics, prediction, decision-logic, backend, and frontend layers are fully
+implemented and runnable end to end. The Microsoft reporting and automation layers
+are delivered as **design specifications and mocks** — the honest scope is below.
+
+| Component | Status |
+|---|---|
+| Healthcare patient-access problem framing | ✅ Complete |
+| Synthetic appointment dataset | ✅ Complete |
+| Python ETL and feature engineering | ✅ Complete |
+| Temporal model evaluation | ✅ Complete |
+| Three-model comparison | ✅ Complete |
+| Risk categorization | ✅ Complete |
+| Recommended-action engine | ✅ Complete |
+| Waitlist-matching engine | ✅ Complete |
+| FastAPI backend | ✅ Complete |
+| React operational application | ✅ Complete |
+| Power BI reporting layer | 📐 Design / spec / mock |
+| Power Automate-style workflow | 📐 Specification / simulation |
+| Fairness analysis | 📝 Limitations documented; audit is a future enhancement |
+| Automated tests and CI | 🔜 Future enhancement |
+| License | 🔜 Future enhancement |
+
+> **Scope note.** This repository does not contain a completed `.pbix` file, and no
+> live Microsoft 365 tenant, SharePoint, Outlook, Teams, or SMS integration is
+> included in this version. The Power BI and Power Automate layers are documented
+> as reporting-layer and workflow designs intended for future implementation.
 
 ---
 
@@ -34,9 +67,9 @@
 8. [Risk Scoring Logic](#8-risk-scoring-logic)
 9. [Recommended Action Engine](#9-recommended-action-engine)
 10. [Waitlist Matching Logic](#10-waitlist-matching-logic)
-11. [Power BI Dashboard](#11-power-bi-dashboard)
+11. [Power BI Reporting Layer (Design & Mock)](#11-power-bi-reporting-layer-design--mock)
 12. [React Application](#12-react-application)
-13. [Workflow Automation](#13-workflow-automation)
+13. [Workflow Automation (Specification & Simulation)](#13-workflow-automation-specification--simulation)
 14. [Before / After Process Map](#14-before--after-process-map)
 15. [Results & Simulated Impact](#15-results--simulated-impact)
 16. [Skills Demonstrated](#16-skills-demonstrated)
@@ -64,10 +97,11 @@ operations**, not just a model. The full product story:
   plain-language reason.
 - A **waitlist matching engine** ranks replacement candidates for every open
   or released slot so cancelled capacity gets refilled instead of expiring.
-- A **React operations app** (8 views) and a **FastAPI backend** (13 endpoints)
-  put all of it in front of scheduling staff, while a **Power BI executive
-  design** and a **Power Automate/SharePoint workflow spec** cover the
-  management and automation layers.
+- A **React operations app** (8 views) and a **FastAPI backend** (21 endpoints)
+  put all of it in front of scheduling staff, while a **Power BI reporting-layer
+  design** (7-page specification, documented DAX measures, and mock executive
+  visuals generated from project data) and a **Power Automate-style workflow
+  specification** cover the management and automation layers as design artifacts.
 
 Everything runs locally from synthetic data with one command chain — no
 external services required.
@@ -102,8 +136,8 @@ managers visibility into patient access performance.
 | Data | Python ETL, synthetic operational tables, PostgreSQL schema + views + KPI queries |
 | Prediction | No-show model (LogReg / RF / GB compared), risk thresholds, model card |
 | Decision | Recommended-action engine + waitlist matching engine |
-| Operations | FastAPI backend + React scheduling team app (8 views) |
-| Management | Power BI 7-page dashboard design + DAX, Power Automate workflow spec |
+| Operations | FastAPI backend (21 endpoints) + React scheduling team app (8 views) |
+| Management *(design layer)* | Power BI 7-page reporting-layer specification + DAX measures + mock visuals; Power Automate-style workflow specification |
 | Documentation | Case study README, data dictionary, model card, process maps, ERD |
 
 ## 4. Target Users
@@ -119,21 +153,21 @@ managers visibility into patient access performance.
 ```
 Raw Appointment Data
         ↓
-Python ETL + Feature Engineering
+Python ETL + Feature Engineering              ── implemented
         ↓
-PostgreSQL Healthcare Access Database
+PostgreSQL Healthcare Access Database         ── implemented (15 tables)
         ↓
-No-Show ML Model
+No-Show ML Model                              ── implemented
         ↓
-Risk Scores + Action Recommendations
+Risk Scores + Action Recommendations          ── implemented
         ↓
-FastAPI Backend
+FastAPI Backend                               ── implemented (21 endpoints)
         ↓
-React Scheduling Team App
+React Scheduling Team App                     ── implemented (8 views)
         ↓
-Power BI Executive Dashboard
+Power BI Executive Dashboard                  ── design / spec / mock
         ↓
-Power Automate / SharePoint Task Workflow
+Power Automate / SharePoint Task Workflow     ── specification / simulation
 ```
 
 The platform connects patient access data, predictive modeling, operational
@@ -158,7 +192,7 @@ also generates **synthetic operational tables**: 6 clinics, 36 providers with
 daily capacities, a booked 14-day forward schedule with genuine open slots,
 170 waitlist requests, 16k+ reminder events, and staff users.
 
-**PostgreSQL data model** (14 tables): patients, providers, clinics,
+**PostgreSQL data model** (15 tables): patients, providers, clinics,
 specialties, appointments, appointment_status_history, open_slots,
 waitlist_requests, waitlist_match_results, reminder_events, risk_scores,
 recommended_actions, access_tasks, staff_users, date_dim — plus reporting
@@ -258,19 +292,27 @@ likely to attend. Each match carries a human-readable reason, e.g.:
 > priority, has waited 18 days, and is available during the open appointment
 > window.*
 
-## 11. Power BI Dashboard
+## 11. Power BI Reporting Layer (Design & Mock)
 
-Seven-page executive dashboard, fully specified in
-[powerbi/dashboard_design_spec.md](powerbi/dashboard_design_spec.md) with the
-complete DAX measure set in [powerbi/README.md](powerbi/README.md):
+> **Scope:** Power BI implementation is documented as a **reporting-layer design
+> and mock, not a completed `.pbix` file.** This section delivers Power BI-ready
+> KPI definitions, DAX measures, and dashboard layout documentation.
+
+Designed a **seven-page Power BI reporting layer** with documented DAX measures
+and dashboard specifications — page-by-page layout in
+[powerbi/dashboard_design_spec.md](powerbi/dashboard_design_spec.md), complete
+DAX measure set in [powerbi/README.md](powerbi/README.md):
 
 1. Executive Summary · 2. No-Show Risk Analysis · 3. Clinic Utilization ·
 4. Provider Schedule Performance · 5. Waitlist & Access Gaps ·
 6. Staff Action Tracker · 7. Before/After Automation Impact
 
-Preview generated from the platform's live data:
+The specification is built against the star-schema views in [sql/](sql/), so the
+model can be pointed at the same PostgreSQL layer the app uses. Mock executive
+visual, **generated programmatically from this project's data** (not a Power BI
+export):
 
-![Executive summary mock](powerbi/dashboard_screenshots/mock_executive_summary.png)
+![Executive summary mock — generated from project data, not a Power BI export](powerbi/dashboard_screenshots/mock_executive_summary.png)
 
 KPIs covered: total/completed appointments, no-show rate, cancellation rate,
 risk-band counts, open/recovered slots, clinic & provider utilization,
@@ -312,7 +354,14 @@ states, and action buttons wired to the API.
 **Action Tracker** — the manager's task board with priorities, overdue flags, and per-staff completion:
 ![Action Tracker](docs/screenshots/action_tracker.png)
 
-## 13. Workflow Automation
+## 13. Workflow Automation (Specification & Simulation)
+
+> **Scope:** This is a **Power Automate-style workflow specification and
+> simulation**. The outreach loop is simulated using local API state transitions
+> (reminder sent → task created → task completed / escalated). **No live
+> Microsoft 365 tenant, SharePoint, Outlook, Teams, or SMS integration is
+> included in this version** — the flow logic is documented for future
+> Microsoft 365 implementation.
 
 **This workflow simulates how a patient access team could automate outreach
 and escalation for high-risk appointments.**
@@ -380,23 +429,41 @@ precision (~2× base rate).
 Healthcare operations analytics · patient access workflow analysis ·
 predictive modeling · feature engineering · classification model evaluation ·
 SQL data modeling · PostgreSQL · Python ETL · FastAPI backend development ·
-React frontend development · Power BI dashboarding · DAX · workflow
-automation design · process mapping · product thinking · business analyst
-documentation · operational KPI design
+React frontend development · Power BI reporting-layer design · DAX measure
+authoring · KPI definition · workflow automation design · process mapping ·
+product thinking · business analyst documentation · operational KPI design
 
 ## 17. Future Enhancements
 
+**Closing the design-vs-implementation gap** (the items marked design/spec above):
+
+- **Build the actual `.pbix` Power BI dashboard** from the existing seven-page
+  specification and DAX measure set, connected to the PostgreSQL views
+- **Implement a live Power Automate cloud flow** using SharePoint and Outlook
+  (and an SMS connector) to replace the simulated outreach loop
+- **Add a subgroup fairness audit** measuring performance across age, gender,
+  socioeconomic proxy variables, and clinic/provider segments
+- **Add automated unit tests** for ETL, model scoring, the action engine,
+  waitlist matching, and API endpoints
+- **Add GitHub Actions CI** for linting, tests, and frontend build verification
+- **Add an open-source license** before broader reuse
+- **Add a deployment option** for the API and frontend (containerized, with a
+  hosted demo environment)
+- **Add a role-based access mockup** separating scheduling staff from manager
+  views, plus an audit trail on every staff action
+
+**Product and modeling roadmap:**
+
 - **Scheduling-system integration** (HL7v2 SIU / FHIR Appointment) to replace
   CSV ingestion with live feeds
-- **Model upgrades:** calibrated gradient boosting, SHAP-based per-appointment
-  explanations, fairness dashboard across age/gender/neighborhood subgroups
+- **Model upgrades:** calibrated gradient boosting and SHAP-based
+  per-appointment explanations
 - **Two-way patient messaging** with self-service rescheduling that feeds the
   waitlist engine automatically
 - **Overbooking recommendations** that pair predicted no-show volume with
   provider-level overbook tolerances
 - **A/B measurement framework** to replace simulated before/after numbers
   with a real stepped-wedge rollout analysis
-- **Auth & audit:** role-based access and an audit trail on every staff action
 
 ---
 
@@ -426,5 +493,13 @@ cd frontend && npm install && npm run dev  # app at :5173
 
 Setup details and design decisions: [docs/implementation_notes.md](docs/implementation_notes.md)
 
-*All patient data in this repository is synthetic. No PHI. Operational impact
-figures are simulated and clearly labeled as such.*
+### Disclaimer
+
+*All patient data in this repository is synthetic — no PHI is present, and patient
+names are generated placeholders. Operational impact figures in §15 are simulated
+from synthetic workflow assumptions and are **not** real hospital results. The
+Power BI and Power Automate layers are design specifications and mocks rather than
+a completed `.pbix` file or a deployed Microsoft 365 flow. The model is built for
+portfolio and synthetic-data demonstration only; it is not validated for clinical
+or production deployment, and a full subgroup fairness audit remains a future
+enhancement (see [docs/model_card.md](docs/model_card.md)).*

@@ -1,12 +1,15 @@
-# Power BI Executive Dashboard
+# Power BI Executive Dashboard — Reporting-Layer Design
 
-**File:** `Patient_Access_Dashboard.pbix` *(placeholder — full design specification below)*
+> **Scope:** Power BI implementation here is a **reporting-layer design and mock,
+> not a completed `.pbix` file.** No `Patient_Access_Dashboard.pbix` exists in this
+> repository. This folder delivers Power BI-ready KPI definitions, DAX measures,
+> and dashboard layout documentation intended for future implementation.
 
-The PBIX itself is built on a Windows machine with Power BI Desktop connected to
-the PostgreSQL database (`etl/load_to_postgres.py` loads it; `sql/03_views.sql`
-provides reporting views). This folder contains the complete, buildable design
+To build the `.pbix`, open Power BI Desktop on a Windows machine and connect to the
+PostgreSQL database (`etl/load_to_postgres.py` loads it; `sql/03_views.sql`
+provides the reporting views). This folder contains the complete, buildable design
 specification: data model, page layouts, visuals, and DAX measures — everything
-needed to reproduce the dashboard. See `dashboard_design_spec.md`.
+needed to construct the dashboard. See `dashboard_design_spec.md`.
 
 ## Data model (import mode)
 

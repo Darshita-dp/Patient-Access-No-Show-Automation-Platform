@@ -14,8 +14,8 @@ For this project, I built an end-to-end platform with:
 • A FastAPI backend to serve appointment, risk, waitlist, and utilization data
 • A React frontend for scheduling teams to search appointments, review risk, and track recommended actions
 • A waitlist matching engine to help fill open slots faster
-• A Power BI dashboard for executive visibility into no-show rate, clinic utilization, provider schedules, waitlist demand, and staff action completion
-• A workflow automation design for high-risk appointment outreach
+• A Power BI reporting-layer design with documented DAX measures and executive dashboard mockups covering no-show rate, clinic utilization, provider schedules, waitlist demand, and staff action completion
+• A Power Automate-style workflow specification and simulation for high-risk appointment outreach
 
 The biggest lesson from this project was that prediction alone is not enough. A model becomes useful only when it connects to a real workflow.
 

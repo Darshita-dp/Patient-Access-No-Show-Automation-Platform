@@ -21,6 +21,12 @@ risk bands and an F1-optimal threshold), not by distorting probabilities.
 
 ## Intended use
 
+> **Status:** This model is built for **portfolio and synthetic-data
+> demonstration only.** It is trained on a synthetic population, has **not**
+> undergone a subgroup fairness audit, and is **not production-safe for
+> healthcare deployment**. See [Limitations](#limitations--ethical-considerations)
+> and [Future fairness audit](#future-fairness-audit).
+
 - **Primary:** rank upcoming appointments so patient access teams focus
   limited outreach capacity (calls, targeted reminders) on the top-20% risk
   band.
@@ -91,13 +97,41 @@ predictable size regardless of probability drift.
 - **Synthetic data:** metrics reflect a simulated population; real-world
   performance requires retraining and re-validation on the target health
   system's data.
-- **Fairness:** features include age, gender, and a social-program proxy
-  (scholarship). Before production use, subgroup performance (age bands,
-  gender, neighborhood deprivation) must be audited; the intended
-  intervention (extra reminders/support) is assistive, which lowers — but
-  does not remove — fairness risk.
+- **Fairness (considerations documented; audit not performed):** features
+  include age, gender, and a social-program proxy (scholarship). **No subgroup
+  fairness audit has been implemented in this version, and no bias-mitigation
+  technique has been applied.** Fairness considerations and limitations are
+  documented here as design constraints only. The intended intervention (extra
+  reminders/support) is assistive, which lowers — but does not remove —
+  fairness risk.
 - **Feedback loops:** successful outreach changes outcomes, which changes
   future training labels. Retraining should exclude outcome periods where
   the intervention was active or model the intervention explicitly.
 - **Drift:** lead-time mix, reminder channels, and scheduling policies shift;
   monitor AUC and band no-show rates monthly, retrain quarterly.
+
+## Future fairness audit
+
+A full subgroup fairness audit is a **future enhancement**, not part of this
+version. Before any production use, subgroup performance should be evaluated
+across **age bands, gender, socioeconomic proxy variables (e.g. the scholarship
+flag and neighborhood deprivation), and clinic/provider segments**, at minimum
+measuring:
+
+- **Selection rate** — what share of each subgroup lands in the High-risk band,
+  compared to that subgroup's actual no-show rate (is any group over-flagged
+  relative to its true rate?).
+- **Equal opportunity** — recall/true-positive rate parity across subgroups, so
+  outreach reaches genuinely at-risk patients in every group.
+- **Calibration within subgroups** — does a predicted 0.40 mean 40% for each
+  group, or is the score systematically off for some?
+- **Precision parity** — whether some groups absorb disproportionately more
+  false positives (i.e. unnecessary contact).
+
+Because the intervention is assistive rather than punitive, **equal opportunity
+and calibration matter more than selection-rate parity here** — the operational
+harm of a false positive is a short reminder call, while a false negative is a
+missed appointment and a lost slot. Any audit should also confirm that
+scholarship and neighborhood features are not acting purely as proxies for
+protected characteristics; if they are, the model should be re-fit without them
+and the performance cost measured explicitly.
