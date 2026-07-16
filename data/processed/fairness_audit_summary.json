@@ -1,0 +1,48 @@
+{
+  "overall": {
+    "n": 6400,
+    "no_show_rate": 0.1941,
+    "avg_predicted_risk": 0.2037,
+    "precision": 0.3316,
+    "recall": 0.6135,
+    "high_risk_assignment_rate": 0.2184
+  },
+  "gap_flag_threshold": 0.05,
+  "slices": {
+    "gender": {
+      "title": "Gender",
+      "output": "data/processed/fairness_by_gender.csv",
+      "n_subgroups": 2,
+      "n_flagged_recall_gap": 0,
+      "n_flagged_calibration": 0
+    },
+    "age_group": {
+      "title": "Age group",
+      "output": "data/processed/fairness_by_age_group.csv",
+      "n_subgroups": 6,
+      "n_flagged_recall_gap": 5,
+      "n_flagged_calibration": 0
+    },
+    "clinic_id": {
+      "title": "Clinic",
+      "output": "data/processed/fairness_by_clinic.csv",
+      "n_subgroups": 6,
+      "n_flagged_recall_gap": 4,
+      "n_flagged_calibration": 0
+    },
+    "scholarship_status": {
+      "title": "Scholarship / social-program status",
+      "output": "data/processed/fairness_by_scholarship.csv",
+      "n_subgroups": 2,
+      "n_flagged_recall_gap": 1,
+      "n_flagged_calibration": 0
+    },
+    "risk_category": {
+      "title": "Risk category",
+      "output": "data/processed/fairness_by_risk_category.csv",
+      "n_subgroups": 3,
+      "n_flagged_recall_gap": 2,
+      "n_flagged_calibration": 0
+    }
+  }
+}

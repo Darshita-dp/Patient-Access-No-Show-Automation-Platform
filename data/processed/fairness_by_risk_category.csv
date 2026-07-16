@@ -1,0 +1,4 @@
+subgroup,n,actual_no_show_rate,avg_predicted_risk,calibration_gap,high_risk_assignment_rate,precision,recall,false_positive_rate,false_negative_rate,recall_gap_vs_overall,precision_gap_vs_overall,flag_recall_gap,flag_calibration
+Low,3292,0.1015,0.0991,-0.0024,0.0,,0.0,0.0,1.0,-0.6135,,True,False
+Medium,1710,0.2023,0.2161,0.0138,0.0,0.2222,0.578,0.5132,0.422,-0.0355,-0.1094,False,False
+High,1398,0.402,0.4348,0.0328,1.0,0.402,1.0,1.0,0.0,0.3865,0.0704,True,False

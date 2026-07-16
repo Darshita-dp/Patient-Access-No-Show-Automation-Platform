@@ -97,13 +97,20 @@ predictable size regardless of probability drift.
 - **Synthetic data:** metrics reflect a simulated population; real-world
   performance requires retraining and re-validation on the target health
   system's data.
-- **Fairness (considerations documented; audit not performed):** features
-  include age, gender, and a social-program proxy (scholarship). **No subgroup
-  fairness audit has been implemented in this version, and no bias-mitigation
-  technique has been applied.** Fairness considerations and limitations are
-  documented here as design constraints only. The intended intervention (extra
-  reminders/support) is assistive, which lowers — but does not remove —
-  fairness risk.
+- **Fairness (portfolio-level audit performed on synthetic data; not a
+  production certification):** features include age, gender, and a
+  social-program proxy (scholarship). A subgroup audit across gender, age
+  group, clinic, scholarship status, and risk category is implemented in
+  `models/fairness_audit.py` and interpreted in
+  [docs/fairness_audit.md](fairness_audit.md). On the synthetic test set it
+  surfaces a **material age disparity** (recall of 22% for the 65+ group vs.
+  61% overall), **clinic-level recall gaps**, and a **~5 pp over-prediction
+  of risk for the scholarship subgroup**. No bias-mitigation technique has
+  been applied — the audit identifies disparities, it does not fix them. The
+  intended intervention (extra reminders/support) is assistive, which lowers
+  — but does not remove — fairness risk. Before any production use, this
+  audit must be repeated on real target-population data with the additions
+  listed under [Future fairness audit](#future-fairness-audit).
 - **Feedback loops:** successful outreach changes outcomes, which changes
   future training labels. Retraining should exclude outcome periods where
   the intervention was active or model the intervention explicitly.
@@ -112,10 +119,14 @@ predictable size regardless of probability drift.
 
 ## Future fairness audit
 
-A full subgroup fairness audit is a **future enhancement**, not part of this
-version. Before any production use, subgroup performance should be evaluated
-across **age bands, gender, socioeconomic proxy variables (e.g. the scholarship
-flag and neighborhood deprivation), and clinic/provider segments**, at minimum
+A **portfolio-level audit on synthetic data** is now included — see
+`models/fairness_audit.py` and [docs/fairness_audit.md](fairness_audit.md). It
+covers gender, age group, clinic, scholarship status, and risk category, and
+already surfaces material age and clinic disparities. A **full pre-deployment
+audit on real, representative data** is still a future enhancement. Before any
+production use, subgroup performance should be evaluated across **age bands,
+gender, socioeconomic proxy variables (e.g. the scholarship flag and
+neighborhood deprivation), and clinic/provider segments**, at minimum
 measuring:
 
 - **Selection rate** — what share of each subgroup lands in the High-risk band,

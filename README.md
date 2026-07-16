@@ -44,7 +44,7 @@ are delivered as **design specifications and mocks** — the honest scope is bel
 | React operational application | ✅ Complete |
 | Power BI reporting layer | 📐 Design / spec / mock |
 | Power Automate-style workflow | 📐 Specification / simulation |
-| Fairness analysis | 📝 Limitations documented; audit is a future enhancement |
+| Fairness analysis | 📝 Portfolio-level audit on synthetic data (see [docs/fairness_audit.md](docs/fairness_audit.md)); production audit on real data is future work |
 | Automated tests and CI | 🔜 Future enhancement |
 | License | 🔜 Future enhancement |
 
@@ -441,8 +441,11 @@ product thinking · business analyst documentation · operational KPI design
   specification and DAX measure set, connected to the PostgreSQL views
 - **Implement a live Power Automate cloud flow** using SharePoint and Outlook
   (and an SMS connector) to replace the simulated outreach loop
-- **Add a subgroup fairness audit** measuring performance across age, gender,
-  socioeconomic proxy variables, and clinic/provider segments
+- **Repeat the fairness audit on real target-population data** — a
+  portfolio-level audit on synthetic data ships with the repo
+  (`models/fairness_audit.py`, [docs/fairness_audit.md](docs/fairness_audit.md))
+  and already surfaces age-band and clinic disparities that would need
+  addressing (e.g. group-aware thresholds) before any production use
 - **Add automated unit tests** for ETL, model scoring, the action engine,
   waitlist matching, and API endpoints
 - **Add GitHub Actions CI** for linting, tests, and frontend build verification
