@@ -79,9 +79,13 @@ design — the demo always looks current).
 
 ## Testing / verification checklist
 
-**These are manual verification steps.** There is currently **no automated test
-suite and no CI pipeline** in this repository — adding both is a tracked future
-enhancement (see the README's Future Enhancements section).
+The steps below are the **manual smoke checks** used when developing locally.
+Automated coverage now backs them: **101 pytest tests** (`pytest` from the
+repo root) exercise the ETL cleaning rules, risk-category thresholds, the
+recommended-action engine, the waitlist-matching engine, and the FastAPI
+`/health` endpoint, and a **GitHub Actions workflow** at
+[`.github/workflows/ci.yml`](../.github/workflows/ci.yml) runs those tests
+plus the frontend production build on every push and pull request.
 
 - `python etl/*.py` in order — all exit 0, row counts printed
 - `python models/train_model.py` — AUC ≈ 0.72, artifacts written
@@ -90,6 +94,8 @@ enhancement (see the README's Future Enhancements section).
 - All 21 API endpoints exercised (see README API table and `/docs`)
 - `frontend`: vite build succeeds; all 8 routes render with live data and no
   console errors
+- `pytest` from the repo root — 101 tests, all passing
+- CI workflow green on the last push (see the CI badge in the README hero)
 
 ## Scope boundaries (what this version does not include)
 
@@ -104,9 +110,6 @@ Being explicit so the repository is not read as claiming more than it delivers:
   `workflows/workflow_documentation.md`.
 - **No subgroup fairness audit.** Fairness considerations and limitations are
   documented in `docs/model_card.md`; the audit itself is a future enhancement.
-- **No automated tests or CI**, as noted above.
-- **No license.** This repository does not currently include a LICENSE file, so
-  default copyright applies and no reuse rights are granted. An open-source
-  license should be added before broader reuse or distribution.
 - **Not production-validated.** The model is trained on synthetic data and is
-  intended for portfolio demonstration only.
+  intended for portfolio demonstration only. Reuse under the terms of the
+  MIT [`LICENSE`](../LICENSE) at the repository root.
