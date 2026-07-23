@@ -26,6 +26,10 @@
 ![Command Center — high-risk outreach, open-slot recovery, and clinic KPIs in one operational view](docs/screenshots/command_center.png)
 <p align="center"><em>Command Center — the morning operational view for a patient access team.</em></p>
 
+> 🎬 **Demo Walkthrough** — a 60–90 second tour with a speaker script and a
+> screen-by-screen checklist, for LinkedIn or interview screens:
+> [docs/demo_walkthrough.md](docs/demo_walkthrough.md).
+
 ---
 
 ## 📋 Project Status
