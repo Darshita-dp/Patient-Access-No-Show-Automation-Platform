@@ -1,0 +1,46 @@
+# Ignores for the api/ image build (context is the repo root).
+# Keeps the build context small and prevents host secrets / caches from
+# leaking into image layers.
+
+.git
+.github
+.gitignore
+.gitattributes
+.dockerignore
+
+# Python caches, venvs, artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Node — never in the API image
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Notebooks, docs, tests, screenshots — not needed at runtime
+notebooks/
+docs/
+tests/
+diagrams/
+powerbi/
+workflows/
+*.md
+LICENSE
+
+# Raw data is regenerable and can be large; the API never reads it.
+data/raw/
+data/processed/appointments_clean.csv
+data/processed/appointments_features.csv
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

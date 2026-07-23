@@ -1,12 +1,54 @@
-version: "3.9"
-
-# Optional local stack. The platform also runs fully in CSV mode without Docker:
-#   python etl/load_raw_data.py && python etl/clean_appointments.py && ...
-#   uvicorn api.main:app --reload
-#   cd frontend && npm install && npm run dev
+# Local run for the Patient Access & No-Show Automation Platform.
+#
+# Fast path (recommended for reviewers):
+#     docker compose up --build
+#   Starts:
+#     - api      -> http://localhost:8000  (Swagger UI at /docs)
+#     - frontend -> http://localhost:5173  (React operations app)
+#   Data lives in ./data (bind-mounted), model artifacts in ./models — no
+#   database is required. The API runs in CSV mode.
+#
+# Optional PostgreSQL:
+#     docker compose --profile postgres up --build
+#   Starts the same services plus a Postgres 16 instance seeded from ./sql/.
+#   The API still runs in CSV mode; the database exists so you can point Power
+#   BI, psql, or a client tool at localhost:5432 for the SQL model.
+#
+# The project also runs fine without Docker — see the README quick start.
 
 services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    image: patient-access-api:local
+    container_name: patient_access_api
+    ports:
+      - "8000:8000"
+    environment:
+      DATA_MODE: csv
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: patient-access-frontend:local
+    container_name: patient_access_frontend
+    ports:
+      - "5173:5173"
+    environment:
+      # The browser (not the container) calls the API, so localhost is correct.
+      VITE_API_URL: http://localhost:8000
+    depends_on:
+      - api
+    restart: unless-stopped
+
   db:
+    profiles: ["postgres"]
     image: postgres:16
     container_name: patient_access_db
     environment:
@@ -18,22 +60,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./sql:/docker-entrypoint-initdb.d
-
-  api:
-    build:
-      context: .
-      dockerfile: api/Dockerfile
-    container_name: patient_access_api
-    environment:
-      DATABASE_URL: postgresql+psycopg2://access_admin:access_admin@db:5432/patient_access
-      DATA_MODE: csv
-    ports:
-      - "8000:8000"
-    depends_on:
-      - db
-    volumes:
-      - ./data:/app/data
-      - ./models:/app/models
+    restart: unless-stopped
 
 volumes:
   pgdata:

@@ -28,6 +28,34 @@ The repository ships with generated synthetic tables and scoring outputs, so
 steps 3–4 work immediately after clone; steps 1–2 are only needed to
 regenerate.
 
+## Running with Docker
+
+Reviewers who prefer a single command can use the bundled compose file:
+
+```bash
+docker compose up --build     # api :8000  +  frontend :5173
+```
+
+- **api** — `python:3.12-slim`, installs `requirements.txt`, runs
+  `uvicorn api.main:app`. CSV mode is the default (`DATA_MODE=csv`), so no
+  database is required. Data and models are bind-mounted from `./data` and
+  `./models`, so regenerating with `etl/` or `models/train_model.py` on the
+  host is visible inside the container without a rebuild.
+- **frontend** — `node:20-slim`, runs the Vite dev server on `:5173` with
+  `--host 0.0.0.0`. The browser (not the container) is what calls the API,
+  so `VITE_API_URL=http://localhost:8000` resolves to the host's mapped
+  port; no container-to-container networking is needed.
+- **PostgreSQL is opt-in** via a compose profile. `docker compose --profile
+  postgres up --build` adds a `postgres:16` service on `:5432`, seeded from
+  `sql/`. The API still runs in CSV mode; the database is there for tools
+  like Power BI Desktop, psql, or a client tool that wants the SQL model.
+- Both images run as a **non-root user** and the api image ships with an
+  HTTP `/health` **healthcheck**. `.dockerignore` at the repo root and in
+  `frontend/` keeps `node_modules`, virtualenvs, notebooks, and raw data
+  out of the build context.
+- The Docker path does **not** replace the standard local setup — both are
+  supported and documented in the README.
+
 ## Key decisions
 
 **CSV-mode-first data store.** The API loads the generated CSVs into pandas

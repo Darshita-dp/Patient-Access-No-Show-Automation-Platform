@@ -516,6 +516,23 @@ diagrams/     architecture · ERD · before/after process maps (Mermaid)
 docs/         business case · model card · data dictionary · implementation notes · screenshots
 ```
 
+**Option A — Docker (single command, recommended for reviewers)**
+
+```bash
+docker compose up --build
+# API      -> http://localhost:8000  (Swagger UI at /docs)
+# Frontend -> http://localhost:5173
+```
+
+Runs in CSV mode; no database required. To add the optional PostgreSQL
+instance (seeded from `sql/`), use the compose profile:
+
+```bash
+docker compose --profile postgres up --build   # + Postgres on :5432
+```
+
+**Option B — Standard local setup (no Docker)**
+
 ```bash
 pip install -r requirements.txt
 python etl/load_raw_data.py && python etl/clean_appointments.py

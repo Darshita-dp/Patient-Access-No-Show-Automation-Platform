@@ -1,0 +1,10 @@
+# Ignores for the frontend/ image build (context is ./frontend).
+
+node_modules/
+dist/
+.vite/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log*
